@@ -1,6 +1,7 @@
 # Courts — index every tennis court in the world
 
-Courts is an open specification for indexing tennis courts.
+Courts is an open specification for indexing tennis courts around the world. At [Matcha Tennis](https://matchatennis.com/), our goal is to be the fastest way to play. Today, one of the biggest frustrations for players is simply finding and booking a court. Reservation systems are fragmented, legacy software creates poor user experiences, and important details like court rules, surfaces, availability, and conditions are often difficult to access. We’re building a universal court index to make courts more discoverable, modernize the booking experience, and help more people spend less time off court and more time playing.
+
 
 ## Contents
 

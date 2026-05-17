@@ -1,8 +1,20 @@
 # Courts — index every tennis court in the world
 
-Courts is an open specification of an index for tennis courts.
+Courts is an open specification for indexing tennis courts.
 
-## MRN — Matcha Resource Name
+## Contents
+
+- [Courts Schema](#courts-schema)
+  - [MRN — Matcha Resource Name](#mrn--matcha-resource-name)
+  - [Slot — A bookable unit](#slot--a-bookable-unit)
+- [Courts Data](#courts-data)
+- [Courts API](#courts-api)
+- [Courts Clients](#courts-clients)
+- [Contributing](#contributing)
+
+## Courts Schema
+
+### MRN — Matcha Resource Name
 
 An MRN uniquely identifies a tennis court across every booking platform.
 
@@ -22,7 +34,7 @@ Example:
 rec:sfrecpark:location/12/court/3
 ```
 
-## Slot - A bookable unit
+### Slot — A bookable unit
 
 A slot is a bookable time window on a court, identified by that court's MRN.
 
@@ -34,7 +46,7 @@ A slot is a bookable time window on a court, identified by that court's MRN.
 In availability listings a slot also carries a `state` of `RESERVABLE` or
 `EXPIRED`.
 
-## Data
+## Courts Data
 
 Places are grouped by provider — the `platform:organization` pair — under
 [`places/`](places/), one JSON file per provider.
@@ -49,7 +61,7 @@ Places are grouped by provider — the `platform:organization` pair — under
 | `courtreserve:7306`           | CourtReserve   | Bellevue, WA       |
 | `rec:san-francisco-rec-park`  | Rec            | San Francisco, CA  |
 
-## API
+## Courts API
 
 https://api.matchatennis.com/ implements the Courts specification.
 
@@ -68,7 +80,7 @@ GET /places
 GET /places/97dbdd4823
 ```
 
-## Clients
+## Courts Clients
 
 1. [Matcha Tennis iOS](https://apps.apple.com/us/app/matcha-tennis/id6746148030?itscg=30200&itsct=apps_box_badge&mttnsubad=6746148030)
 1. [Matcha Tennis Web](https://matchatennis.com/)

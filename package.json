@@ -1,0 +1,11 @@
+{
+  "name": "@matchatennis/courts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/build-items.ts"
+  },
+  "devDependencies": {
+    "bun-types": "^1.3.14"
+  }
+}

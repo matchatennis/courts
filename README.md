@@ -1,6 +1,6 @@
 # Courts — an index of tennis courts around the world
 
-Courts is an open index of tennis courts around the world. At Matcha Tennis, our goal is to be the fastest way to play tennis.
+Courts is an open index of tennis courts around the world. At Matcha Tennis, our goal is to be the fastest way to play.
 
 Today, one of the biggest frustrations for players is simply finding and booking a court. Reservation systems are fragmented, legacy software creates poor user experiences, and important details like court rules, surfaces, availability, and conditions are often difficult to access.
 

@@ -90,7 +90,7 @@ GET /places/97dbdd4823
 ## Clients
 
 1. [Matcha Tennis iOS](https://apps.apple.com/us/app/matcha-tennis/id6746148030?itscg=30200&itsct=apps_box_badge&mttnsubad=6746148030)
-1. [Matcha Tennis Web](https://matchatennis.com/)
+1. [Matcha Tennis Web](https://matchatennis.com/courts)
 
 ## Contributing
 

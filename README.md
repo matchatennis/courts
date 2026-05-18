@@ -96,9 +96,6 @@ GET /places/97dbdd4823
 
 There are a few ways to help grow the index:
 
-1. **Add a review** — share your experience of a court by appending an entry
-   to [`REVIEWS.md`](REVIEWS.md). Reviews are surfaced in the Matcha Tennis
-   apps.
 1. **Update a place** — fix or improve an existing court by editing its
    provider JSON file in [`places/`](places/), e.g. coordinates, tags, or
    court names.

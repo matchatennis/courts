@@ -1,42 +1,32 @@
 ---
 name: add-place
-description: Add a tennis facility (place) to the courts index — discover provider params, write the place JSON under places/, and run the build to validate and regenerate items.json / INDEX.md. Use when onboarding a new courtreserve/activenet/rec/clubautomation organization or a new facility under an existing one.
+description: Add a tennis facility (place) to the courts index — discover provider params, write the place JSON under providers/, and run the build to validate and regenerate items.json / INDEX.md. Use when onboarding a new organization on any platform (courtreserve, activenet, rec, clubautomation, dudesolutions, …) or a new facility under an existing one. If the facility's booking platform has no platforms/*.md doc yet, this skill onboards the platform first (Step 1).
 ---
 
-# Add a place
+# Data Model
 
-`courts` is the open index of tennis courts. A "place" is one facility. Every
-place belongs to a **provider** — a `platform:organization` pair — and every
-provider is one JSON file under `places/`.
+`Platform`: a short string derived from the booking domain
 
-Adding a place means, in the worst case:
+`Organization`: the tenant identifier the platform uses (subdomain or path segment), e.g. the org slug for activenet/rec/clubautomation, the numeric `orgId` for courtreserve
 
-1. discover the provider's API parameters,
-2. create the provider file (once per organization),
-3. append the place object to that file,
-4. run `bun run build` to validate and regenerate the index.
+`Provider`: a court provider that owns at least one `Place`, represented by a `platform:organization` pair
 
-If the provider file already exists (e.g. another Seattle Parks court), skip
-steps 1–2 — you only do step 3.
+`Place`: represents a physical location that maps 1-to-1 with an Apple Place ID and has at least one court
 
-Platforms: `courtreserve`, `activenet`, `rec`, `clubautomation`.
+`Resource`: a court, owned by a place
 
-`docs/EXPANSION.md` is a standing survey of which West Coast cities run on
-which platform — consult it when picking *what* to onboard next.
+An `mrn` fully addresses a resource by walking the ownership chain:
 
-## Architecture (where things live)
+```
+rec:sfrecpark:location/12/court/3
+└┬┘ └───┬───┘ └──┬───┘ └──┬──┘
+ │      │        │        └ Resource segment: <resourceLabel>/<resourceId>
+ │      │        └ Place segment: <placeLabel>/<placeId>
+ │      └ organization
+ └ platform
+```
 
-| Thing | File | Scope |
-|---|---|---|
-| Provider file (`{provider, places[]}`) | `places/<platform>-<organization>.json` | one per organization |
-| Composed item list | `items.json` | **generated** — never hand-edit |
-| Human-readable index | `INDEX.md` | **generated** — never hand-edit |
-| Validator + composer | `scripts/build-items.ts` | run via `bun run build` |
-
-`places/` is the single source of truth. `bun run build` reads every
-`places/*.json`, validates each place, and rewrites `items.json` + `INDEX.md`.
-A place is live in the index only after the build runs and the change is
-committed.
+Place segment `<placeLabel>/<placeId>` and Resource segment `<resourceLabel>/<resourceId>` are labels in platform's native term for each entity (rec calls a place a `location` and a court a `court`; courtreserve calls them `scheduler` and `courtlabel`; activenet `center` and `resource`). Pick the term the platform's own API/URLs use, and make sure the thing you map to `Place` is genuinely 1-to-1 with a physical location and the thing you map to `Resource` is genuinely a single court.
 
 ## Step 0 — gather inputs
 
@@ -52,121 +42,107 @@ never hand-pick coordinates:
 bun "$CLAUDE_SKILL_DIR/find-apple-places.ts" "Woodinville Sports Club Woodinville WA"
 ```
 
-`find-apple-places.ts` sits next to this SKILL.md; it runs under `bun`
-(no Apple creds, no extra deps). It prints `applePlaceId`, `lat,lng`, and
-timezone for each candidate (`--limit N` for more). Pick the right one with
-the user.
-
 Mint the `placeId`: `hashid(applePlaceId)` = first 10 hex of SHA-256.
 
 ```bash
 node -e 'console.log(require("crypto").createHash("sha256").update("I7944210006A10082").digest("hex").slice(0,10))'
 ```
 
-## Step 1 — discover provider params
+## Step 1 — `platforms/<platform>.md`
 
-Skip this if the organization already has a `places/*.json` file.
-
-### courtreserve
-
-Open the org's CourtReserve scheduler in a browser, intercept the availability
-XHR, and read the `jsonData` query param. Extract: `orgId`, `CostTypeId`,
-`CustomSchedulerId` (one per location/scheduler), `SelectedCourtIds`,
-`ReservationMinInterval`.
-
-Two public, auth-free endpoints — test both, use whichever the org serves:
+Each platform's reservation websites, public endpoints (curl), and MRN formats
+are documented in its `platforms/<platform>.md`. List what's available:
 
 ```bash
-# Consolidated — availability by court type (scheduleType: "consolidated")
-curl -s "https://app.courtreserve.com/Online/Reservations/ReadConsolidated/<orgId>" \
-  -X POST -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
-  --data-urlencode "sort=" --data-urlencode "group=" --data-urlencode "filter=" \
-  --data-urlencode 'jsonData={"startDate":"...","orgId":"<orgId>","TimeZone":"America/Los_Angeles","KendoDate":{"Year":2026,"Month":3,"Day":1},"UiCulture":"en-US","CostTypeId":"<costTypeId>","CustomSchedulerId":"<schedulerId>","ReservationMinInterval":"60"}'
-
-# Expanded — bookings by court label (scheduleType: "expanded")
-curl -s "https://memberschedulers.courtreserve.com/SchedulerApi/ReadExpandedApi?id=<orgId>&uiCulture=en-US&jsonData=<urlEncodedJsonData>"
+ls platforms/
 ```
 
-From the responses get: court labels (`CourtLabel`), operating hours (earliest/
-latest slot, converted to local time), slot interval (usually 1800s). Skip
-permanently-closed courts (`IsCourtClosed: true`) and `WAITLIST<id>` court types.
+If `platforms/<platform>.md` **already exists**, skip to Step 2.
 
-### activenet
+If it does **not** exist, onboard the platform now (a platform usually has many
+tenants; the tenant/organization id is embedded in the URL as a subdomain or
+path segment):
 
-Org slug is the URL path segment (e.g. `seattle`). Public endpoints, no auth —
-require header `page_info: {"page_number":1,"total_records_per_page":20}`:
+1. Probe the portal with `curl` or chrome. Some providers require auth for
+   court availability, some don't — find out which.
+2. Write `platforms/<platform>.md` following the template below.
+
+When filling in `## MRN`, use the platform's **native terms** as the place and
+resource segment labels, and confirm the entity you label as the place is
+1-to-1 with a physical location and the one you label as the resource is a
+single court — if the platform's hierarchy doesn't line up that way, work out
+the right mapping before writing the doc.
+
+````markdown
+# <Platform Name>
+
+<1–3 sentences: what this platform is, who uses it, and whether court
+availability is public or login-gated.>
+
+- Website: <marketing/home URL>
+- Portal: `<reservation URL with the <org> placeholder>`
+- Provider id: `<platform>:<org>` — <how the org slug/id is derived from the URL>.
+
+## Discover params
+
+<How to find a provider's places and resources. Prefer auth-free public
+endpoints; show the actual curl commands and say what to extract (place ids,
+court labels/ids, operating hours, slot interval, tags). If there is no public
+availability API, say so and describe the fallback source — never instruct
+creating or using an account.>
 
 ```bash
-# Per-resource detail (amenities, reservability)
-curl -s 'https://anc.apm.activecommunities.com/<org>/rest/reservation/resource/detail/<resourceId>?locale=en-US' \
-  -H 'page_info: {"page_number":1,"total_records_per_page":20}' -H 'X-Requested-With: XMLHttpRequest'
-
-# Daily availability
-curl -s 'https://anc.apm.activecommunities.com/<org>/rest/reservation/resource/availability/daily/<resourceId>?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&locale=en-US'
+curl -s '<list places / resources for a provider>'
+curl -s '<resource availability for a day>'
 ```
 
-Each tennis court is a `resource` under a `center`. Get the `center` id and the
-`resource` ids from the org's reservation site. The detail endpoint returns an
-empty body without the `page_info` header.
+## MRN
 
-Derive resource tags by hand from the detail response:
-
-| Source field | Tag |
+| | Format |
 |---|---|
-| `amenities[]` contains `"Lighted Court/Field"` | `lighted` |
-| `general_information.no_internet_permits === false` | `reservable` |
+| Place `mrn` | `<platform>:<org>:<placeLabel>/<placeId>` |
+| Resource `mrn` | `…/<resourceLabel>/<resourceId>` |
 
-`no_internet_permits: true` means the court can't be booked online (walk-up /
-phone only) — still listable, but omit the `reservable` tag.
+<Optional: notes on any synthetic ids, slugging rules, or courts to skip.>
+````
 
-### rec
+Then continue to Step 2.
 
-Org slug is the `rec.us/organizations/<slug>` path. Public API:
+## Step 2 — discover provider params
 
-```bash
-# Location detail — courts live here
-curl -s 'https://api.rec.us/v1/locations/<locationId>?publishedSites=true'
+Skip this if the organization already has a `providers/<platform>-<org>/`
+directory.
 
-# Schedule for a day
-curl -s 'https://api.rec.us/v1/locations/<locationId>/schedule?startDate=YYYY-MM-DD'
-```
+Open `platforms/<platform>.md` and follow its discovery steps to extract this
+facility's court labels/ids, operating hours, and tags, plus the booking-config
+params that go in `config.json` (Step 3) — portal URLs, slot durations,
+reservation window, and any platform-specific scheduler params (e.g.
+courtreserve `CostTypeId` / `CustomSchedulerId`).
 
-Get the `locationId` (UUID) and each court's UUID + name from the location
-detail response.
+## Step 3 — `places.json`
 
-### clubautomation
-
-ClubAutomation has no public availability API — model it with a single
-synthetic `court/default` resource. Use an existing `clubautomation-*.json` as
-the template; the org slug is a short human key (e.g. `tcsp`).
-
-## Step 2 — create the provider file (once per organization)
-
-Skip if `places/<platform>-<organization>.json` already exists.
-
-Create it with the provider id and an empty places array:
+Each organization gets a `providers/<platform>-<organization>/` directory. Its
+`places.json` is a bare JSON array of place objects — one object per facility.
+Start a new org with an empty array (skip if the file already exists):
 
 ```json
-{
-  "provider": "<platform>:<organization>",
-  "places": []
-}
+[]
 ```
 
-The `provider` string is `<platform>:<organization>` — the org slug for
-activenet/rec/clubautomation, the numeric `orgId` for courtreserve.
+There is no separate `provider` field: the provider id `<platform>:<organization>`
+is derived from each place's `mrn` (its first two `:`-segments) at build time.
 
-## Step 3 — add the place
-
-Append a place object to the provider file's `places[]` array. One object per
-facility. The `mrn` formats are platform-specific:
+Append a place object to the array. The `mrn` formats are platform-specific —
+use the `## MRN` table in this platform's `platforms/<platform>.md`. For
+reference:
 
 | Platform | Place `mrn` | Resource `mrn` |
 |---|---|---|
 | courtreserve | `courtreserve:<org>:scheduler/<schedulerId>` | `…/courtlabel/<Court Label>` |
 | activenet | `activenet:<org>:center/<centerId>` | `…/resource/<resourceId>` |
 | rec | `rec:<org>:location/<locationId>` | `…/court/<courtId>` |
-| clubautomation | `clubautomation:<org>:court` | `…/court/default` |
+| clubautomation | `clubautomation:<org>:location/default` | `…/court/default` |
+| dudesolutions | `dudesolutions:<org>:location/<schoolGuid>` | `…/court/<courtGuid>` |
 
 Place object shape:
 
@@ -184,10 +160,14 @@ Place object shape:
   "provider": {
     "platform": "<platform>",
     "name": "<Provider display name>",
-    "city": "<organization>",
     "resources": [
-      { "id": "<court id>", "name": "<Court name>", "slots": [],
-        "mrn": "<resource mrn>", "tags": ["outdoor"] }
+      {
+        "name": "<Court name>",
+        "slots": [], // leave it empty
+        "mrn": "<resource mrn>",
+        "tags": ["outdoor"]
+      },
+      ...
     ]
   }
 }
@@ -197,7 +177,51 @@ Resource `tags` use the values `indoor`, `outdoor`, `lighted`, `reservable`,
 `walk-in`. `slots` is always `[]` in the index — availability is filled at
 runtime, not stored here.
 
-## Step 4 — build and verify
+## Step 4 — `config.json`
+
+The provider directory's `config.json` is one object describing how to book on
+the platform, filled from the params discovered in Step 2. Skip if it already
+exists. Shared fields:
+
+| Field | Description |
+|---|---|
+| `id` | provider id `<platform>:<organization>` |
+| `platform` | the platform string |
+| `name` | provider display name |
+| `location` | `{ "city", "state" }` |
+| `urls` | `{ "signin", "signup", "cancellation" }` portal URLs |
+| `minDuration` / `maxDuration` | booking-length bounds, `"HH:MM"` |
+| `fixedDuration` | optional `true` when the platform allows only one slot length |
+| `reservationWindow` | `{ "minHours", "maxHours" }` — how far ahead booking opens |
+
+CourtReserve adds `scheduleType` (`"consolidated"` | `"expanded"`) and a
+`schedulers` map keyed by `CustomSchedulerId`:
+
+- consolidated → `{ "costTypeId", "reservationMinInterval" }`
+- expanded → also `{ "selectedCourtIds", "courtLabels": [...], "slotInterval", "schedule": { "start", "end" } }`
+
+```json
+{
+  "id": "<platform>:<organization>",
+  "platform": "<platform>",
+  "name": "<Provider display name>",
+  "location": { "city": "<City>", "state": "<ST>" },
+  "urls": {
+    "signin": "<portal signin URL>",
+    "signup": "<portal signup URL>",
+    "cancellation": "<where members cancel>"
+  },
+  "minDuration": "00:30",
+  "maxDuration": "01:30",
+  "reservationWindow": { "minHours": 0, "maxHours": 168 }
+}
+```
+
+Some providers are not bookable (read-only calendars, walk-in only) and have no
+`config.json` — only `places.json`. Add it only when the platform actually
+supports booking.
+
+## Step 5 — build and verify
 
 ```bash
 bun run build
@@ -207,14 +231,16 @@ This validates every place (required fields, no duplicate `placeId`) and
 regenerates `items.json` + `INDEX.md`. A failed validation prints
 `<file> places[i]: <reason>` — fix the place object and rerun.
 
-Review the diff (`items.json`, `INDEX.md`, the provider file), then commit /
-open a PR.
+Review the diff (`items.json`, `INDEX.md`, the provider's `places.json` /
+`config.json`, and any new `platforms/<platform>.md`), then commit / open a PR.
 
 ## Checklist
 
 - [ ] `applePlaceId` / coordinate / timezone from `find-apple-places.ts`
 - [ ] `placeId` = `hashid(applePlaceId)`
-- [ ] `places/<platform>-<organization>.json` exists (created for a new org)
-- [ ] place object appended to `places[]` with correct place + resource mrns
+- [ ] `platforms/<platform>.md` exists (onboarded the platform if it was new)
+- [ ] `providers/<platform>-<organization>/places.json` exists (created for a new org)
+- [ ] `providers/<platform>-<organization>/config.json` exists for a bookable platform (created for a new org)
+- [ ] place object appended to the `places.json` array with correct place + resource mrns
 - [ ] `bun run build` green; `items.json` + `INDEX.md` regenerated
 - [ ] diff reviewed and committed

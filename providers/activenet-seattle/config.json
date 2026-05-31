@@ -1,0 +1,20 @@
+{
+  "id": "activenet:seattle",
+  "platform": "activenet",
+  "name": "Seattle Parks & Recreation",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://anc.apm.activecommunities.com/seattle/signin",
+    "signup": "https://anc.apm.activecommunities.com/seattle/createaccount",
+    "cancellation": "https://www.seattle.gov/parks/rentals-and-permits/sports-fields/tennis-courts"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "03:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 504
+  }
+}

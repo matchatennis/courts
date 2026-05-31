@@ -1,0 +1,737 @@
+[
+  {
+    "PK": "PLACE#b96172355e",
+    "SK": "PROFILE",
+    "placeId": "b96172355e",
+    "applePlaceId": "I8668A3C729E559AD",
+    "displayName": "Cherry Crest Park",
+    "coordinate": {
+      "lat": 47.6330275,
+      "lng": -122.1699508
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/cherry-crest-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Cherry Crest Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/cherry-crest-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Cherry Crest Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/cherry-crest-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Cherry Crest Park Court 3",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/cherry-crest-park/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#d823a61213",
+    "SK": "PROFILE",
+    "placeId": "d823a61213",
+    "applePlaceId": "ICB7D6370F90052EB",
+    "displayName": "Crossroads Park",
+    "coordinate": {
+      "lat": 47.6184196,
+      "lng": -122.124277
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/crossroads-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Crossroads Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/crossroads-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Crossroads Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/crossroads-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Crossroads Park Court 3",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/crossroads-park/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#6f56f8520f",
+    "SK": "PROFILE",
+    "placeId": "6f56f8520f",
+    "applePlaceId": "ID0E0C399E1B9D497",
+    "displayName": "Eastgate Park",
+    "coordinate": {
+      "lat": 47.5686104,
+      "lng": -122.1456182
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/eastgate-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Eastgate Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/eastgate-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Eastgate Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/eastgate-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#12eacbcf48",
+    "SK": "PROFILE",
+    "placeId": "12eacbcf48",
+    "applePlaceId": "I401E02E63A137BAD",
+    "displayName": "Enatai Neighborhood Park",
+    "coordinate": {
+      "lat": 47.587394,
+      "lng": -122.1975092
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/enatai-neighborhood-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Enatai Neighborhood Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/enatai-neighborhood-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Enatai Neighborhood Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/enatai-neighborhood-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#07517224a5",
+    "SK": "PROFILE",
+    "placeId": "07517224a5",
+    "applePlaceId": "I11E577AE90A61A70",
+    "displayName": "Hidden Valley Park",
+    "coordinate": {
+      "lat": 47.6287105,
+      "lng": -122.1926195
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in",
+      "lighted"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/hidden-valley-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Hidden Valley Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/hidden-valley-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#5cd5db9d6d",
+    "SK": "PROFILE",
+    "placeId": "5cd5db9d6d",
+    "applePlaceId": "IC8B966F6A6D58301",
+    "displayName": "Highland Community Park",
+    "coordinate": {
+      "lat": 47.625607,
+      "lng": -122.1505681
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/highland-community-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Highland Community Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/highland-community-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Highland Community Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/highland-community-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#b240ed43a7",
+    "SK": "PROFILE",
+    "placeId": "b240ed43a7",
+    "applePlaceId": "IDFA56767490CB64C",
+    "displayName": "Hillaire Park",
+    "coordinate": {
+      "lat": 47.6146836,
+      "lng": -122.1288943
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/hillaire-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Hillaire Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/hillaire-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Hillaire Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/hillaire-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#3683f735f6",
+    "SK": "PROFILE",
+    "placeId": "3683f735f6",
+    "applePlaceId": "IEECA9EEE544991BA",
+    "displayName": "Killarney Glen Park",
+    "coordinate": {
+      "lat": 47.5938844,
+      "lng": -122.2029135
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/killarney-glen-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Killarney Glen Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/killarney-glen-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Killarney Glen Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/killarney-glen-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#7d9fa23dfe",
+    "SK": "PROFILE",
+    "placeId": "7d9fa23dfe",
+    "applePlaceId": "I92A9BDE827BE8777",
+    "displayName": "Lakemont Highlands Park",
+    "coordinate": {
+      "lat": 47.5468146,
+      "lng": -122.1303578
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/lakemont-highlands-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Lakemont Highlands Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/lakemont-highlands-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#c8fc58f9b1",
+    "SK": "PROFILE",
+    "placeId": "c8fc58f9b1",
+    "applePlaceId": "I11F58171994D5A6A",
+    "displayName": "Lakemont Community Park",
+    "coordinate": {
+      "lat": 47.5563141,
+      "lng": -122.1088314
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/lakemont-community-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Lakemont Community Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/lakemont-community-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Lakemont Community Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/lakemont-community-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#d1092745a1",
+    "SK": "PROFILE",
+    "placeId": "d1092745a1",
+    "applePlaceId": "I8C723CCF64F11CD4",
+    "displayName": "Norwood Village Park",
+    "coordinate": {
+      "lat": 47.5895882,
+      "lng": -122.1735907
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/norwood-village-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Norwood Village Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/norwood-village-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Norwood Village Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/norwood-village-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#d637265497",
+    "SK": "PROFILE",
+    "placeId": "d637265497",
+    "applePlaceId": "IFE1793702A75C659",
+    "displayName": "Robinswood Tennis Center",
+    "coordinate": {
+      "lat": 47.5881018,
+      "lng": -122.1379177
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in",
+      "lighted"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Robinswood Tennis Center Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 3",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 4",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/4",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 5",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/5",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 6",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/6",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 7",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/7",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Robinswood Tennis Center Court 8",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/robinswood-tennis-center/court/8",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#62253a2ed2",
+    "SK": "PROFILE",
+    "placeId": "62253a2ed2",
+    "applePlaceId": "ICD5D481DF6331E1",
+    "displayName": "Silverleaf Park",
+    "coordinate": {
+      "lat": 47.5585088,
+      "lng": -122.1217991
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/silverleaf-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Silverleaf Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/silverleaf-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Silverleaf Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/silverleaf-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#92fc5671fa",
+    "SK": "PROFILE",
+    "placeId": "92fc5671fa",
+    "applePlaceId": "I48D57374BA70524",
+    "displayName": "Spiritridge Park",
+    "coordinate": {
+      "lat": 47.5811076,
+      "lng": -122.1276645
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/spiritridge-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Spiritridge Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/spiritridge-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#9e4ae80523",
+    "SK": "PROFILE",
+    "placeId": "9e4ae80523",
+    "applePlaceId": "I9F76AF1208C29201",
+    "displayName": "Sunset Park",
+    "coordinate": {
+      "lat": 47.5858816,
+      "lng": -122.1558567
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/sunset-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Sunset Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/sunset-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#57e7d53316",
+    "SK": "PROFILE",
+    "placeId": "57e7d53316",
+    "applePlaceId": "I29B6DA43C08D9DE7",
+    "displayName": "Westwood Highlands Park",
+    "coordinate": {
+      "lat": 47.5530376,
+      "lng": -122.1586937
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/westwood-highlands-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Westwood Highlands Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/westwood-highlands-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#4bae9ffc19",
+    "SK": "PROFILE",
+    "placeId": "4bae9ffc19",
+    "applePlaceId": "I8915807CCB1EADD4",
+    "displayName": "Zumdieck Park",
+    "coordinate": {
+      "lat": 47.6241677,
+      "lng": -122.1949435
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:wa-bellevue:facility/zumdieck-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Bellevue Parks & Community Services",
+      "resources": [
+        {
+          "name": "Zumdieck Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/zumdieck-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Zumdieck Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:wa-bellevue:facility/zumdieck-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

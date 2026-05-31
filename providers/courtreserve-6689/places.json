@@ -1,0 +1,89 @@
+[
+  {
+    "displayName": "Woodinville Sports Club",
+    "applePlaceId": "IDFE38DB251F8C60C",
+    "coordinate": {
+      "lat": 47.740402,
+      "lng": -122.1455455
+    },
+    "timezone": "America/Los_Angeles",
+    "SK": "PROFILE",
+    "placeId": "4ebdea2afc",
+    "provider": {
+      "name": "Woodinville Sports Club",
+      "resources": [
+        {
+          "name": "Court #1",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #1",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #2",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #2",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #3",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #3",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #4",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #4",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #5",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #5",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #6",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #6",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #7",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #7",
+          "tags": [
+            "indoor"
+          ]
+        },
+        {
+          "name": "Court #8",
+          "slots": [],
+          "mrn": "courtreserve:6689:scheduler/14414/courtlabel/Court #8",
+          "tags": [
+            "indoor"
+          ]
+        }
+      ],
+      "platform": "courtreserve"
+    },
+    "PK": "PLACE#4ebdea2afc",
+    "tags": [
+      "indoor",
+      "lighted"
+    ],
+    "mrn": "courtreserve:6689:scheduler/14414"
+  }
+]

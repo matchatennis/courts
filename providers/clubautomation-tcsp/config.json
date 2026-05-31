@@ -1,0 +1,21 @@
+{
+  "id": "clubautomation:tcsp",
+  "platform": "clubautomation",
+  "name": "Tennis Center Sand Point",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://tcsp.clubautomation.com/",
+    "signup": "https://tcsp.clubautomation.com/",
+    "cancellation": "https://tcsp.clubautomation.com/event/my-reservations"
+  },
+  "fixedDuration": true,
+  "minDuration": "01:15",
+  "maxDuration": "01:15",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

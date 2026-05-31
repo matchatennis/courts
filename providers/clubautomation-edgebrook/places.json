@@ -1,0 +1,32 @@
+[
+  {
+    "PK": "PLACE#a8bfe33c51",
+    "SK": "PROFILE",
+    "placeId": "a8bfe33c51",
+    "applePlaceId": "IBD186B1D02EB4AA8",
+    "displayName": "Edgebrook Swim and Tennis Club",
+    "coordinate": {
+      "lat": 47.5723783,
+      "lng": -122.159729
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "clubautomation:edgebrook:location/default",
+    "provider": {
+      "platform": "clubautomation",
+      "name": "Edgebrook Swim and Tennis Club",
+      "resources": [
+        {
+          "name": "System-assigned Court",
+          "slots": [],
+          "mrn": "clubautomation:edgebrook:location/default/court/default",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  }
+]

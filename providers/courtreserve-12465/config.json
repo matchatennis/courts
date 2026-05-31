@@ -1,0 +1,27 @@
+{
+  "id": "courtreserve:12465",
+  "platform": "courtreserve",
+  "name": "Lisa & Douglas Goldman Tennis Center",
+  "location": {
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://app.courtreserve.com/Online/Account/LogIn/12465",
+    "signup": "https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/12465",
+    "cancellation": "https://app.courtreserve.com/Online/Bookings/List/12465"
+  },
+  "minDuration": "00:30",
+  "maxDuration": "01:30",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  },
+  "scheduleType": "consolidated",
+  "schedulers": {
+    "16819": {
+      "costTypeId": "141201",
+      "reservationMinInterval": "60"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "courtreserve:6689",
+  "platform": "courtreserve",
+  "name": "Woodinville Sports Club",
+  "location": {
+    "city": "Woodinville",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://app.courtreserve.com/Online/Account/LogIn/6689",
+    "signup": "https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/6689",
+    "cancellation": "https://app.courtreserve.com/Online/Bookings/List/6689"
+  },
+  "minDuration": "00:30",
+  "maxDuration": "01:30",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  },
+  "scheduleType": "expanded",
+  "schedulers": {
+    "14414": {
+      "costTypeId": "91408",
+      "reservationMinInterval": "60",
+      "selectedCourtIds": "14414,13721,13725,13726,13819,13820,13821,13822,13727,23014",
+      "courtLabels": [
+        "Court #1",
+        "Court #2",
+        "Court #3",
+        "Court #4",
+        "Court #5",
+        "Court #6",
+        "Court #7",
+        "Court #8"
+      ],
+      "slotInterval": 1800,
+      "schedule": {
+        "start": "06:00",
+        "end": "23:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,437 @@
+[
+  {
+    "PK": "PLACE#d6097d8a69",
+    "SK": "PROFILE",
+    "placeId": "d6097d8a69",
+    "applePlaceId": "IA4F82E3EDC0D6A2C",
+    "displayName": "Highland Middle School Tennis Courts",
+    "coordinate": {
+      "lat": 47.6259931,
+      "lng": -122.1401659
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "dudesolutions:bsd405:location/dc7c71109b9c48778ba5c247cc620430",
+    "provider": {
+      "platform": "dudesolutions",
+      "name": "Highland Middle School Tennis Courts",
+      "resources": [
+        {
+          "name": "Highland MS Tennis Court 1",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/dc7c71109b9c48778ba5c247cc620430/court/d99cca1df4f74fcc8e615d3a2b12808c",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Highland MS Tennis Court 2",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/dc7c71109b9c48778ba5c247cc620430/court/7ea205e9c008479a91567d8707667a13",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Highland MS Tennis Court 3",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/dc7c71109b9c48778ba5c247cc620430/court/d159d200459b412688aca03e6ab99fd7",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Highland MS Tennis Court 4",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/dc7c71109b9c48778ba5c247cc620430/court/a0af0e1daac74d8a82421b91e220a316",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#58adf9dc61",
+    "SK": "PROFILE",
+    "placeId": "58adf9dc61",
+    "applePlaceId": "I5759CEB1D56F81C7",
+    "displayName": "Interlake High School Tennis Courts",
+    "coordinate": {
+      "lat": 47.6280501,
+      "lng": -122.1240234
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487",
+    "provider": {
+      "platform": "dudesolutions",
+      "name": "Interlake High School Tennis Courts",
+      "resources": [
+        {
+          "name": "Interlake HS Tennis Court 1",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/ce76352472e24d9c96e4d9e8168e8170",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Interlake HS Tennis Court 2",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/2e726ee667a5439d8fe0ff1e1631c6a4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Interlake HS Tennis Court 3",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/c9edee132a254d93b54e1ed8e45569a2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Interlake HS Tennis Court 4",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/6ec9638890804068acd408f41397251e",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Interlake HS Tennis Court 5",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/69ce69734c9247f4bf3de4e1157d0a71",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Interlake HS Tennis Court 6",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/18802335637c423095a21963561a8b01",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Interlake HS Tennis Court 7",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/520f1cf1f4d04822a0cb686cf9685487/court/712e9f08c7234a22b947d546cf9b2a65",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#ab8ba2c3ee",
+    "SK": "PROFILE",
+    "placeId": "ab8ba2c3ee",
+    "applePlaceId": "I1F1A073AE3C596AD",
+    "displayName": "Newport High School Tennis Courts",
+    "coordinate": {
+      "lat": 47.5695119,
+      "lng": -122.1719223
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7",
+    "provider": {
+      "platform": "dudesolutions",
+      "name": "Newport High School Tennis Courts",
+      "resources": [
+        {
+          "name": "Newport HS Tennis Court 1",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/64dd0b8bea8e4f4cbfc863ced962779b",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 2",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/b7bd470a5ab84762adb187fbef2fca37",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 3",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/dc81980587644a8bab5b7d40aca38e8e",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 4",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/0a47413fd200427d9052423a179df4fa",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 5",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/47d30e46f14c4e04b2a425ee0efcdc15",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 6",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/f10eea4a20364eef91ee17454cf776cd",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 7",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/8762cd4442bb4d75805f4e0b341f8d08",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Newport HS Tennis Court 8",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/e8eb14a5c2894820b6c32af6fca267b7/court/7f8a242443984120a81d7cc6607eab79",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#f1252b4357",
+    "SK": "PROFILE",
+    "placeId": "f1252b4357",
+    "applePlaceId": "I598E21740EC97B0D",
+    "displayName": "Sammamish High School Tennis Courts",
+    "coordinate": {
+      "lat": 47.6086297,
+      "lng": -122.1523476
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f",
+    "provider": {
+      "platform": "dudesolutions",
+      "name": "Sammamish High School Tennis Courts",
+      "resources": [
+        {
+          "name": "Sammamish HS Tennis Court 1",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f/court/857bc28aa30c48d79c81a0aea141699b",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Sammamish HS Tennis Court 2",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f/court/4bc541a5420544648a3e025a3c5e1e75",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Sammamish HS Tennis Court 3",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f/court/d12ca5674a9e49db81142f071e29b0c2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Sammamish HS Tennis Court 4",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f/court/e0e99dd8f3704bbbaa9312af7f3d8459",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Sammamish HS Tennis Court 5",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f/court/f079aa32955646a5b55f5a0388d1405d",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Sammamish HS Tennis Court 6",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/056bb3e8c22f4de5afe677c16813e91f/court/85edc161f9de48cb904ed132fddc2941",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#bab079df5b",
+    "SK": "PROFILE",
+    "placeId": "bab079df5b",
+    "applePlaceId": "I39D3C484FCFF2CE0",
+    "displayName": "Tillicum Middle School Tennis Courts",
+    "coordinate": {
+      "lat": 47.598434,
+      "lng": -122.125648
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "dudesolutions:bsd405:location/6df9d92545f04806856f4d89dbf951c9",
+    "provider": {
+      "platform": "dudesolutions",
+      "name": "Tillicum Middle School Tennis Courts",
+      "resources": [
+        {
+          "name": "Tillicum MS Tennis Court 1",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/6df9d92545f04806856f4d89dbf951c9/court/b65ee79053cb4d0f9ec9a6f9fae375aa",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Tillicum MS Tennis Court 2",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/6df9d92545f04806856f4d89dbf951c9/court/a81e94ac9b59492a82f93b7d3e47045b",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Tillicum MS Tennis Court 3",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/6df9d92545f04806856f4d89dbf951c9/court/209e80aec646476a80ed854cc3472d22",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Tillicum MS Tennis Court 4",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/6df9d92545f04806856f4d89dbf951c9/court/577271a7698744cdacffcee732bf3052",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#9c100dac3c",
+    "SK": "PROFILE",
+    "placeId": "9c100dac3c",
+    "applePlaceId": "I6190344B98A1AFD5",
+    "displayName": "Tyee Middle School Tennis Courts",
+    "coordinate": {
+      "lat": 47.5735609,
+      "lng": -122.1584928
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "dudesolutions:bsd405:location/b7decefa59bc48b89068320926eb7658",
+    "provider": {
+      "platform": "dudesolutions",
+      "name": "Tyee Middle School Tennis Courts",
+      "resources": [
+        {
+          "name": "Tyee MS Tennis Court 1",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/b7decefa59bc48b89068320926eb7658/court/32083e206979416ba5ed17b0979663b7",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Tyee MS Tennis Court 2",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/b7decefa59bc48b89068320926eb7658/court/97bc2ce95db945a8be70c094688e7b28",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Tyee MS Tennis Court 3",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/b7decefa59bc48b89068320926eb7658/court/76d8813e6a8949f1a834ddadca136733",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Tyee MS Tennis Court 4",
+          "slots": [],
+          "mrn": "dudesolutions:bsd405:location/b7decefa59bc48b89068320926eb7658/court/ac0e9d904b82445f9d8847b3b18edf5a",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

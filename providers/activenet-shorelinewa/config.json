@@ -1,0 +1,20 @@
+{
+  "id": "activenet:shorelinewa",
+  "platform": "activenet",
+  "name": "City of Shoreline",
+  "location": {
+    "city": "Shoreline",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://anc.apm.activecommunities.com/shorelinewa/signin",
+    "signup": "https://anc.apm.activecommunities.com/shorelinewa/createaccount",
+    "cancellation": "https://www.shorelinewa.gov/government/departments/parks-recreation-cultural-services"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "03:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 0
+  }
+}

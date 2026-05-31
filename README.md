@@ -56,17 +56,22 @@ In availability listings a slot also carries a `state` of `RESERVABLE` or
 ## Data
 
 Places are grouped by provider — the `platform:organization` pair — under
-[`places/`](places/), one JSON file per provider.
+[`providers/`](providers/), one directory per provider holding a `places.json`.
+Each platform's reservation sites, public endpoints, and MRN formats are
+documented under [`platforms/`](platforms/).
 
-| Provider ID                  | Platform       | Location           |
-|-------------------------------|----------------|--------------------|
-| `activenet:seattle`           | ActiveNet      | Seattle, WA        |
-| `activenet:shorelinewa`       | ActiveNet      | Shoreline, WA      |
-| `clubautomation:tcsp`         | ClubAutomation | Seattle, WA        |
-| `courtreserve:12465`          | CourtReserve   | San Francisco, CA  |
-| `courtreserve:6689`           | CourtReserve   | Woodinville, WA    |
-| `courtreserve:7306`           | CourtReserve   | Bellevue, WA       |
-| `rec:san-francisco-rec-park`  | Rec            | San Francisco, CA  |
+| Provider                              | Platform       | Location           |
+|---------------------------------------|----------------|--------------------|
+| `providers/activenet-seattle`         | ActiveNet      | Seattle, WA        |
+| `providers/activenet-shorelinewa`     | ActiveNet      | Shoreline, WA      |
+| `providers/civicrec-wa-bellevue`      | CivicRec       | Bellevue, WA       |
+| `providers/clubautomation-edgebrook`  | ClubAutomation | Bellevue, WA       |
+| `providers/clubautomation-tcsp`       | ClubAutomation | Seattle, WA        |
+| `providers/courtreserve-12465`        | CourtReserve   | San Francisco, CA  |
+| `providers/courtreserve-6689`         | CourtReserve   | Woodinville, WA    |
+| `providers/courtreserve-7306`         | CourtReserve   | Bellevue, WA       |
+| `providers/courtreserve-17764`        | CourtReserve   | Bellevue, WA       |
+| `providers/rec-sf-rec-park`           | Rec            | San Francisco, CA  |
 
 ## API
 
@@ -97,13 +102,19 @@ GET /places/97dbdd4823
 There are a few ways to help grow the index:
 
 1. **Update a place** — fix or improve an existing court by editing its
-   provider JSON file in [`places/`](places/), e.g. coordinates, tags, or
-   court names.
+   provider's `providers/<platform>-<organization>/places.json`, e.g.
+   coordinates, tags, or court names.
 1. **Add new places** — add courts for a new venue. Extend an existing
-   provider file in [`places/`](places/), or create a new
-   `platform-organization.json` for a provider that isn't listed yet.
+   provider's `places.json`, or create a new
+   `providers/<platform>-<organization>/places.json` for a provider that isn't
+   listed yet. See [`platforms/`](platforms/) for how to discover each
+   platform's params.
+1. **Add a new platform** — when a venue books through a platform not yet in
+   [`platforms/`](platforms/), document it: investigate its portal and public
+   endpoints, define its MRN format, and add a `platforms/<platform>.md`
+   following the structure of the existing docs. Then add places under it.
 
-After editing files under `places/`, run `bun run build` to validate the data
+After editing files under `providers/`, run `bun run build` to validate the data
 and regenerate [`INDEX.md`](INDEX.md).
 
 Questions or ideas? Start a discussion at

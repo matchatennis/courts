@@ -1,0 +1,164 @@
+{
+  "provider": "courtreserve:17764",
+  "places": [
+    {
+      "PK": "PLACE#2bbe941ae2",
+      "SK": "PROFILE",
+      "placeId": "2bbe941ae2",
+      "applePlaceId": "IF7272553F5FC5539",
+      "displayName": "Bellevue Tennis - Chinook Middle School",
+      "coordinate": {
+        "lat": 47.628354,
+        "lng": -122.21115
+      },
+      "timezone": "America/Los_Angeles",
+      "tags": [
+        "outdoor"
+      ],
+      "mrn": "courtreserve:17764:scheduler/32903",
+      "provider": {
+        "platform": "courtreserve",
+        "name": "Bellevue Tennis - Chinook Middle School",
+        "city": "17764",
+        "resources": [
+          {
+            "id": "Chinook Middle School Court #1",
+            "name": "Chinook Middle School Court #1",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #1",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Chinook Middle School Court #2",
+            "name": "Chinook Middle School Court #2",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #2",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Chinook Middle School Court #3",
+            "name": "Chinook Middle School Court #3",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #3",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Chinook Middle School Court #4",
+            "name": "Chinook Middle School Court #4",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #4",
+            "tags": [
+              "outdoor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "PK": "PLACE#c66d600fdf",
+      "SK": "PROFILE",
+      "placeId": "c66d600fdf",
+      "applePlaceId": "I9817BD6FE64E9B0B",
+      "displayName": "Bellevue Tennis - Bellevue High School",
+      "coordinate": {
+        "lat": 47.6041087,
+        "lng": -122.1976233
+      },
+      "timezone": "America/Los_Angeles",
+      "tags": [
+        "outdoor"
+      ],
+      "mrn": "courtreserve:17764:scheduler/32903",
+      "provider": {
+        "platform": "courtreserve",
+        "name": "Bellevue Tennis - Bellevue High School",
+        "city": "17764",
+        "resources": [
+          {
+            "id": "Bellevue High School Court #1",
+            "name": "Bellevue High School Court #1",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #1",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Bellevue High School Court #2",
+            "name": "Bellevue High School Court #2",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #2",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Bellevue High School Court #3",
+            "name": "Bellevue High School Court #3",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #3",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Bellevue High School Court #4",
+            "name": "Bellevue High School Court #4",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #4",
+            "tags": [
+              "outdoor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "PK": "PLACE#363ab9931f",
+      "SK": "PROFILE",
+      "placeId": "363ab9931f",
+      "applePlaceId": "IFF38B79181F4C64B",
+      "displayName": "Bellevue Tennis - Odle Middle School",
+      "coordinate": {
+        "lat": 47.6148045,
+        "lng": -122.1492305
+      },
+      "timezone": "America/Los_Angeles",
+      "tags": [
+        "outdoor"
+      ],
+      "mrn": "courtreserve:17764:scheduler/32903",
+      "provider": {
+        "platform": "courtreserve",
+        "name": "Bellevue Tennis - Odle Middle School",
+        "city": "17764",
+        "resources": [
+          {
+            "id": "Odle Middle School Court #1",
+            "name": "Odle Middle School Court #1",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Odle Middle School Court #1",
+            "tags": [
+              "outdoor"
+            ]
+          },
+          {
+            "id": "Odle Middle School Court #2",
+            "name": "Odle Middle School Court #2",
+            "slots": [],
+            "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Odle Middle School Court #2",
+            "tags": [
+              "outdoor"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

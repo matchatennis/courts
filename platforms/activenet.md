@@ -5,11 +5,11 @@ parks-and-rec across the West Coast.
 
 - Website: https://www.activenetwork.com
 - Portal: `https://anc.apm.activecommunities.com/<org>`
-- Provider id: `activenet:<org>` — the org slug (the URL path segment, e.g. `seattle`).
+- Provider id: `activenet:<org>` - the org slug (the URL path segment, e.g. `seattle`).
 
 ## Discover params
 
-Org slug is the URL path segment (e.g. `seattle`). Public endpoints, no auth —
+Org slug is the URL path segment (e.g. `seattle`). Public endpoints, no auth -
 require header `page_info: {"page_number":1,"total_records_per_page":20}`:
 
 ```bash
@@ -33,7 +33,7 @@ Derive resource tags by hand from the detail response:
 | `general_information.no_internet_permits === false` | `reservable` |
 
 `no_internet_permits: true` means the court can't be booked online (walk-up /
-phone only) — still listable, but omit the `reservable` tag.
+phone only) - still listable, but omit the `reservable` tag.
 
 ## MRN
 

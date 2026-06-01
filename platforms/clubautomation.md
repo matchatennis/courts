@@ -3,11 +3,11 @@
 Club management software for private clubs. No public availability API.
 
 - Website: https://www.clubautomation.com
-- Provider id: `clubautomation:<org>` — a short human key (e.g. `tcsp`).
+- Provider id: `clubautomation:<org>` - a short human key (e.g. `tcsp`).
 
 ## Discover params
 
-ClubAutomation has no public availability API — model it with a single
+ClubAutomation has no public availability API - model it with a single
 synthetic `court/default` resource. Use an existing
 `providers/clubautomation-*/places.json` as the template; the org slug is a
 short human key (e.g. `tcsp`).

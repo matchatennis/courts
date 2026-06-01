@@ -5,14 +5,14 @@ municipal space.
 
 - Website: https://www.rec.us
 - Portal: `https://www.rec.us/organizations/<slug>`
-- Provider id: `rec:<slug>` — the `rec.us/organizations/<slug>` path slug.
+- Provider id: `rec:<slug>` - the `rec.us/organizations/<slug>` path slug.
 
 ## Discover params
 
 Public API:
 
 ```bash
-# Location detail — courts live here
+# Location detail - courts live here
 curl -s 'https://api.rec.us/v1/locations/<locationId>?publishedSites=true'
 
 # Schedule for a day

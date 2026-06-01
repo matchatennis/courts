@@ -1,4 +1,4 @@
-# Courts — an index of tennis courts around the world
+# Courts - an index of tennis courts around the world
 
 Courts is an open index of tennis courts around the world. At Matcha Tennis, our goal is to be the fastest way to play.
 
@@ -12,8 +12,8 @@ If you love tennis, we invite you to join us in making the sport more accessible
 ## Contents
 
 - [Specification](#specification)
-  - [MRN — Matcha Resource Name](#mrn--matcha-resource-name)
-  - [Slot — A bookable unit](#slot--a-bookable-unit)
+  - [MRN - Matcha Resource Name](#mrn--matcha-resource-name)
+  - [Slot - A bookable unit](#slot--a-bookable-unit)
 - [Data](#data)
 - [API](#api)
 - [Clients](#clients)
@@ -21,7 +21,7 @@ If you love tennis, we invite you to join us in making the sport more accessible
 
 ## Specification
 
-### MRN — Matcha Resource Name
+### MRN - Matcha Resource Name
 
 An MRN uniquely identifies a tennis court across every booking platform.
 
@@ -41,7 +41,7 @@ Example:
 rec:sfrecpark:location/12/court/3
 ```
 
-### Slot — A bookable unit
+### Slot - A bookable unit
 
 A slot is a bookable time window on a court, identified by that court's MRN.
 
@@ -55,7 +55,7 @@ In availability listings a slot also carries a `state` of `RESERVABLE` or
 
 ## Data
 
-Places are grouped by provider — the `platform:organization` pair — under
+Places are grouped by provider - the `platform:organization` pair - under
 [`providers/`](providers/), one directory per provider holding a `places.json`.
 Each platform's reservation sites, public endpoints, and MRN formats are
 documented under [`platforms/`](platforms/).
@@ -101,15 +101,15 @@ GET /places/97dbdd4823
 
 There are a few ways to help grow the index:
 
-1. **Update a place** — fix or improve an existing court by editing its
+1. **Update a place** - fix or improve an existing court by editing its
    provider's `providers/<platform>-<organization>/places.json`, e.g.
    coordinates, tags, or court names.
-1. **Add new places** — add courts for a new venue. Extend an existing
+1. **Add new places** - add courts for a new venue. Extend an existing
    provider's `places.json`, or create a new
    `providers/<platform>-<organization>/places.json` for a provider that isn't
    listed yet. See [`platforms/`](platforms/) for how to discover each
    platform's params.
-1. **Add a new platform** — when a venue books through a platform not yet in
+1. **Add a new platform** - when a venue books through a platform not yet in
    [`platforms/`](platforms/), document it: investigate its portal and public
    endpoints, define its MRN format, and add a `platforms/<platform>.md`
    following the structure of the existing docs. Then add places under it.

@@ -1,0 +1,21 @@
+{
+  "id": "clubautomation:edgebrook",
+  "platform": "clubautomation",
+  "name": "Edgebrook Swim and Tennis Club",
+  "location": {
+    "city": "Bellevue",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://edgebrook.clubautomation.com/",
+    "signup": "https://www.edgebrookclub.org/",
+    "cancellation": "https://edgebrook.clubautomation.com/"
+  },
+  "fixedDuration": true,
+  "minDuration": "01:15",
+  "maxDuration": "01:15",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

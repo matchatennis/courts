@@ -1,0 +1,20 @@
+{
+  "id": "fusion:reg.recreation.uw.edu",
+  "platform": "fusion",
+  "name": "UW Recreation",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://reg.recreation.uw.edu/",
+    "signup": "https://reg.recreation.uw.edu/",
+    "cancellation": "https://reg.recreation.uw.edu/"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

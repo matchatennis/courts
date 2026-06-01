@@ -14,12 +14,6 @@
   "fixedDuration": true,
   "minDuration": "00:30",
   "maxDuration": "01:30",
-  "otp": {
-    "placeholder": "Enter verification code",
-    "label": "Verification Code",
-    "message": "Rec.us has sent a code to your phone",
-    "resendCooldown": 30
-  },
   "reservationWindow": {
     "minHours": 0,
     "maxHours": 168

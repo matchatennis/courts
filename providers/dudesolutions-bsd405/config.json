@@ -1,0 +1,20 @@
+{
+  "id": "dudesolutions:bsd405",
+  "platform": "dudesolutions",
+  "name": "Bellevue School District",
+  "location": {
+    "city": "Bellevue",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://bsd405.org/",
+    "signup": "https://bsd405.org/",
+    "cancellation": "https://bsd405.org/"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

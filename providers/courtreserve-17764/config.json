@@ -1,0 +1,45 @@
+{
+  "id": "courtreserve:17764",
+  "platform": "courtreserve",
+  "name": "Bellevue Tennis",
+  "location": {
+    "city": "Bellevue",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://app.courtreserve.com/Online/Account/LogIn/17764",
+    "signup": "https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/17764",
+    "cancellation": "https://app.courtreserve.com/Online/Bookings/List/17764"
+  },
+  "minDuration": "00:30",
+  "maxDuration": "01:30",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  },
+  "scheduleType": "expanded",
+  "schedulers": {
+    "32903": {
+      "costTypeId": "252544",
+      "reservationMinInterval": "60",
+      "selectedCourtIds": "77699,77700,77701,77702,77703,77704,78509,78510,79155,79156",
+      "courtLabels": [
+        "Chinook Middle School Court #1",
+        "Chinook Middle School Court #2",
+        "Chinook Middle School Court #3",
+        "Chinook Middle School Court #4",
+        "Odle Middle School Court #1",
+        "Odle Middle School Court #2",
+        "Bellevue High School Court #1",
+        "Bellevue High School Court #2",
+        "Bellevue High School Court #3",
+        "Bellevue High School Court #4"
+      ],
+      "slotInterval": 1800,
+      "schedule": {
+        "start": "09:00",
+        "end": "21:00"
+      }
+    }
+  }
+}

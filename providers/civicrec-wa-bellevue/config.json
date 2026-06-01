@@ -1,0 +1,20 @@
+{
+  "id": "civicrec:wa-bellevue",
+  "platform": "civicrec",
+  "name": "City of Bellevue Parks & Community Services",
+  "location": {
+    "city": "Bellevue",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://register.bellevuewa.gov/",
+    "signup": "https://register.bellevuewa.gov/",
+    "cancellation": "https://register.bellevuewa.gov/"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

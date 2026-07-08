@@ -65,13 +65,86 @@
             "reservable",
             "outdoor"
           ]
+        },
+        {
+          "name": "AYTC Indoor Court #02",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/10",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #03",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/11",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #04",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/12",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #05",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/13",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #07",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/262",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #08",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/263",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #09",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/264",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
+        },
+        {
+          "name": "AYTC Indoor Court #10",
+          "slots": [],
+          "mrn": "activenet:seattle:center/2/resource/265",
+          "tags": [
+            "reservable",
+            "indoor"
+          ]
         }
       ],
       "platform": "activenet"
     },
     "PK": "PLACE#98fb2ac445",
     "tags": [
-      "outdoor"
+      "outdoor",
+      "indoor"
     ],
     "mrn": "activenet:seattle:center/2"
   },

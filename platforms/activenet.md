@@ -21,9 +21,24 @@ curl -s 'https://anc.apm.activecommunities.com/<org>/rest/reservation/resource/d
 curl -s 'https://anc.apm.activecommunities.com/<org>/rest/reservation/resource/availability/daily/<resourceId>?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&locale=en-US'
 ```
 
-Each tennis court is a `resource` under a `center`. Get the `center` id and the
-`resource` ids from the org's reservation site. The detail endpoint returns an
-empty body without the `page_info` header.
+Each tennis court is a `resource` under a `center`. Enumerate a center's
+resources with the search API behind `/reservation/search` - it needs session
+cookies plus the `csrfToken` embedded in that page:
+
+```bash
+curl -s -c jar.txt 'https://anc.apm.activecommunities.com/<org>/reservation/search?locale=en-US' -o search.html
+# extract: csrfToken = "<uuid>" from search.html
+curl -s -b jar.txt 'https://anc.apm.activecommunities.com/<org>/rest/reservation/resource?locale=en-US' \
+  -H 'Content-Type: application/json;charset=utf-8' -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'X-CSRF-Token: <uuid>' -H 'page_info: {"page_number":1,"total_records_per_page":100}' \
+  --data '{"center_ids":[<centerId>],"activity_id":0,"attendee":0,"date_times":[],"equipment_qty":0,"event_type_id":0,"facility_type_ids":[],"amenity_ids":[],"reservation_group_ids":[],"keyword":"","sort_option":{"order_by":"Name","order_option":"ASC"}}'
+```
+
+Each item's `reserve_by` is `minute` (book any start/end) or `rental_block`
+(fixed atomic blocks; `reservation_unit_id: 7`, also surfaced as
+`reservation_unit: 7` in the daily availability response). The daemon derives
+each resource's `reserveBy` from that signal at poll time - don't curate it.
+The detail endpoint returns an empty body without the `page_info` header.
 
 Derive resource tags by hand from the detail response:
 

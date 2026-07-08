@@ -175,7 +175,9 @@ Place object shape:
 
 Resource `tags` use the values `indoor`, `outdoor`, `lighted`, `reservable`,
 `walk-in`. `slots` is always `[]` in the index - availability is filled at
-runtime, not stored here.
+runtime, not stored here. Never add `reserveBy` either - the daemon stamps it
+per resource from platform signals (e.g. ActiveNet `reservation_unit`) at poll
+time.
 
 ## Step 4 - `config.json`
 

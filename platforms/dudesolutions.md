@@ -23,34 +23,42 @@ curl -s "https://events.dudesolutions.com/<org>/site/fields/" -A "Mozilla/5.0" \
 
 Each `--<School> ... Court N` option is one court (its GUID is the resource id);
 the parent `-<School> Tennis Courts` option is the place (its GUID is the place
-id). Skip the `… - General Scheduling` and `… - Public Use` pseudo-locations -
-they are scheduling buckets, not physical courts.
+id). The `--<School> Tennis Court - Public Use` pseudo-location is **not** a
+court, but keep its GUID — it is where the school's public-use windows are
+published (see availability below). `… - General Scheduling` is an internal
+bucket and can be ignored.
 
 Availability comes from the calendar's own JSON handler - no scraping of
 ASP.NET postbacks, no login. `query.ashx?get=eventlist` returns JSONP (wrapped
 in `( … )`) whose `html` field is server-rendered events tagged with
 schema.org microdata (`itemprop="name"`, `startDate`, `endDate`, `description`,
-all ISO-8601 UTC). `pageSize=-1` returns the whole window unpaged.
+all ISO-8601 UTC). `pageSize=-1` returns the whole window unpaged. `location=`
+filters to a single GUID.
 
-`location=` filters to a single GUID and accepts **either** a place GUID (rolls
-up all its courts) **or** a per-court GUID. Filtering by court GUID is the one
-to use: the server expands every grouped reservation to its member courts, so
-`location=<courtGuid>` returns exactly that court's blocked time with no name
-parsing. (A `Courts 1-4` reservation appears under courts 1-4's GUIDs but not
-5-7; a `Courts 1-7` block appears under all seven. The `… 1-4` text in the
-event `name` is just a label - the GUID filter has already done the expansion.)
+Availability for a court is **(school public-use windows) minus (that court's
+reservations)** — two GUIDs, fetched separately:
+
+- **Public-use windows** are published once per school under the `Public Use`
+  pseudo-location GUID (e.g. `Sammamish HS Tennis Courts Public Use`). They do
+  **not** appear under individual court GUIDs.
+- **Reservations** are per court under the real court GUID. The server expands
+  grouped reservations to their member courts, so `location=<courtGuid>` returns
+  exactly that court's blocked time with no name parsing (a `Courts 1-4`
+  reservation appears under courts 1-4's GUIDs but not 5-7; the `… 1-4` text in
+  the event `name` is just a label — the GUID filter already did the expansion).
 
 ```bash
-# One court's events (use view=list.xslt for end times + description)
+# Public-use windows for the school, then reservations for one court:
+curl -s 'https://events.dudesolutions.com/handlers/query.ashx?tenant=<org>&site=fields&get=eventlist&page=0&pageSize=-1&total=-1&view=list.xslt&location=<publicUseGuid>' ...
 curl -s 'https://events.dudesolutions.com/handlers/query.ashx?tenant=<org>&site=fields&get=eventlist&page=0&pageSize=-1&total=-1&view=list.xslt&location=<courtGuid>' \
   -A "Mozilla/5.0" -e "https://events.dudesolutions.com/<org>/site/fields/"
 ```
 
-Events titled `… Public Use - Weekday/Weekend` mark open windows; `… School
-Use` / `School Athletics Use` and named reservations mark blocked time. A
-runtime fetcher queries one eventlist per `court/<courtGuid>` resource and
-inverts reserved blocks against the public-use windows. Courts are public
-drop-in (no per-court online booking) - tag them `walk-in`, not `reservable`.
+`scripts/fetch-dudesolutions.ts` implements this: it fetches both GUIDs and
+subtracts reservations from the public-use windows. All times are ISO-8601
+UTC; convert with the place timezone (UTC dates can land on the wrong local
+day). Courts are public drop-in (no per-court online booking) - tag them
+`walk-in`, not `reservable`.
 
 ## MRN
 

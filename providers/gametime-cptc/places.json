@@ -1,0 +1,187 @@
+[
+  {
+    "PK": "PLACE#aa16d8ca59",
+    "SK": "PROFILE",
+    "placeId": "aa16d8ca59",
+    "applePlaceId": "IE77320BA06F6CB28",
+    "displayName": "Central Park Tennis Club",
+    "coordinate": {
+      "lat": 47.6600808,
+      "lng": -122.171389
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "indoor",
+      "outdoor"
+    ],
+    "mrn": "gametime:cptc:location/default",
+    "provider": {
+      "platform": "gametime",
+      "name": "Central Park Tennis Club",
+      "resources": [
+        {
+          "name": "Indoor Court 1",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/1",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 2",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/2",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 3",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/3",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 4",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/4",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 5",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/5",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 6",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/6",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 7",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/7",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 8",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/8",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 9",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/9",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 10",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/10",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 11",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/11",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 12",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/12",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 1",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/13",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 2",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/14",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 3",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/15",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 4",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/16",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 5",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/17",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 6",
+          "slots": [],
+          "mrn": "gametime:cptc:location/default/court/18",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  }
+]

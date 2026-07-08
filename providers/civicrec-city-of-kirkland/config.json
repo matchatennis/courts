@@ -1,0 +1,20 @@
+{
+  "id": "civicrec:city-of-kirkland",
+  "platform": "civicrec",
+  "name": "City of Kirkland Parks & Community Services",
+  "location": {
+    "city": "Kirkland",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://secure.rec1.com/WA/city-of-kirkland/catalog",
+    "signup": "https://secure.rec1.com/WA/city-of-kirkland/catalog",
+    "cancellation": "https://secure.rec1.com/WA/city-of-kirkland/catalog"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

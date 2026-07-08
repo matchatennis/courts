@@ -1,0 +1,20 @@
+{
+  "id": "amilia:city-of-redmond",
+  "platform": "amilia",
+  "name": "City of Redmond Parks & Recreation",
+  "location": {
+    "city": "Redmond",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://app.amilia.com/store/en/city-of-redmond",
+    "signup": "https://app.amilia.com/store/en/city-of-redmond",
+    "cancellation": "https://app.amilia.com/store/en/city-of-redmond"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

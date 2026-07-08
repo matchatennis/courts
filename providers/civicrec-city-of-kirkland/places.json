@@ -1,0 +1,128 @@
+[
+  {
+    "PK": "PLACE#5fcd680526",
+    "SK": "PROFILE",
+    "placeId": "5fcd680526",
+    "applePlaceId": "I9203A8643EA3ACF7",
+    "displayName": "Heritage Park",
+    "coordinate": {
+      "lat": 47.6784249,
+      "lng": -122.2115849
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:city-of-kirkland:facility/heritage-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Kirkland Parks & Community Services",
+      "resources": [
+        {
+          "name": "Heritage Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:city-of-kirkland:facility/heritage-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Heritage Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:city-of-kirkland:facility/heritage-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#007d7e6593",
+    "SK": "PROFILE",
+    "placeId": "007d7e6593",
+    "applePlaceId": "I47E85F35497EED2",
+    "displayName": "Juanita Beach Park",
+    "coordinate": {
+      "lat": 47.704635,
+      "lng": -122.2152425
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in",
+      "lighted"
+    ],
+    "mrn": "civicrec:city-of-kirkland:facility/juanita-beach-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Kirkland Parks & Community Services",
+      "resources": [
+        {
+          "name": "Juanita Beach Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:city-of-kirkland:facility/juanita-beach-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Juanita Beach Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:city-of-kirkland:facility/juanita-beach-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#d4c4b3047f",
+    "SK": "PROFILE",
+    "placeId": "d4c4b3047f",
+    "applePlaceId": "I6AD1F89A9A88D4FA",
+    "displayName": "Forbes Creek Park",
+    "coordinate": {
+      "lat": 47.6944649,
+      "lng": -122.1858047
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "civicrec:city-of-kirkland:facility/forbes-creek-park",
+    "provider": {
+      "platform": "civicrec",
+      "name": "City of Kirkland Parks & Community Services",
+      "resources": [
+        {
+          "name": "Forbes Creek Park Court 1",
+          "slots": [],
+          "mrn": "civicrec:city-of-kirkland:facility/forbes-creek-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Forbes Creek Park Court 2",
+          "slots": [],
+          "mrn": "civicrec:city-of-kirkland:facility/forbes-creek-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "PK": "PLACE#4ed6ca93e6",
+    "SK": "PROFILE",
+    "placeId": "4ed6ca93e6",
+    "applePlaceId": "ID17AA7E1A881E465",
+    "displayName": "Marymoor Park",
+    "coordinate": {
+      "lat": 47.6592158,
+      "lng": -122.1099326
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in",
+      "lighted"
+    ],
+    "mrn": "activenet:kingcountyparks:center/marymoor-park",
+    "provider": {
+      "platform": "activenet",
+      "name": "King County Parks",
+      "resources": [
+        {
+          "name": "Marymoor Park Court 1",
+          "slots": [],
+          "mrn": "activenet:kingcountyparks:center/marymoor-park/resource/1",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Marymoor Park Court 2",
+          "slots": [],
+          "mrn": "activenet:kingcountyparks:center/marymoor-park/resource/2",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Marymoor Park Court 3",
+          "slots": [],
+          "mrn": "activenet:kingcountyparks:center/marymoor-park/resource/3",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Marymoor Park Court 4",
+          "slots": [],
+          "mrn": "activenet:kingcountyparks:center/marymoor-park/resource/4",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  }
+]

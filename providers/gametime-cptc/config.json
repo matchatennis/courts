@@ -1,0 +1,20 @@
+{
+  "id": "gametime:cptc",
+  "platform": "gametime",
+  "name": "Central Park Tennis Club",
+  "location": {
+    "city": "Kirkland",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://cptc.gametime.net/auth",
+    "signup": "https://cptc.gametime.net/auth",
+    "cancellation": "https://cptc.gametime.net/auth"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:30",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

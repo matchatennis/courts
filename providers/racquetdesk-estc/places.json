@@ -1,0 +1,132 @@
+[
+  {
+    "PK": "PLACE#a7bc8a0a4d",
+    "SK": "PROFILE",
+    "placeId": "a7bc8a0a4d",
+    "applePlaceId": "I496DAC91FA472963",
+    "displayName": "Eastside Tennis Center",
+    "coordinate": {
+      "lat": 47.6973573,
+      "lng": -122.1860576
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "indoor"
+    ],
+    "mrn": "racquetdesk:estc:location/default",
+    "provider": {
+      "platform": "racquetdesk",
+      "name": "Eastside Tennis Center",
+      "resources": [
+        {
+          "name": "Full-size Court 1",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/1",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Full-size Court 2",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/2",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Full-size Court 3",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/3",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Full-size Court 4",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/4",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Full-size Court 5",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/5",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Full-size Court 6",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/6",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Youth Court 1",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/7",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Youth Court 2",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/8",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Youth Court 3",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/9",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Youth Court 4",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/10",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Youth Court 5",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/11",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Youth Court 6",
+          "slots": [],
+          "mrn": "racquetdesk:estc:location/default/court/12",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  }
+]

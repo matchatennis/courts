@@ -1,0 +1,20 @@
+{
+  "id": "activenet:kingcountyparks",
+  "platform": "activenet",
+  "name": "King County Parks",
+  "location": {
+    "city": "Redmond",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://anc.apm.activecommunities.com/kingcountyparks/home",
+    "signup": "https://anc.apm.activecommunities.com/kingcountyparks/home",
+    "cancellation": "https://anc.apm.activecommunities.com/kingcountyparks/home"
+  },
+  "minDuration": "01:00",
+  "maxDuration": "01:00",
+  "reservationWindow": {
+    "minHours": 0,
+    "maxHours": 168
+  }
+}

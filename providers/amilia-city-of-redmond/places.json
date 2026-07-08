@@ -1,0 +1,140 @@
+[
+  {
+    "PK": "PLACE#c57a588838",
+    "SK": "PROFILE",
+    "placeId": "c57a588838",
+    "applePlaceId": "I3F9370D7CA86DCA1",
+    "displayName": "Grass Lawn Park",
+    "coordinate": {
+      "lat": 47.6680489,
+      "lng": -122.1459326
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in",
+      "lighted"
+    ],
+    "mrn": "amilia:city-of-redmond:facility/grass-lawn-park",
+    "provider": {
+      "platform": "amilia",
+      "name": "City of Redmond Parks & Recreation",
+      "resources": [
+        {
+          "name": "Grass Lawn Park Court 1",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Grass Lawn Park Court 2",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Grass Lawn Park Court 3",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Grass Lawn Park Court 4",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/4",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Grass Lawn Park Court 5",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/5",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Grass Lawn Park Court 6",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/6",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#30d9cf4c69",
+    "SK": "PROFILE",
+    "placeId": "30d9cf4c69",
+    "applePlaceId": "I18F40466598C3F5D",
+    "displayName": "Perrigo Park",
+    "coordinate": {
+      "lat": 47.6831878,
+      "lng": -122.0827818
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in",
+      "lighted"
+    ],
+    "mrn": "amilia:city-of-redmond:facility/perrigo-park",
+    "provider": {
+      "platform": "amilia",
+      "name": "City of Redmond Parks & Recreation",
+      "resources": [
+        {
+          "name": "Perrigo Park Court 1",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/perrigo-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Perrigo Park Court 2",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/perrigo-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Perrigo Park Court 3",
+          "slots": [],
+          "mrn": "amilia:city-of-redmond:facility/perrigo-park/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  }
+]

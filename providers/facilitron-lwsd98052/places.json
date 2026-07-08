@@ -1,0 +1,274 @@
+[
+  {
+    "PK": "PLACE#76653b8b2b",
+    "SK": "PROFILE",
+    "placeId": "76653b8b2b",
+    "applePlaceId": "IA3838E76241BF4D1",
+    "displayName": "Lake Washington High School",
+    "coordinate": {
+      "lat": 47.67253,
+      "lng": -122.1813
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "facilitron:lwsd98052:school/lake-washington-high-school",
+    "provider": {
+      "platform": "facilitron",
+      "name": "Lake Washington School District",
+      "resources": [
+        {
+          "name": "Lake Washington High School Court 1",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Lake Washington High School Court 2",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Lake Washington High School Court 3",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Lake Washington High School Court 4",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Lake Washington High School Court 5",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/5",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Lake Washington High School Court 6",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/6",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#966429e976",
+    "SK": "PROFILE",
+    "placeId": "966429e976",
+    "applePlaceId": "I9FFD3CB9C473E16D",
+    "displayName": "Kirkland Middle School",
+    "coordinate": {
+      "lat": 47.6904653,
+      "lng": -122.2006143
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "facilitron:lwsd98052:school/kirkland-middle-school",
+    "provider": {
+      "platform": "facilitron",
+      "name": "Lake Washington School District",
+      "resources": [
+        {
+          "name": "Kirkland Middle School Court 1",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Kirkland Middle School Court 2",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Kirkland Middle School Court 3",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Kirkland Middle School Court 4",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#b3c9bd49b6",
+    "SK": "PROFILE",
+    "placeId": "b3c9bd49b6",
+    "applePlaceId": "I8CD10A309AB72825",
+    "displayName": "Rose Hill Middle School",
+    "coordinate": {
+      "lat": 47.6695039,
+      "lng": -122.1603747
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school",
+    "provider": {
+      "platform": "facilitron",
+      "name": "Lake Washington School District",
+      "resources": [
+        {
+          "name": "Rose Hill Middle School Court 1",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Rose Hill Middle School Court 2",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Rose Hill Middle School Court 3",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Rose Hill Middle School Court 4",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "PK": "PLACE#3a56625155",
+    "SK": "PROFILE",
+    "placeId": "3a56625155",
+    "applePlaceId": "I3519313598F83A2C",
+    "displayName": "Redmond Middle School",
+    "coordinate": {
+      "lat": 47.691721,
+      "lng": -122.1199089
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "facilitron:lwsd98052:school/redmond-middle-school",
+    "provider": {
+      "platform": "facilitron",
+      "name": "Lake Washington School District",
+      "resources": [
+        {
+          "name": "Redmond Middle School Court 1",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Redmond Middle School Court 2",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Redmond Middle School Court 3",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Redmond Middle School Court 4",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Redmond Middle School Court 5",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/5",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Redmond Middle School Court 6",
+          "slots": [],
+          "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/6",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

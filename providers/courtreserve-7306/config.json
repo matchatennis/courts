@@ -11,52 +11,69 @@
     "signup": "https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/7306",
     "cancellation": "https://app.courtreserve.com/Online/Bookings/List/7306"
   },
-  "minDuration": "00:30",
-  "maxDuration": "01:30",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  },
-  "scheduleType": "expanded",
-  "schedulers": {
-    "17100": {
-      "costTypeId": "107381",
-      "reservationMinInterval": "60",
-      "selectedCourtIds": "18083,18084,18085,18086,18087,18088",
-      "courtLabels": [
-        "Bellevue Court #1",
-        "Bellevue Court #2",
-        "Bellevue Court #3",
-        "Bellevue Court #4"
-      ],
-      "slotInterval": 1800,
-      "schedule": {
-        "start": "05:30",
-        "end": "23:30"
-      }
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": true,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 168
     },
-    "17101": {
-      "costTypeId": "107381",
-      "reservationMinInterval": "60",
-      "selectedCourtIds": "",
-      "courtLabels": [
-        "Redmond Court #1",
-        "Redmond Court #2",
-        "Redmond Court #3",
-        "Redmond Court #4",
-        "Redmond Court #5",
-        "Redmond Court #6",
-        "Redmond Court #7 (Singles Court)",
-        "Redmond Court #8",
-        "Redmond Court #9",
-        "Redmond Court #10",
-        "Redmond Court #11 (Kid's Court)"
-      ],
-      "slotInterval": 1800,
-      "schedule": {
-        "start": "05:30",
-        "end": "23:30"
+    "requestsPerMinute": 3,
+    "scheduler": {
+      "type": "expanded",
+      "configs": {
+        "17100": {
+          "costTypeId": "107381",
+          "reservationMinInterval": "60",
+          "selectedCourtIds": "18083,18084,18085,18086,18087,18088",
+          "courtLabels": [
+            "Bellevue Court #1",
+            "Bellevue Court #2",
+            "Bellevue Court #3",
+            "Bellevue Court #4"
+          ],
+          "slotInterval": 1800,
+          "schedule": {
+            "start": "05:30",
+            "end": "23:30"
+          }
+        },
+        "17101": {
+          "costTypeId": "107381",
+          "reservationMinInterval": "60",
+          "selectedCourtIds": "",
+          "courtLabels": [
+            "Redmond Court #1",
+            "Redmond Court #2",
+            "Redmond Court #3",
+            "Redmond Court #4",
+            "Redmond Court #5",
+            "Redmond Court #6",
+            "Redmond Court #7 (Singles Court)",
+            "Redmond Court #8",
+            "Redmond Court #9",
+            "Redmond Court #10",
+            "Redmond Court #11 (Kid's Court)"
+          ],
+          "slotInterval": 1800,
+          "schedule": {
+            "start": "05:30",
+            "end": "23:30"
+          }
+        }
       }
     }
-  }
+  },
+  "bookingPolicies": [
+    {
+      "id": "gorin-default",
+      "minAdvance": "00:00",
+      "type": "matcha-device",
+      "reserveBy": "range",
+      "minDuration": "00:30",
+      "maxDuration": "01:30",
+      "confirmationNotice": "You should receive an email from Gorin Tennis Academy with reservation confirmation.",
+      "cancellationUrl": "https://app.courtreserve.com/Online/Bookings/List/7306"
+    }
+  ]
 }

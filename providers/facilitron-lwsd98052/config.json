@@ -11,8 +11,6 @@
     "signup": "https://www.facilitron.com/lwsd98052",
     "cancellation": "https://www.facilitron.com/lwsd98052"
   },
-  "minDuration": "01:00",
-  "maxDuration": "01:00",
   "reservationWindow": {
     "minHours": 0,
     "maxHours": 168

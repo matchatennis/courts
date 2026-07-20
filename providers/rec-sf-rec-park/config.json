@@ -11,11 +11,23 @@
     "signup": "https://www.rec.us/organizations/san-francisco-rec-park",
     "cancellation": "https://www.rec.us/app/profile"
   },
-  "fixedDuration": true,
-  "minDuration": "00:30",
-  "maxDuration": "01:30",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": false,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 168
+    },
+    "requestsPerMinute": 30
+  },
+  "bookingPolicies": [
+    {
+      "id": "sf-rec-default",
+      "minAdvance": "00:00",
+      "type": "matcha-device",
+      "reserveBy": "block",
+      "confirmationNotice": "You should receive an email from Rec.us with reservation confirmation.",
+      "cancellationUrl": "https://www.rec.us/app/profile"
+    }
+  ]
 }

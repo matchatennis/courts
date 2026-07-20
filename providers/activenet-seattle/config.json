@@ -11,10 +11,45 @@
     "signup": "https://anc.apm.activecommunities.com/seattle/createaccount",
     "cancellation": "https://www.seattle.gov/parks/rentals-and-permits/sports-fields/tennis-courts"
   },
-  "minDuration": "01:00",
-  "maxDuration": "03:00",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 504
-  }
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": true,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 504
+    },
+    "requestsPerMinute": 300
+  },
+  "bookingPolicies": [
+    {
+      "id": "seattle-default",
+      "minAdvance": "next-day",
+      "type": "matcha-device",
+      "reserveBy": "range",
+      "minDuration": "01:00",
+      "maxDuration": "03:00",
+      "confirmationNotice": "You should receive an email from Seattle Parks & Recreation with reservation confirmation, receipt, and permit.",
+      "cancellationUrl": "https://www.seattle.gov/parks/rentals-and-permits/sports-fields/tennis-courts",
+      "savedCardCvv": true
+    },
+    {
+      "id": "amy-yee-indoor",
+      "minAdvance": "next-day",
+      "resources": [
+        "activenet:seattle:center/2/resource/10",
+        "activenet:seattle:center/2/resource/11",
+        "activenet:seattle:center/2/resource/12",
+        "activenet:seattle:center/2/resource/13",
+        "activenet:seattle:center/2/resource/262",
+        "activenet:seattle:center/2/resource/263",
+        "activenet:seattle:center/2/resource/264",
+        "activenet:seattle:center/2/resource/265"
+      ],
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://anc.apm.activecommunities.com/seattle/signin",
+      "description": "Indoor courts are reserved in 75-minute blocks. For booking policies or assistance, contact Amy Yee Tennis Center.",
+      "phone": "206-684-4764"
+    }
+  ]
 }

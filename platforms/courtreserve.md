@@ -16,13 +16,13 @@ XHR, and read the `jsonData` query param. Extract: `orgId`, `CostTypeId`,
 Two public, auth-free endpoints - test both, use whichever the org serves:
 
 ```bash
-# Consolidated - availability by court type (scheduleType: "consolidated")
+# Consolidated - availability by court type (calendar.scheduler.type: "consolidated")
 curl -s "https://app.courtreserve.com/Online/Reservations/ReadConsolidated/<orgId>" \
   -X POST -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
   --data-urlencode "sort=" --data-urlencode "group=" --data-urlencode "filter=" \
   --data-urlencode 'jsonData={"startDate":"...","orgId":"<orgId>","TimeZone":"America/Los_Angeles","KendoDate":{"Year":2026,"Month":3,"Day":1},"UiCulture":"en-US","CostTypeId":"<costTypeId>","CustomSchedulerId":"<schedulerId>","ReservationMinInterval":"60"}'
 
-# Expanded - bookings by court label (scheduleType: "expanded")
+# Expanded - bookings by court label (calendar.scheduler.type: "expanded")
 curl -s "https://memberschedulers.courtreserve.com/SchedulerApi/ReadExpandedApi?id=<orgId>&uiCulture=en-US&jsonData=<urlEncodedJsonData>"
 ```
 

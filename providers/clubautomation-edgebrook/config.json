@@ -11,11 +11,16 @@
     "signup": "https://www.edgebrookclub.org/",
     "cancellation": "https://edgebrook.clubautomation.com/"
   },
-  "fixedDuration": true,
-  "minDuration": "01:15",
-  "maxDuration": "01:15",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "edgebrook-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://edgebrook.clubautomation.com/"
+    }
+  ]
 }

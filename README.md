@@ -56,7 +56,8 @@ In availability listings a slot also carries a `state` of `RESERVABLE` or
 ## Data
 
 Places are grouped by provider - the `platform:organization` pair - under
-[`providers/`](providers/), one directory per provider holding a `places.json`.
+[`providers/`](providers/), one directory per provider holding `places.json`
+and provider capability metadata in `config.json`.
 Each platform's reservation sites, public endpoints, and MRN formats are
 documented under [`platforms/`](platforms/).
 
@@ -116,6 +117,15 @@ There are a few ways to help grow the index:
 
 After editing files under `providers/`, run `bun run build` to validate the data
 and regenerate [`INDEX.md`](INDEX.md).
+
+## Package
+
+The repository exports its court domain and provider catalog as
+`@matchatennis/courts`. Public provider facts, calendar definitions, booking
+policies, MRN helpers, and resource-tag discovery utilities are available from
+the package entry points declared in `package.json`. Application rollout,
+backend selection, feature flags, and product-specific presentation belong to
+consuming applications.
 
 Questions or ideas? Start a discussion at
 [matchatennis.com/support](https://matchatennis.com/support).

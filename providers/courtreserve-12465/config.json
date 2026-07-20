@@ -11,17 +11,34 @@
     "signup": "https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/12465",
     "cancellation": "https://app.courtreserve.com/Online/Bookings/List/12465"
   },
-  "minDuration": "00:30",
-  "maxDuration": "01:30",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  },
-  "scheduleType": "consolidated",
-  "schedulers": {
-    "16819": {
-      "costTypeId": "141201",
-      "reservationMinInterval": "60"
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": false,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 168
+    },
+    "requestsPerMinute": 30,
+    "scheduler": {
+      "type": "consolidated",
+      "configs": {
+        "16819": {
+          "costTypeId": "141201",
+          "reservationMinInterval": "60"
+        }
+      }
     }
-  }
+  },
+  "bookingPolicies": [
+    {
+      "id": "goldman-default",
+      "minAdvance": "00:00",
+      "type": "matcha-device",
+      "reserveBy": "range",
+      "minDuration": "00:30",
+      "maxDuration": "01:30",
+      "confirmationNotice": "You should receive an email from Lisa & Douglas Goldman Tennis Center with reservation confirmation.",
+      "cancellationUrl": "https://app.courtreserve.com/Online/Bookings/List/12465"
+    }
+  ]
 }

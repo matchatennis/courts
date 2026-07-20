@@ -11,8 +11,6 @@
     "signup": "https://secure.rec1.com/WA/city-of-kirkland/catalog",
     "cancellation": "https://secure.rec1.com/WA/city-of-kirkland/catalog"
   },
-  "minDuration": "01:00",
-  "maxDuration": "01:00",
   "reservationWindow": {
     "minHours": 0,
     "maxHours": 168

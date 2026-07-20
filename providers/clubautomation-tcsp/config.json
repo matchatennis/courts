@@ -11,11 +11,23 @@
     "signup": "https://tcsp.clubautomation.com/",
     "cancellation": "https://tcsp.clubautomation.com/event/my-reservations"
   },
-  "fixedDuration": true,
-  "minDuration": "01:15",
-  "maxDuration": "01:15",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "matcha-device",
+    "requiresAuthentication": true,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 168
+    },
+    "requestsPerMinute": 6
+  },
+  "bookingPolicies": [
+    {
+      "id": "tcsp-default",
+      "minAdvance": "00:00",
+      "type": "matcha-device",
+      "reserveBy": "block",
+      "confirmationNotice": "You should receive an email from Tennis Center Sand Point with reservation confirmation.",
+      "cancellationUrl": "https://tcsp.clubautomation.com/event/my-reservations"
+    }
+  ]
 }

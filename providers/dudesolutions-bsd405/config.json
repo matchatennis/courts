@@ -11,10 +11,16 @@
     "signup": "https://bsd405.org/",
     "cancellation": "https://bsd405.org/"
   },
-  "minDuration": "01:00",
-  "maxDuration": "01:00",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "bsd-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://bsd405.org/"
+    }
+  ]
 }

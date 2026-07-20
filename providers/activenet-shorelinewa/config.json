@@ -11,10 +11,24 @@
     "signup": "https://anc.apm.activecommunities.com/shorelinewa/createaccount",
     "cancellation": "https://www.shorelinewa.gov/government/departments/parks-recreation-cultural-services"
   },
-  "minDuration": "01:00",
-  "maxDuration": "03:00",
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 0
-  }
+  "calendar": {
+    "type": "matcha-device",
+    "requiresAuthentication": true,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 168
+    },
+    "requestsPerMinute": 100
+  },
+  "bookingPolicies": [
+    {
+      "id": "shoreline-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "range",
+      "minDuration": "01:00",
+      "maxDuration": "03:00",
+      "url": "https://anc.apm.activecommunities.com/shorelinewa/signin"
+    }
+  ]
 }

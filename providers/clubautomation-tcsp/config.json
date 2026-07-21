@@ -26,6 +26,7 @@
       "minAdvance": "00:00",
       "type": "matcha-device",
       "reserveBy": "block",
+      "description": "Membership required. Court time is priced per 75-minute block, separately for singles and doubles, with lower early-morning, late-evening, and summer rates, plus $15 per guest. [See current rates](https://tenniscentersandpoint.com/tennis-court-rentals/).",
       "confirmationNotice": "You should receive an email from Tennis Center Sand Point with reservation confirmation.",
       "cancellationUrl": "https://tcsp.clubautomation.com/event/my-reservations"
     }

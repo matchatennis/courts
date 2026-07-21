@@ -20,7 +20,8 @@
       "minAdvance": "00:00",
       "type": "provider",
       "reserveBy": "block",
-      "url": "https://reg.recreation.uw.edu/"
+      "url": "https://reg.recreation.uw.edu/",
+      "description": "Courts come with an IMA membership rather than a per-reservation fee, and UW Seattle students are covered by the Services & Activities Fee. [See membership rates](https://www.washington.edu/ima/member/)."
     }
   ]
 }

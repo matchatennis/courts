@@ -1,25 +1,25 @@
-import activeNetKingCounty from '../../providers/activenet-kingcountyparks/config.json';
-import activeNetSeattle from '../../providers/activenet-seattle/config.json';
-import activeNetShoreline from '../../providers/activenet-shorelinewa/config.json';
-import amiliaRedmond from '../../providers/amilia-city-of-redmond/config.json';
-import civicRecKirkland from '../../providers/civicrec-city-of-kirkland/config.json';
-import civicRecBellevue from '../../providers/civicrec-wa-bellevue/config.json';
-import clubAutomationEdgebrook from '../../providers/clubautomation-edgebrook/config.json';
-import clubAutomationTcsp from '../../providers/clubautomation-tcsp/config.json';
-import courtReserve12465 from '../../providers/courtreserve-12465/config.json';
-import courtReserve17764 from '../../providers/courtreserve-17764/config.json';
-import courtReserve6689 from '../../providers/courtreserve-6689/config.json';
-import courtReserve7306 from '../../providers/courtreserve-7306/config.json';
-import dudeSolutionsBsd405 from '../../providers/dudesolutions-bsd405/config.json';
-import facilitronLwsd from '../../providers/facilitron-lwsd98052/config.json';
-import fusionUw from '../../providers/fusion-reg.recreation.uw.edu/config.json';
-import gameTimeCptc from '../../providers/gametime-cptc/config.json';
-import racquetDeskEstc from '../../providers/racquetdesk-estc/config.json';
-import recSanFrancisco from '../../providers/rec-sf-rec-park/config.json';
-import { Platform, type MRN } from '../domain';
-import { validateProviderConfigs, validateProviderFacts } from './validation';
+import activeNetKingCounty from '../providers/activenet-kingcountyparks/config.json';
+import activeNetSeattle from '../providers/activenet-seattle/config.json';
+import activeNetShoreline from '../providers/activenet-shorelinewa/config.json';
+import amiliaRedmond from '../providers/amilia-city-of-redmond/config.json';
+import civicRecKirkland from '../providers/civicrec-city-of-kirkland/config.json';
+import civicRecBellevue from '../providers/civicrec-wa-bellevue/config.json';
+import clubAutomationEdgebrook from '../providers/clubautomation-edgebrook/config.json';
+import clubAutomationTcsp from '../providers/clubautomation-tcsp/config.json';
+import courtReserve12465 from '../providers/courtreserve-12465/config.json';
+import courtReserve17764 from '../providers/courtreserve-17764/config.json';
+import courtReserve6689 from '../providers/courtreserve-6689/config.json';
+import courtReserve7306 from '../providers/courtreserve-7306/config.json';
+import dudeSolutionsBsd405 from '../providers/dudesolutions-bsd405/config.json';
+import facilitronLwsd from '../providers/facilitron-lwsd98052/config.json';
+import fusionUw from '../providers/fusion-reg.recreation.uw.edu/config.json';
+import gameTimeCptc from '../providers/gametime-cptc/config.json';
+import racquetDeskEstc from '../providers/racquetdesk-estc/config.json';
+import recSanFrancisco from '../providers/rec-sf-rec-park/config.json';
+import { Platform, type MRN } from './domain';
+import { validateProviderConfigs, validateProviderFacts } from './provider-validation';
 
-export { validateProviderConfig, validateProviderConfigs, validateProviderFacts } from './validation';
+export { validateProviderConfig, validateProviderConfigs, validateProviderFacts } from './provider-validation';
 
 export interface AvailabilityWindow { minHours: number; maxHours: number; }
 

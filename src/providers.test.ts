@@ -4,7 +4,7 @@ import {
   PROVIDERS,
   resolveBookingPolicy,
   validateProviderConfig,
-} from './index';
+} from './providers';
 
 describe('provider catalog', () => {
   test('loads the complete catalog and configured providers', () => {

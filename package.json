@@ -4,13 +4,12 @@
   "exports": {
     ".": "./src/index.ts",
     "./domain": "./src/domain.ts",
-    "./providers": "./src/providers/index.ts",
-    "./providers/validation": "./src/providers/validation.ts",
+    "./providers": "./src/providers.ts",
     "./resource-tags": "./src/resource-tags.ts",
     "./items.json": "./items.json"
   },
   "scripts": {
-    "build": "bun src/providers/validate.ts && bun test src && bun run scripts/build-items.ts",
+    "build": "bun src/providers.ts && bun test src && bun run scripts/build-items.ts",
     "test": "bun test src"
   },
   "devDependencies": {

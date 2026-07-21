@@ -1,5 +1,5 @@
-import { Platform, type MRN } from '../domain';
-import type { ProviderConfig, ProviderFacts } from './index';
+import { Platform, type MRN } from './domain';
+import type { ProviderConfig, ProviderFacts } from './providers';
 
 type ConfigRecord = Record<string, unknown>;
 type SchedulerType = 'consolidated' | 'expanded';

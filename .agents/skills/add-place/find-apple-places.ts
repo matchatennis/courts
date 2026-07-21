@@ -1,13 +1,4 @@
 #!/usr/bin/env bun
-// find-apple-places <query> [--limit N]
-//
-// Resolves a query string (place name, optionally with city/state) to candidate
-// Apple Maps places, printing each result's `applePlaceId` (= MKMapItem.Identifier
-// rawValue), name, coordinate, timezone, and address.
-//
-// Auth: piggybacks on developer.apple.com's public MapKit JS dev token, exchanges
-// it for a 30-min HS512 access token via /ma/bootstrap, then queries /v1/search.
-// Same flow as Apple's own "Place ID Lookup" tool - no Apple Developer creds needed.
 
 const C = { bold: "\x1b[1m", dim: "\x1b[2m", reset: "\x1b[0m" };
 const fail = (m: string): never => { console.error(m); process.exit(1); };

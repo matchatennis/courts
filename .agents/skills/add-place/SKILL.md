@@ -39,7 +39,7 @@ Get the Apple Place ID, coordinate, and timezone with the bundled script -
 never hand-pick coordinates:
 
 ```bash
-bun "$CLAUDE_SKILL_DIR/find-apple-places.ts" "Woodinville Sports Club Woodinville WA"
+bun .agents/skills/add-place/find-apple-places.ts "Woodinville Sports Club Woodinville WA"
 ```
 
 Mint the `placeId`: `hashid(applePlaceId)` = first 10 hex of SHA-256.
@@ -114,10 +114,9 @@ Skip this if the organization already has a `providers/<platform>-<org>/`
 directory.
 
 Open `platforms/<platform>.md` and follow its discovery steps to extract this
-facility's court labels/ids, operating hours, and tags, plus the booking-config
-params that go in `config.json` (Step 3) - portal URLs, slot durations,
-reservation window, and any platform-specific scheduler params (e.g.
-courtreserve `CostTypeId` / `CustomSchedulerId`).
+facility's court labels/ids, operating hours, and tags, plus the provider config
+that goes in `config.json` (Step 4): portal URLs, calendar behavior, booking
+policies, duration constraints, and any platform-specific scheduler parameters.
 
 ## Step 3 - `places.json`
 
@@ -163,7 +162,7 @@ Place object shape:
     "resources": [
       {
         "name": "<Court name>",
-        "slots": [], // leave it empty
+        "slots": [],
         "mrn": "<resource mrn>",
         "tags": ["outdoor"]
       },
@@ -181,9 +180,9 @@ time.
 
 ## Step 4 - `config.json`
 
-The provider directory's `config.json` is one object describing how to book on
-the platform, filled from the params discovered in Step 2. Skip if it already
-exists. Shared fields:
+The provider directory's `config.json` describes its public identity, calendar,
+and booking behavior. Skip this step when the organization already has one.
+Shared fields:
 
 | Field | Description |
 |---|---|
@@ -192,15 +191,30 @@ exists. Shared fields:
 | `name` | provider display name |
 | `location` | `{ "city", "state" }` |
 | `urls` | `{ "signin", "signup", "cancellation" }` portal URLs |
-| `minDuration` / `maxDuration` | booking-length bounds, `"HH:MM"` |
-| `fixedDuration` | optional `true` when the platform allows only one slot length |
-| `reservationWindow` | `{ "minHours", "maxHours" }` - how far ahead booking opens |
+| `calendar` | availability source, polling limits, and optional scheduler configuration |
+| `bookingPolicies` | provider-wide default plus optional place/resource-specific overrides |
 
-CourtReserve adds `scheduleType` (`"consolidated"` | `"expanded"`) and a
-`schedulers` map keyed by `CustomSchedulerId`:
+Calendar types are:
+
+- `unsupported`
+- `matcha-device` with `requiresAuthentication`, `availabilityWindow`, and `requestsPerMinute`
+- `matcha-server` with `notifications`, `availabilityWindow`, and `requestsPerMinute`
+
+CourtReserve calendars may include `scheduler`, whose type is `consolidated` or
+`expanded`, with `configs` keyed by `CustomSchedulerId`:
 
 - consolidated → `{ "costTypeId", "reservationMinInterval" }`
 - expanded → also `{ "selectedCourtIds", "courtLabels": [...], "slotInterval", "schedule": { "start", "end" } }`
+
+Every configured provider has exactly one provider-wide booking policy without
+`places` or `resources`. Add targeted overrides with one of those arrays. Every
+policy requires a unique `id`, a `minAdvance` value (`"next-day"` or `"HH:MM"`),
+and a type:
+
+- `matcha-device`: `reserveBy` is `range` or `block`; ranges define `minDuration` and `maxDuration`
+- `provider`: adds the external `url` and the same reservation shape
+- `phone`: adds `number`
+- `unsupported`
 
 ```json
 {
@@ -213,15 +227,28 @@ CourtReserve adds `scheduleType` (`"consolidated"` | `"expanded"`) and a
     "signup": "<portal signup URL>",
     "cancellation": "<where members cancel>"
   },
-  "minDuration": "00:30",
-  "maxDuration": "01:30",
-  "reservationWindow": { "minHours": 0, "maxHours": 168 }
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": true,
+    "availabilityWindow": { "minHours": 0, "maxHours": 168 },
+    "requestsPerMinute": 30
+  },
+  "bookingPolicies": [
+    {
+      "id": "<provider-wide policy id>",
+      "minAdvance": "00:00",
+      "type": "matcha-device",
+      "reserveBy": "range",
+      "minDuration": "00:30",
+      "maxDuration": "01:30"
+    }
+  ]
 }
 ```
 
-Some providers are not bookable (read-only calendars, walk-in only) and have no
-`config.json` - only `places.json`. Add it only when the platform actually
-supports booking.
+Providers that are not configured Matcha booking providers may have only
+`places.json`. Add `config.json` only when their calendar and booking behavior
+are known.
 
 ## Step 5 - build and verify
 

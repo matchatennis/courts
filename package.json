@@ -5,6 +5,7 @@
     ".": "./src/index.ts",
     "./domain": "./src/domain.ts",
     "./providers": "./src/providers.ts",
+    "./regions": "./src/regions.ts",
     "./resource-tags": "./src/resource-tags.ts",
     "./items.json": "./items.json"
   },

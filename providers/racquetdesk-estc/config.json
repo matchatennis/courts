@@ -11,8 +11,23 @@
     "signup": "https://www.10sportal.com/club/login/eastside-tennis-center/",
     "cancellation": "https://estc.racquetdesk.net/login.html"
   },
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": true,
+    "availabilityWindow": {
+      "minHours": 0,
+      "maxHours": 168
+    },
+    "requestsPerMinute": 30,
+    "courtSheetId": "19252A826CAA74F8"
+  },
+  "bookingPolicies": [
+    {
+      "id": "estc-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://estc.racquetdesk.net/login.html"
+    }
+  ]
 }

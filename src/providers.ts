@@ -17,9 +17,9 @@ import gameTimeCptc from '../providers/gametime-cptc/config.json';
 import racquetDeskEstc from '../providers/racquetdesk-estc/config.json';
 import recSanFrancisco from '../providers/rec-sf-rec-park/config.json';
 import { Platform, type MRN } from './domain';
-import { validateProviderConfigs, validateProviderFacts } from './provider-validation';
+import { validateProviderConfigs } from './provider-validation';
 
-export { validateProviderConfig, validateProviderConfigs, validateProviderFacts } from './provider-validation';
+export { validateProviderConfig, validateProviderConfigs } from './provider-validation';
 
 export interface AvailabilityWindow { minHours: number; maxHours: number; }
 
@@ -55,6 +55,8 @@ export type CalendarConfig =
       requestsPerMinute: number;
       scheduler?: SchedulerConfig;
     };
+
+type MatchaServerCalendar = Extract<CalendarConfig, { type: 'matcha-server' }>;
 
 interface BookingPolicyTarget {
   id: string;
@@ -93,15 +95,6 @@ export type BookingPolicy = BookingPolicyTarget & (
 
 interface ProviderLocation { city: string; state: string; }
 
-export interface ProviderFacts {
-  id: string;
-  platform: Platform;
-  name: string;
-  location: ProviderLocation;
-  urls: Urls;
-  reservationWindow: AvailabilityWindow;
-}
-
 interface BaseProvider {
   id: string;
   name: string;
@@ -112,25 +105,39 @@ interface BaseProvider {
 }
 
 interface ActiveNetProvider extends BaseProvider { platform: Platform.ActiveNet; }
+interface AmiliaProvider extends BaseProvider { platform: Platform.Amilia; }
 interface RecProvider extends BaseProvider { platform: Platform.Rec; }
 interface ClubAutomationProvider extends BaseProvider { platform: Platform.ClubAutomation; }
 interface CivicRecProvider extends BaseProvider { platform: Platform.CivicRec; }
 interface DudeSolutionsProvider extends BaseProvider { platform: Platform.DudeSolutions; }
+interface FacilitronProvider extends BaseProvider { platform: Platform.Facilitron; }
 interface FusionProvider extends BaseProvider { platform: Platform.Fusion; }
+interface GameTimeProvider extends BaseProvider { platform: Platform.GameTime; }
+interface RacquetDeskProvider extends Omit<BaseProvider, 'calendar'> {
+  platform: Platform.RacquetDesk;
+  calendar: MatchaServerCalendar & { courtSheetId: string } | { type: 'unsupported' };
+}
 interface CourtReserveProvider extends BaseProvider { platform: Platform.CourtReserve; }
 
 export type ProviderConfig =
   | ActiveNetProvider
+  | AmiliaProvider
   | RecProvider
   | CourtReserveProvider
   | ClubAutomationProvider
   | CivicRecProvider
   | DudeSolutionsProvider
-  | FusionProvider;
+  | FacilitronProvider
+  | FusionProvider
+  | GameTimeProvider
+  | RacquetDeskProvider;
 
 const providerConfigs: unknown = [
+  activeNetKingCounty,
   activeNetSeattle,
   activeNetShoreline,
+  amiliaRedmond,
+  civicRecKirkland,
   civicRecBellevue,
   clubAutomationEdgebrook,
   clubAutomationTcsp,
@@ -139,23 +146,14 @@ const providerConfigs: unknown = [
   courtReserve6689,
   courtReserve7306,
   dudeSolutionsBsd405,
+  facilitronLwsd,
   fusionUw,
+  gameTimeCptc,
+  racquetDeskEstc,
   recSanFrancisco,
 ];
 validateProviderConfigs(providerConfigs);
 const ALL: ProviderConfig[] = providerConfigs;
-
-const providerFacts: unknown = [
-  activeNetKingCounty,
-  amiliaRedmond,
-  civicRecKirkland,
-  facilitronLwsd,
-  gameTimeCptc,
-  racquetDeskEstc,
-];
-if (!Array.isArray(providerFacts)) throw new Error('provider facts must be an array');
-for (const provider of providerFacts) validateProviderFacts(provider);
-const FACTS: ProviderFacts[] = providerFacts;
 
 export const resolveBookingPolicy = (
   provider: ProviderConfig,
@@ -179,13 +177,6 @@ export const PROVIDERS: Record<string, ProviderConfig> = Object.fromEntries(
   ALL.map((p) => [p.id, p]),
 );
 
-const CATALOG = [...ALL, ...FACTS];
-if (new Set(CATALOG.map((provider) => provider.id)).size !== CATALOG.length) {
-  throw new Error('duplicate provider id in catalog');
-}
-
-export const PROVIDER_CATALOG: Record<string, ProviderConfig | ProviderFacts> = Object.fromEntries(
-  CATALOG.map((provider) => [provider.id, provider]),
-);
+export const PROVIDER_CATALOG: Record<string, ProviderConfig> = PROVIDERS;
 
 export const PROVIDER_IDS = ALL.map((p) => p.id);

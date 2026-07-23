@@ -2,9 +2,8 @@
 
 Club management and court-reservation software for private/public tennis clubs,
 also fronted under the **10sportal** brand. Each club is a subdomain on
-`racquetdesk.net`. Court availability is login-gated - no public, auth-free API -
-so it is modeled like ClubAutomation/CivicRec: courts are listed for discovery as
-synthetic resources with no live slots.
+`racquetdesk.net`. Clubs may publish an embedded, read-only court sheet that can
+support a server-backed calendar without an account.
 
 - Website: https://www.10sportal.com
 - Portal: `https://<org>.racquetdesk.net` (a `10sportal.com/club/login/<club-slug>`
@@ -13,9 +12,12 @@ synthetic resources with no live slots.
 
 ## Discover params
 
-There is no public availability endpoint - `/`, `/booking`, and `/guest` all
-redirect to or require `/login`, and reservations require an account. Do not
-create or use an account.
+Look for an embedded court sheet on the club's public website. The embed URL has
+the form `https://www.racquetdesk.net/embeddedContent/courtsheets/index.html?eID=<id>`.
+Store `<id>` as `calendar.courtSheetId`. The page exposes its hours, resource ids,
+and public event proxy. Blank court-sheet cells are available; every returned
+event blocks its resource. Fetch with `hideApptTitle=1` and do not store titles or
+descriptions.
 
 Source court data from the club's public website instead (court counts, indoor/
 outdoor split, lighting). For Eastside Tennis Center, `topskirkland.org` lists
@@ -23,15 +25,15 @@ outdoor split, lighting). For Eastside Tennis Center, `topskirkland.org` lists
 `applePlaceId` from `find-apple-places.ts`, never by hand.
 
 One `racquetdesk.net` subdomain is one physical club, so model the place as a
-single `location/default` and its courts as synthetic resources numbered `1..N`
-from the published court count (there are no per-court ids in a public surface).
+single `location/default`. Use the resource ids and names published in the court
+sheet.
 
 ## MRN
 
 | | Format |
 |---|---|
 | Place `mrn` | `racquetdesk:<org>:location/default` |
-| Resource `mrn` | `…/court/<n>` |
+| Resource `mrn` | `…/court/<resource-id>` |
 
-`<n>` is the 1-based court number. Tag indoor/outdoor/lighted per the club's
-published court list; these are `reservable` (member booking), not `walk-in`.
+Tag indoor/outdoor/lighted per the club's published court list; these are
+`reservable` through the provider, not `walk-in`.

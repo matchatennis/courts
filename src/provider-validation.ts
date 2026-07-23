@@ -1,5 +1,5 @@
 import { Platform, type MRN } from './domain';
-import type { ProviderConfig, ProviderFacts } from './providers';
+import type { ProviderConfig } from './providers';
 
 type ConfigRecord = Record<string, unknown>;
 type SchedulerType = 'consolidated' | 'expanded';
@@ -272,6 +272,13 @@ export function validateProviderConfig(value: unknown): asserts value is Provide
       throw new Error(`${id}: CourtReserve scheduler is required`);
     }
   }
+  if (
+    provider.platform === Platform.RacquetDesk
+    && calendar.type === 'matcha-server'
+    && !isNonEmptyString(calendar.courtSheetId)
+  ) {
+    throw new Error(`${id}: RacquetDesk court sheet id is required`);
+  }
 }
 
 export function validateProviderConfigs(value: unknown): asserts value is ProviderConfig[] {
@@ -282,22 +289,4 @@ export function validateProviderConfigs(value: unknown): asserts value is Provid
     if (ids.has(provider.id)) throw new Error(`duplicate provider id ${provider.id}`);
     ids.add(provider.id);
   }
-}
-
-export function validateProviderFacts(value: unknown): asserts value is ProviderFacts {
-  const provider = requireRecord(value, 'provider facts must be an object');
-  const id = isNonEmptyString(provider.id) ? provider.id : '';
-  const platforms = Object.values(Platform) as unknown[];
-  if (!id || !platforms.includes(provider.platform)) throw new Error('provider id and platform are required');
-  if (!id.startsWith(`${String(provider.platform)}:`)) throw new Error(`${id}: provider platform does not match id`);
-  if (!isNonEmptyString(provider.name)) throw new Error(`${id}: provider name is required`);
-  const location = requireRecord(provider.location, `${id}: provider location is required`);
-  if (!isNonEmptyString(location.city) || !isNonEmptyString(location.state)) {
-    throw new Error(`${id}: provider location is incomplete`);
-  }
-  const urls = requireRecord(provider.urls, `${id}: provider URLs are incomplete`);
-  if (!isUrl(urls.signin) || !isUrl(urls.signup) || !isUrl(urls.cancellation)) {
-    throw new Error(`${id}: provider URLs are incomplete`);
-  }
-  validateAvailabilityWindow(provider.reservationWindow, id);
 }

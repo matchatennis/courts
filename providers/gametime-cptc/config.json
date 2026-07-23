@@ -11,8 +11,16 @@
     "signup": "https://cptc.gametime.net/auth",
     "cancellation": "https://cptc.gametime.net/auth"
   },
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "cptc-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://cptc.gametime.net/auth"
+    }
+  ]
 }

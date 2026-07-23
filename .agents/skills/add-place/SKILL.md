@@ -1,6 +1,6 @@
 ---
 name: add-place
-description: Scout for tennis facilities or add a known facility to the courts index. Use when searching an area with Google Maps, researching public facility and booking websites, onboarding an organization or platform, or adding one or more places under an existing provider. Discover provider parameters, write provider JSON, and rebuild items.json and INDEX.md.
+description: Scout for tennis facilities or add a known facility and its provider configuration to the courts index. Use when searching an area with Google Maps, researching public facility and booking websites, onboarding an organization or platform, or adding one or more places under an existing provider. Discover provider parameters, write provider and place JSON, and rebuild items.json and INDEX.md.
 ---
 
 # Data Model
@@ -279,9 +279,12 @@ and a type:
 }
 ```
 
-Providers that are not configured Matcha booking providers may have only
-`places.json`. Add `config.json` only when their calendar and booking behavior
-are known.
+Every provider with published places must have a complete `config.json`. Use an
+`unsupported` calendar when live availability cannot be fetched. Use an
+`unsupported` booking policy for walk-in courts or when no honest booking
+handoff exists; use a `provider` policy only when its URL genuinely starts the
+provider's booking flow. Do not leave a published provider as factual metadata
+only. The build rejects places whose provider is not fully configured.
 
 ## Step 6 - build and verify
 
@@ -305,7 +308,7 @@ Review the diff (`items.json`, `INDEX.md`, the provider's `places.json` /
 - [ ] `placeId` = `hashid(applePlaceId)`
 - [ ] `platforms/<platform>.md` exists (onboarded the platform if it was new)
 - [ ] `providers/<platform>-<organization>/places.json` exists (created for a new org)
-- [ ] `providers/<platform>-<organization>/config.json` exists for a bookable platform (created for a new org)
+- [ ] `providers/<platform>-<organization>/config.json` fully defines calendar and booking behavior
 - [ ] provider id belongs to the correct region in `src/regions.ts`
 - [ ] place object appended to the `places.json` array with correct place + resource mrns
 - [ ] `bun run build` green; `items.json` + `INDEX.md` regenerated

@@ -9,7 +9,7 @@ import {
 describe('provider catalog', () => {
   test('loads the complete catalog and configured providers', () => {
     expect(Object.keys(PROVIDER_CATALOG)).toHaveLength(18);
-    expect(Object.keys(PROVIDERS)).toHaveLength(12);
+    expect(Object.keys(PROVIDERS)).toHaveLength(18);
   });
 
   test('resolves resource policies before provider defaults', () => {
@@ -35,5 +35,16 @@ describe('provider catalog', () => {
         requestsPerMinute: 0,
       },
     })).toThrow('invalid calendar rate limit');
+  });
+
+  test('requires a RacquetDesk court sheet id', () => {
+    const provider = PROVIDERS['racquetdesk:estc']!;
+    expect(() => validateProviderConfig({
+      ...provider,
+      calendar: {
+        ...provider.calendar,
+        courtSheetId: '',
+      },
+    })).toThrow('RacquetDesk court sheet id is required');
   });
 });

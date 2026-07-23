@@ -21,7 +21,7 @@
         {
           "name": "Full-size Court 1",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/1",
+          "mrn": "racquetdesk:estc:location/default/court/798",
           "tags": [
             "indoor",
             "reservable"
@@ -30,7 +30,7 @@
         {
           "name": "Full-size Court 2",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/2",
+          "mrn": "racquetdesk:estc:location/default/court/799",
           "tags": [
             "indoor",
             "reservable"
@@ -39,7 +39,7 @@
         {
           "name": "Full-size Court 3",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/3",
+          "mrn": "racquetdesk:estc:location/default/court/800",
           "tags": [
             "indoor",
             "reservable"
@@ -48,7 +48,7 @@
         {
           "name": "Full-size Court 4",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/4",
+          "mrn": "racquetdesk:estc:location/default/court/801",
           "tags": [
             "indoor",
             "reservable"
@@ -57,7 +57,7 @@
         {
           "name": "Full-size Court 5",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/5",
+          "mrn": "racquetdesk:estc:location/default/court/802",
           "tags": [
             "indoor",
             "reservable"
@@ -66,61 +66,61 @@
         {
           "name": "Full-size Court 6",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/6",
+          "mrn": "racquetdesk:estc:location/default/court/803",
           "tags": [
             "indoor",
             "reservable"
           ]
         },
         {
-          "name": "Youth Court 1",
+          "name": "Court 7 PB/Youth",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/7",
+          "mrn": "racquetdesk:estc:location/default/court/807",
           "tags": [
             "indoor",
             "reservable"
           ]
         },
         {
-          "name": "Youth Court 2",
+          "name": "Court 8 Youth",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/8",
+          "mrn": "racquetdesk:estc:location/default/court/808",
           "tags": [
             "indoor",
             "reservable"
           ]
         },
         {
-          "name": "Youth Court 3",
+          "name": "Court 9 PB/Youth",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/9",
+          "mrn": "racquetdesk:estc:location/default/court/809",
           "tags": [
             "indoor",
             "reservable"
           ]
         },
         {
-          "name": "Youth Court 4",
+          "name": "Court 10 Youth",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/10",
+          "mrn": "racquetdesk:estc:location/default/court/810",
           "tags": [
             "indoor",
             "reservable"
           ]
         },
         {
-          "name": "Youth Court 5",
+          "name": "Court 11 PB/Youth",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/11",
+          "mrn": "racquetdesk:estc:location/default/court/811",
           "tags": [
             "indoor",
             "reservable"
           ]
         },
         {
-          "name": "Youth Court 6",
+          "name": "Court 13 PB/Youth",
           "slots": [],
-          "mrn": "racquetdesk:estc:location/default/court/12",
+          "mrn": "racquetdesk:estc:location/default/court/1524",
           "tags": [
             "indoor",
             "reservable"

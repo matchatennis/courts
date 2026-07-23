@@ -11,8 +11,14 @@
     "signup": "https://anc.apm.activecommunities.com/kingcountyparks/home",
     "cancellation": "https://anc.apm.activecommunities.com/kingcountyparks/home"
   },
-  "reservationWindow": {
-    "minHours": 0,
-    "maxHours": 168
-  }
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "king-county-default",
+      "minAdvance": "00:00",
+      "type": "unsupported"
+    }
+  ]
 }

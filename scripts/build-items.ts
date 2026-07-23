@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
+import { PROVIDERS } from "../src/providers";
 
 const root = new URL("..", import.meta.url).pathname;
 const providersDir = join(root, "providers");
@@ -114,6 +115,9 @@ for (const dir of providerDirs) {
     check(!seenPlaceIds.has(p.placeId), where, `duplicate placeId \`${p.placeId}\``);
     seenPlaceIds.add(p.placeId);
     const provider = providerOf(p);
+    const providerConfig = PROVIDERS[provider];
+    check(providerConfig, where, `missing configured provider \`${provider}\``);
+    check(p.provider.platform === providerConfig.platform, where, `provider platform does not match \`${provider}\``);
     if (!groups.has(provider)) groups.set(provider, []);
     groups.get(provider)!.push(p);
   });

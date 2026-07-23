@@ -24,6 +24,23 @@ describe('provider catalog', () => {
       'activenet:seattle:center/2',
       'activenet:seattle:center/2/resource/279',
     ).id).toBe('seattle-default');
+
+    const eastside = PROVIDERS['racquetdesk:estc']!;
+    expect(resolveBookingPolicy(
+      eastside,
+      'racquetdesk:estc:location/default',
+      'racquetdesk:estc:location/default/court/807',
+    ).id).toBe('estc-pickleball-youth');
+    expect(resolveBookingPolicy(
+      eastside,
+      'racquetdesk:estc:location/default',
+      'racquetdesk:estc:location/default/court/808',
+    ).id).toBe('estc-youth');
+    expect(resolveBookingPolicy(
+      eastside,
+      'racquetdesk:estc:location/default',
+      'racquetdesk:estc:location/default/court/798',
+    ).id).toBe('estc-full-size');
   });
 
   test('rejects invalid provider capabilities', () => {

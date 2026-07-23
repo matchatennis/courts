@@ -78,6 +78,7 @@
           "mrn": "racquetdesk:estc:location/default/court/807",
           "tags": [
             "indoor",
+            "pickleball",
             "reservable"
           ]
         },
@@ -96,6 +97,7 @@
           "mrn": "racquetdesk:estc:location/default/court/809",
           "tags": [
             "indoor",
+            "pickleball",
             "reservable"
           ]
         },
@@ -114,6 +116,7 @@
           "mrn": "racquetdesk:estc:location/default/court/811",
           "tags": [
             "indoor",
+            "pickleball",
             "reservable"
           ]
         },
@@ -123,6 +126,7 @@
           "mrn": "racquetdesk:estc:location/default/court/1524",
           "tags": [
             "indoor",
+            "pickleball",
             "reservable"
           ]
         }

@@ -1,7 +1,5 @@
 [
   {
-    "PK": "PLACE#5fcd680526",
-    "SK": "PROFILE",
     "placeId": "5fcd680526",
     "applePlaceId": "I9203A8643EA3ACF7",
     "displayName": "Heritage Park",
@@ -16,12 +14,10 @@
     ],
     "mrn": "civicrec:city-of-kirkland:facility/heritage-park",
     "provider": {
-      "platform": "civicrec",
       "name": "City of Kirkland Parks & Community Services",
       "resources": [
         {
           "name": "Heritage Park Court 1",
-          "slots": [],
           "mrn": "civicrec:city-of-kirkland:facility/heritage-park/court/1",
           "tags": [
             "outdoor",
@@ -30,7 +26,6 @@
         },
         {
           "name": "Heritage Park Court 2",
-          "slots": [],
           "mrn": "civicrec:city-of-kirkland:facility/heritage-park/court/2",
           "tags": [
             "outdoor",
@@ -41,8 +36,6 @@
     }
   },
   {
-    "PK": "PLACE#007d7e6593",
-    "SK": "PROFILE",
     "placeId": "007d7e6593",
     "applePlaceId": "I47E85F35497EED2",
     "displayName": "Juanita Beach Park",
@@ -58,12 +51,10 @@
     ],
     "mrn": "civicrec:city-of-kirkland:facility/juanita-beach-park",
     "provider": {
-      "platform": "civicrec",
       "name": "City of Kirkland Parks & Community Services",
       "resources": [
         {
           "name": "Juanita Beach Park Court 1",
-          "slots": [],
           "mrn": "civicrec:city-of-kirkland:facility/juanita-beach-park/court/1",
           "tags": [
             "outdoor",
@@ -73,7 +64,6 @@
         },
         {
           "name": "Juanita Beach Park Court 2",
-          "slots": [],
           "mrn": "civicrec:city-of-kirkland:facility/juanita-beach-park/court/2",
           "tags": [
             "outdoor",
@@ -85,8 +75,6 @@
     }
   },
   {
-    "PK": "PLACE#d4c4b3047f",
-    "SK": "PROFILE",
     "placeId": "d4c4b3047f",
     "applePlaceId": "I6AD1F89A9A88D4FA",
     "displayName": "Forbes Creek Park",
@@ -101,12 +89,10 @@
     ],
     "mrn": "civicrec:city-of-kirkland:facility/forbes-creek-park",
     "provider": {
-      "platform": "civicrec",
       "name": "City of Kirkland Parks & Community Services",
       "resources": [
         {
           "name": "Forbes Creek Park Court 1",
-          "slots": [],
           "mrn": "civicrec:city-of-kirkland:facility/forbes-creek-park/court/1",
           "tags": [
             "outdoor",
@@ -115,7 +101,6 @@
         },
         {
           "name": "Forbes Creek Park Court 2",
-          "slots": [],
           "mrn": "civicrec:city-of-kirkland:facility/forbes-creek-park/court/2",
           "tags": [
             "outdoor",

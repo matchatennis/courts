@@ -104,33 +104,16 @@ interface BaseProvider {
   bookingPolicies: BookingPolicy[];
 }
 
-interface ActiveNetProvider extends BaseProvider { platform: Platform.ActiveNet; }
-interface AmiliaProvider extends BaseProvider { platform: Platform.Amilia; }
-interface RecProvider extends BaseProvider { platform: Platform.Rec; }
-interface ClubAutomationProvider extends BaseProvider { platform: Platform.ClubAutomation; }
-interface CivicRecProvider extends BaseProvider { platform: Platform.CivicRec; }
-interface DudeSolutionsProvider extends BaseProvider { platform: Platform.DudeSolutions; }
-interface FacilitronProvider extends BaseProvider { platform: Platform.Facilitron; }
-interface FusionProvider extends BaseProvider { platform: Platform.Fusion; }
-interface GameTimeProvider extends BaseProvider { platform: Platform.GameTime; }
+type StandardProvider = BaseProvider & {
+  platform: Exclude<Platform, Platform.RacquetDesk>;
+};
+
 interface RacquetDeskProvider extends Omit<BaseProvider, 'calendar'> {
   platform: Platform.RacquetDesk;
   calendar: MatchaServerCalendar & { courtSheetId: string } | { type: 'unsupported' };
 }
-interface CourtReserveProvider extends BaseProvider { platform: Platform.CourtReserve; }
 
-export type ProviderConfig =
-  | ActiveNetProvider
-  | AmiliaProvider
-  | RecProvider
-  | CourtReserveProvider
-  | ClubAutomationProvider
-  | CivicRecProvider
-  | DudeSolutionsProvider
-  | FacilitronProvider
-  | FusionProvider
-  | GameTimeProvider
-  | RacquetDeskProvider;
+export type ProviderConfig = StandardProvider | RacquetDeskProvider;
 
 const providerConfigs: unknown = [
   activeNetKingCounty,

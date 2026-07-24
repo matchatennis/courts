@@ -7,14 +7,12 @@
       "lat": 47.7675415
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "e40525b5ea",
     "provider": {
       "name": "City of Shoreline",
       "resources": [
         {
           "name": "Shoreline Tennis Court 1",
-          "slots": [],
           "mrn": "activenet:shorelinewa:center/10/resource/81",
           "tags": [
             "walk-in",
@@ -24,7 +22,6 @@
         },
         {
           "name": "Shoreline Tennis Court 2",
-          "slots": [],
           "mrn": "activenet:shorelinewa:center/10/resource/82",
           "tags": [
             "walk-in",
@@ -34,7 +31,6 @@
         },
         {
           "name": "Shoreline Tennis Court 3",
-          "slots": [],
           "mrn": "activenet:shorelinewa:center/10/resource/83",
           "tags": [
             "walk-in",
@@ -44,7 +40,6 @@
         },
         {
           "name": "Shoreline Tennis Court 4",
-          "slots": [],
           "mrn": "activenet:shorelinewa:center/10/resource/84",
           "tags": [
             "walk-in",
@@ -52,10 +47,8 @@
             "lighted"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#e40525b5ea",
     "tags": [
       "outdoor",
       "lighted"
@@ -70,14 +63,12 @@
       "lat": 47.7503849
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "ee8101584d",
     "provider": {
       "name": "City of Shoreline",
       "resources": [
         {
           "name": "Shoreview Tennis Court 1",
-          "slots": [],
           "mrn": "activenet:shorelinewa:center/18/resource/89",
           "tags": [
             "walk-in",
@@ -86,17 +77,14 @@
         },
         {
           "name": "Shoreview Tennis Court 2",
-          "slots": [],
           "mrn": "activenet:shorelinewa:center/18/resource/131",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#ee8101584d",
     "tags": [
       "outdoor"
     ],

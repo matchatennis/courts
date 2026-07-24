@@ -7,23 +7,19 @@
       "lat": 47.6810931
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "0aab5bfdb3",
     "provider": {
       "name": "Tennis Center Sand Point",
       "resources": [
         {
           "name": "System-assigned Court",
-          "slots": [],
           "mrn": "clubautomation:tcsp:location/default/court/default",
           "tags": [
             "indoor"
           ]
         }
-      ],
-      "platform": "clubautomation"
+      ]
     },
-    "PK": "PLACE#0aab5bfdb3",
     "tags": [
       "indoor"
     ],

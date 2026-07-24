@@ -9,7 +9,7 @@ description: Scout for tennis facilities or add a known facility and its provide
 
 `Organization`: the tenant identifier the platform uses (subdomain or path segment), e.g. the org slug for activenet/rec/clubautomation, the numeric `orgId` for courtreserve
 
-`Provider`: a court provider that owns at least one `Place`, represented by a `platform:organization` pair
+`Provider`: a booking-platform tenant associated with at least one `Place`, represented by a `platform:organization` pair
 
 `Place`: represents a physical location that maps 1-to-1 with an Apple Place ID and has at least one court
 
@@ -26,7 +26,12 @@ rec:sfrecpark:location/12/court/3
  └ platform
 ```
 
-Place segment `<placeLabel>/<placeId>` and Resource segment `<resourceLabel>/<resourceId>` are labels in platform's native term for each entity (rec calls a place a `location` and a court a `court`; courtreserve calls them `scheduler` and `courtlabel`; activenet `center` and `resource`). Pick the term the platform's own API/URLs use, and make sure the thing you map to `Place` is genuinely 1-to-1 with a physical location and the thing you map to `Resource` is genuinely a single court.
+Place segment `<placeLabel>/<placeId>` and Resource segment
+`<resourceLabel>/<resourceId>` use the platform's native terms: Rec uses
+`location` and `court`, CourtReserve uses `scheduler` and `courtlabel`, and
+ActiveNet uses `center` and `resource`. A resource `mrn` must uniquely identify
+one court. A place `mrn` may be shared when one platform place segment, such as
+a CourtReserve scheduler, spans multiple physical facilities.
 
 ## Step 0 - choose the workflow
 
@@ -100,11 +105,9 @@ path segment):
    court availability, some don't - find out which.
 2. Write `platforms/<platform>.md` following the template below.
 
-When filling in `## MRN`, use the platform's **native terms** as the place and
-resource segment labels, and confirm the entity you label as the place is
-1-to-1 with a physical location and the one you label as the resource is a
-single court - if the platform's hierarchy doesn't line up that way, work out
-the right mapping before writing the doc.
+When filling in `## MRN`, use the platform's **native terms** for its place and
+resource segment labels. Document when one place segment spans multiple physical
+places. A resource must still map to one court.
 
 ````markdown
 # <Platform Name>
@@ -141,15 +144,16 @@ curl -s '<resource availability for a day>'
 
 Then continue to Step 3.
 
-## Step 3 - discover provider params
+## Step 3 - discover and reconcile provider params
 
-Skip this if the organization already has a `providers/<platform>-<org>/`
-directory.
+Open `platforms/<platform>.md` and follow its discovery steps for every accepted
+facility, including facilities under an existing provider. Extract court
+labels/ids, operating hours, and tags, plus the provider parameters used by
+`config.json` (Step 5): portal URLs, calendar behavior, booking policies,
+duration constraints, and platform-specific scheduler parameters.
 
-Open `platforms/<platform>.md` and follow its discovery steps to extract this
-facility's court labels/ids, operating hours, and tags, plus the provider config
-that goes in `config.json` (Step 5): portal URLs, calendar behavior, booking
-policies, duration constraints, and any platform-specific scheduler parameters.
+When `config.json` already exists, identify only the additions or corrections
+required for the new places and resources. Preserve unrelated verified values.
 
 ## Step 4 - `places.json`
 
@@ -161,8 +165,9 @@ Start a new org with an empty array (skip if the file already exists):
 []
 ```
 
-There is no separate `provider` field: the provider id `<platform>:<organization>`
-is derived from each place's `mrn` (its first two `:`-segments) at build time.
+There is no authored provider id or platform field: the provider id
+`<platform>:<organization>` is derived from each place's `mrn` and checked
+against the directory's `config.json` at build time.
 
 Append a place object to the array. The `mrn` formats are platform-specific -
 use the `## MRN` table in this platform's `platforms/<platform>.md`. For
@@ -180,8 +185,6 @@ Place object shape:
 
 ```json
 {
-  "PK": "PLACE#<placeId>",
-  "SK": "PROFILE",
   "placeId": "<hashid(applePlaceId)>",
   "applePlaceId": "<from find-apple-places>",
   "displayName": "<Facility Name>",
@@ -190,12 +193,10 @@ Place object shape:
   "tags": ["indoor"],
   "mrn": "<place mrn>",
   "provider": {
-    "platform": "<platform>",
     "name": "<Provider display name>",
     "resources": [
       {
         "name": "<Court name>",
-        "slots": [],
         "mrn": "<resource mrn>",
         "tags": ["outdoor"]
       },
@@ -205,17 +206,18 @@ Place object shape:
 }
 ```
 
+The build adds DynamoDB `PK` / `SK`, `provider.platform`, and empty resource
+`slots` to generated `items.json`. Never author those fields in `places.json`.
 Resource `tags` use the values `indoor`, `outdoor`, `lighted`, `reservable`,
-`walk-in`. `slots` is always `[]` in the index - availability is filled at
-runtime, not stored here. Never add `reserveBy` either - the daemon stamps it
-per resource from platform signals (e.g. ActiveNet `reservation_unit`) at poll
-time.
+`walk-in`. Never add `reserveBy`; the daemon stamps it per resource from
+platform signals such as ActiveNet `reservation_unit` at poll time.
 
 ## Step 5 - `config.json`
 
 The provider directory's `config.json` describes its public identity, calendar,
-and booking behavior. Skip this step when the organization already has one.
-Shared fields:
+and booking behavior. Create it when the provider is new. Otherwise reconcile
+new scheduler parameters, resource/place policy targets, URLs, and corrected
+facts discovered in Step 3. Shared fields:
 
 | Field | Description |
 |---|---|
@@ -292,9 +294,10 @@ only. The build rejects places whose provider is not fully configured.
 bun run build
 ```
 
-This validates every place (required fields, no duplicate `placeId`) and
-regenerates `items.json` + `INDEX.md`. A failed validation prints
-`<file> places[i]: <reason>` - fix the place object and rerun.
+This validates the connected provider/place/resource catalog, including
+authoring shape, tags, coordinates, timezones, identifiers, MRNs, policy targets, and
+scheduler references, then regenerates `items.json` + `INDEX.md`. A failed
+validation prints its source location and reason; fix it and rerun.
 
 Review the diff (`items.json`, `INDEX.md`, the provider's `places.json` /
 `config.json`, and any new `platforms/<platform>.md`), then commit / open a PR.
@@ -308,7 +311,7 @@ Review the diff (`items.json`, `INDEX.md`, the provider's `places.json` /
 - [ ] `placeId` = `hashid(applePlaceId)`
 - [ ] `platforms/<platform>.md` exists (onboarded the platform if it was new)
 - [ ] `providers/<platform>-<organization>/places.json` exists (created for a new org)
-- [ ] `providers/<platform>-<organization>/config.json` fully defines calendar and booking behavior
+- [ ] `providers/<platform>-<organization>/config.json` fully defines and reconciles calendar and booking behavior
 - [ ] provider id belongs to the correct region in `src/regions.ts`
 - [ ] place object appended to the `places.json` array with correct place + resource mrns
 - [ ] `bun run build` green; `items.json` + `INDEX.md` regenerated

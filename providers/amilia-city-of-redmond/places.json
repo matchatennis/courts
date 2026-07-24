@@ -1,7 +1,5 @@
 [
   {
-    "PK": "PLACE#c57a588838",
-    "SK": "PROFILE",
     "placeId": "c57a588838",
     "applePlaceId": "I3F9370D7CA86DCA1",
     "displayName": "Grass Lawn Park",
@@ -17,12 +15,10 @@
     ],
     "mrn": "amilia:city-of-redmond:facility/grass-lawn-park",
     "provider": {
-      "platform": "amilia",
       "name": "City of Redmond Parks & Recreation",
       "resources": [
         {
           "name": "Grass Lawn Park Court 1",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/1",
           "tags": [
             "outdoor",
@@ -32,7 +28,6 @@
         },
         {
           "name": "Grass Lawn Park Court 2",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/2",
           "tags": [
             "outdoor",
@@ -42,7 +37,6 @@
         },
         {
           "name": "Grass Lawn Park Court 3",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/3",
           "tags": [
             "outdoor",
@@ -52,7 +46,6 @@
         },
         {
           "name": "Grass Lawn Park Court 4",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/4",
           "tags": [
             "outdoor",
@@ -62,7 +55,6 @@
         },
         {
           "name": "Grass Lawn Park Court 5",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/5",
           "tags": [
             "outdoor",
@@ -72,7 +64,6 @@
         },
         {
           "name": "Grass Lawn Park Court 6",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/grass-lawn-park/court/6",
           "tags": [
             "outdoor",
@@ -84,8 +75,6 @@
     }
   },
   {
-    "PK": "PLACE#30d9cf4c69",
-    "SK": "PROFILE",
     "placeId": "30d9cf4c69",
     "applePlaceId": "I18F40466598C3F5D",
     "displayName": "Perrigo Park",
@@ -101,12 +90,10 @@
     ],
     "mrn": "amilia:city-of-redmond:facility/perrigo-park",
     "provider": {
-      "platform": "amilia",
       "name": "City of Redmond Parks & Recreation",
       "resources": [
         {
           "name": "Perrigo Park Court 1",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/perrigo-park/court/1",
           "tags": [
             "outdoor",
@@ -116,7 +103,6 @@
         },
         {
           "name": "Perrigo Park Court 2",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/perrigo-park/court/2",
           "tags": [
             "outdoor",
@@ -126,7 +112,6 @@
         },
         {
           "name": "Perrigo Park Court 3",
-          "slots": [],
           "mrn": "amilia:city-of-redmond:facility/perrigo-park/court/3",
           "tags": [
             "outdoor",

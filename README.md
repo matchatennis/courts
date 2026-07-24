@@ -58,6 +58,8 @@ In availability listings a slot also carries a `state` of `RESERVABLE` or
 Places are grouped by provider - the `platform:organization` pair - under
 [`providers/`](providers/), one directory per provider holding `places.json`
 and provider capability metadata in `config.json`.
+Authored place files omit DynamoDB keys, provider platform copies, and empty
+availability arrays; `bun run build` adds those fields to `items.json`.
 Each platform's reservation sites, public endpoints, and MRN formats are
 documented under [`platforms/`](platforms/).
 

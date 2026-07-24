@@ -7,14 +7,12 @@
       "lat": 47.5851958
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "98fb2ac445",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "AYTC Outdoor Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/279",
           "tags": [
             "reservable",
@@ -23,7 +21,6 @@
         },
         {
           "name": "AYTC Outdoor Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/280",
           "tags": [
             "reservable",
@@ -32,7 +29,6 @@
         },
         {
           "name": "AYTC Outdoor Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/281",
           "tags": [
             "reservable",
@@ -41,7 +37,6 @@
         },
         {
           "name": "AYTC Outdoor Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/282",
           "tags": [
             "reservable",
@@ -50,7 +45,6 @@
         },
         {
           "name": "AYTC Outdoor Tennis Court 05",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/283",
           "tags": [
             "reservable",
@@ -59,7 +53,6 @@
         },
         {
           "name": "AYTC Outdoor Tennis Court 06",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/284",
           "tags": [
             "reservable",
@@ -68,7 +61,6 @@
         },
         {
           "name": "AYTC Indoor Court #02",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/10",
           "tags": [
             "reservable",
@@ -77,7 +69,6 @@
         },
         {
           "name": "AYTC Indoor Court #03",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/11",
           "tags": [
             "reservable",
@@ -86,7 +77,6 @@
         },
         {
           "name": "AYTC Indoor Court #04",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/12",
           "tags": [
             "reservable",
@@ -95,7 +85,6 @@
         },
         {
           "name": "AYTC Indoor Court #05",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/13",
           "tags": [
             "reservable",
@@ -104,7 +93,6 @@
         },
         {
           "name": "AYTC Indoor Court #07",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/262",
           "tags": [
             "reservable",
@@ -113,7 +101,6 @@
         },
         {
           "name": "AYTC Indoor Court #08",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/263",
           "tags": [
             "reservable",
@@ -122,7 +109,6 @@
         },
         {
           "name": "AYTC Indoor Court #09",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/264",
           "tags": [
             "reservable",
@@ -131,17 +117,14 @@
         },
         {
           "name": "AYTC Indoor Court #10",
-          "slots": [],
           "mrn": "activenet:seattle:center/2/resource/265",
           "tags": [
             "reservable",
             "indoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#98fb2ac445",
     "tags": [
       "outdoor",
       "indoor"
@@ -156,14 +139,12 @@
       "lat": 47.6768953
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "3bc4b1d814",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Ballard HS Tennis Court 1",
-          "slots": [],
           "mrn": "activenet:seattle:center/150/resource/1089",
           "tags": [
             "reservable",
@@ -172,7 +153,6 @@
         },
         {
           "name": "Ballard HS Tennis Court 2",
-          "slots": [],
           "mrn": "activenet:seattle:center/150/resource/1091",
           "tags": [
             "reservable",
@@ -181,7 +161,6 @@
         },
         {
           "name": "Ballard HS Tennis Court 3",
-          "slots": [],
           "mrn": "activenet:seattle:center/150/resource/1092",
           "tags": [
             "reservable",
@@ -190,17 +169,14 @@
         },
         {
           "name": "Ballard HS Tennis Court 4",
-          "slots": [],
           "mrn": "activenet:seattle:center/150/resource/1093",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#3bc4b1d814",
     "tags": [
       "outdoor"
     ],
@@ -214,14 +190,12 @@
       "lat": 47.5792709
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "87dd2753b9",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Beacon Hill Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/136/resource/1319",
           "tags": [
             "reservable",
@@ -230,17 +204,14 @@
         },
         {
           "name": "Beacon Hill Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/136/resource/1320",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#87dd2753b9",
     "tags": [
       "outdoor"
     ],
@@ -254,14 +225,12 @@
       "lat": 47.7241403
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "2c466f9008",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Bitter Lake Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/137/resource/1315",
           "tags": [
             "lighted",
@@ -271,7 +240,6 @@
         },
         {
           "name": "Bitter Lake Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/137/resource/1316",
           "tags": [
             "lighted",
@@ -281,7 +249,6 @@
         },
         {
           "name": "Bitter Lake Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/137/resource/1317",
           "tags": [
             "lighted",
@@ -291,7 +258,6 @@
         },
         {
           "name": "Bitter Lake Playfield Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/137/resource/1318",
           "tags": [
             "walk-in",
@@ -299,10 +265,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#2c466f9008",
     "tags": [
       "outdoor",
       "lighted"
@@ -317,14 +281,12 @@
       "lat": 47.5484278
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "3bab5e28a5",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Brighton Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/138/resource/1323",
           "tags": [
             "reservable",
@@ -333,17 +295,14 @@
         },
         {
           "name": "Brighton Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/138/resource/1324",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#3bab5e28a5",
     "tags": [
       "outdoor"
     ],
@@ -357,14 +316,12 @@
       "lat": 47.6752853
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "5178695b4f",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Bryant Playground Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/73/resource/1325",
           "tags": [
             "reservable",
@@ -373,17 +330,14 @@
         },
         {
           "name": "Bryant Playground Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/73/resource/1326",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#5178695b4f",
     "tags": [
       "outdoor"
     ],
@@ -397,14 +351,12 @@
       "lat": 47.644545
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "6bac62c7f0",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "David Rodgers Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/93/resource/1330",
           "tags": [
             "reservable",
@@ -413,7 +365,6 @@
         },
         {
           "name": "David Rodgers Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/93/resource/1331",
           "tags": [
             "reservable",
@@ -422,17 +373,14 @@
         },
         {
           "name": "David Rodgers Park Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/93/resource/1332",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#6bac62c7f0",
     "tags": [
       "outdoor"
     ],
@@ -446,14 +394,12 @@
       "lat": 47.5527922
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "ae15728b37",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Dearborn Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/44/resource/1333",
           "tags": [
             "reservable",
@@ -462,17 +408,14 @@
         },
         {
           "name": "Dearborn Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/44/resource/1334",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#ae15728b37",
     "tags": [
       "outdoor"
     ],
@@ -486,14 +429,12 @@
       "lat": 47.5627722
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "2c0091fee8",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Delridge Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/141/resource/1335",
           "tags": [
             "walk-in",
@@ -502,17 +443,14 @@
         },
         {
           "name": "Delridge Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/141/resource/1336",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#2c0091fee8",
     "tags": [
       "outdoor"
     ],
@@ -526,14 +464,12 @@
       "lat": 47.6593754
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "71eea18332",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Discovery Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/96/resource/1337",
           "tags": [
             "reservable",
@@ -542,17 +478,14 @@
         },
         {
           "name": "Discovery Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/96/resource/1338",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#71eea18332",
     "tags": [
       "outdoor"
     ],
@@ -566,14 +499,12 @@
       "lat": 47.6806313
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "9f86f4ec97",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Froula Playground Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/208/resource/1339",
           "tags": [
             "reservable",
@@ -582,17 +513,14 @@
         },
         {
           "name": "Froula Playground Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/208/resource/1340",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#9f86f4ec97",
     "tags": [
       "outdoor"
     ],
@@ -606,14 +534,12 @@
       "lat": 47.606659
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "be4ce8c984",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Garfield Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/144/resource/1341",
           "tags": [
             "walk-in",
@@ -623,7 +549,6 @@
         },
         {
           "name": "Garfield Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/144/resource/1342",
           "tags": [
             "lighted",
@@ -631,10 +556,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#be4ce8c984",
     "tags": [
       "outdoor",
       "lighted"
@@ -649,13 +572,11 @@
       "lat": 47.6673172
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Gilman Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/146/resource/1345",
           "tags": [
             "walk-in",
@@ -664,18 +585,15 @@
         },
         {
           "name": "Gilman Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/146/resource/1344",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
     "placeId": "04ea733afc",
-    "PK": "PLACE#04ea733afc",
     "tags": [
       "outdoor"
     ],
@@ -689,14 +607,12 @@
       "lat": 47.679328
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "cd2027667a",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Green Lake Park West Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/10/resource/181",
           "tags": [
             "reservable",
@@ -705,17 +621,14 @@
         },
         {
           "name": "Green Lake Park West Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/10/resource/183",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#cd2027667a",
     "tags": [
       "outdoor"
     ],
@@ -729,14 +642,12 @@
       "lat": 47.5781469
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "3838f7b106",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Hiawatha Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/147/resource/1346",
           "tags": [
             "lighted",
@@ -746,7 +657,6 @@
         },
         {
           "name": "Hiawatha Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/147/resource/1347",
           "tags": [
             "lighted",
@@ -756,7 +666,6 @@
         },
         {
           "name": "Hiawatha Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/147/resource/1348",
           "tags": [
             "walk-in",
@@ -764,10 +673,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#3838f7b106",
     "tags": [
       "outdoor",
       "lighted"
@@ -782,14 +689,12 @@
       "lat": 47.7262045
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "28295cf860",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Ingraham HS Tennis Court 1",
-          "slots": [],
           "mrn": "activenet:seattle:center/159/resource/1095",
           "tags": [
             "reservable",
@@ -798,7 +703,6 @@
         },
         {
           "name": "Ingraham HS Tennis Court 2",
-          "slots": [],
           "mrn": "activenet:seattle:center/159/resource/1096",
           "tags": [
             "reservable",
@@ -807,7 +711,6 @@
         },
         {
           "name": "Ingraham HS Tennis Court 3",
-          "slots": [],
           "mrn": "activenet:seattle:center/159/resource/1097",
           "tags": [
             "reservable",
@@ -816,7 +719,6 @@
         },
         {
           "name": "Ingraham HS Tennis Court 4",
-          "slots": [],
           "mrn": "activenet:seattle:center/159/resource/1098",
           "tags": [
             "reservable",
@@ -825,7 +727,6 @@
         },
         {
           "name": "Ingraham HS Tennis Court 5",
-          "slots": [],
           "mrn": "activenet:seattle:center/159/resource/2695",
           "tags": [
             "reservable",
@@ -834,17 +735,14 @@
         },
         {
           "name": "Ingraham HS Tennis Court 6",
-          "slots": [],
           "mrn": "activenet:seattle:center/159/resource/2696",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#28295cf860",
     "tags": [
       "outdoor"
     ],
@@ -858,13 +756,11 @@
       "lat": 47.569592
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Jefferson Park Lid Tennis Court Upper 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/271/resource/778",
           "tags": [
             "walk-in",
@@ -874,7 +770,6 @@
         },
         {
           "name": "Jefferson Park Lid Tennis Court Lower 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/271/resource/2278",
           "tags": [
             "lighted",
@@ -884,7 +779,6 @@
         },
         {
           "name": "Jefferson Park Lid Tennis Court Upper 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/271/resource/777",
           "tags": [
             "lighted",
@@ -894,7 +788,6 @@
         },
         {
           "name": "Jefferson Park Lid Tennis Court Lower 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/271/resource/2277",
           "tags": [
             "lighted",
@@ -902,11 +795,9 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
     "placeId": "3edfcb08c7",
-    "PK": "PLACE#3edfcb08c7",
     "tags": [
       "outdoor",
       "lighted"
@@ -921,14 +812,12 @@
       "lat": 47.6598524
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "33826aedcf",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Laurelhurst Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/372/resource/1353",
           "tags": [
             "lighted",
@@ -938,7 +827,6 @@
         },
         {
           "name": "Laurelhurst Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/372/resource/1354",
           "tags": [
             "lighted",
@@ -948,7 +836,6 @@
         },
         {
           "name": "Laurelhurst Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/372/resource/1355",
           "tags": [
             "lighted",
@@ -958,7 +845,6 @@
         },
         {
           "name": "Laurelhurst Playfield Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/372/resource/1356",
           "tags": [
             "walk-in",
@@ -966,10 +852,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#33826aedcf",
     "tags": [
       "outdoor",
       "lighted"
@@ -984,14 +868,12 @@
       "lat": 47.6686243
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "5bccd00772",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Court 1 (Upper)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/369",
           "tags": [
             "reservable",
@@ -1000,7 +882,6 @@
         },
         {
           "name": "Court 2 (Upper)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/370",
           "tags": [
             "reservable",
@@ -1009,7 +890,6 @@
         },
         {
           "name": "Court 3 (Upper)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/371",
           "tags": [
             "reservable",
@@ -1018,7 +898,6 @@
         },
         {
           "name": "Court 4 (Upper)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/372",
           "tags": [
             "walk-in",
@@ -1027,7 +906,6 @@
         },
         {
           "name": "Court 1 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/353",
           "tags": [
             "walk-in",
@@ -1037,7 +915,6 @@
         },
         {
           "name": "Court 2 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/354",
           "tags": [
             "walk-in",
@@ -1047,7 +924,6 @@
         },
         {
           "name": "Court 3 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/355",
           "tags": [
             "lighted",
@@ -1057,7 +933,6 @@
         },
         {
           "name": "Court 4 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/356",
           "tags": [
             "lighted",
@@ -1067,7 +942,6 @@
         },
         {
           "name": "Court 5 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/357",
           "tags": [
             "lighted",
@@ -1077,7 +951,6 @@
         },
         {
           "name": "Court 6 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/358",
           "tags": [
             "lighted",
@@ -1087,7 +960,6 @@
         },
         {
           "name": "Court 7 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/359",
           "tags": [
             "lighted",
@@ -1097,7 +969,6 @@
         },
         {
           "name": "Court 8 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/360",
           "tags": [
             "lighted",
@@ -1107,7 +978,6 @@
         },
         {
           "name": "Court 9 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/361",
           "tags": [
             "walk-in",
@@ -1117,7 +987,6 @@
         },
         {
           "name": "Court 10 (Lower)",
-          "slots": [],
           "mrn": "activenet:seattle:center/13/resource/362",
           "tags": [
             "walk-in",
@@ -1125,10 +994,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#5bccd00772",
     "tags": [
       "outdoor",
       "lighted"
@@ -1143,14 +1010,12 @@
       "lat": 47.6356423
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "bbe189055d",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Madison Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/427/resource/1359",
           "tags": [
             "lighted",
@@ -1160,7 +1025,6 @@
         },
         {
           "name": "Madison Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/427/resource/1360",
           "tags": [
             "walk-in",
@@ -1168,10 +1032,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#bbe189055d",
     "tags": [
       "outdoor",
       "lighted"
@@ -1186,14 +1048,12 @@
       "lat": 47.6110283
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "72328708b3",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Madrona Playground Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/449/resource/2279",
           "tags": [
             "walk-in",
@@ -1203,7 +1063,6 @@
         },
         {
           "name": "Madrona Playground Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/449/resource/2280",
           "tags": [
             "lighted",
@@ -1211,10 +1070,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#72328708b3",
     "tags": [
       "outdoor",
       "lighted"
@@ -1229,14 +1086,12 @@
       "lat": 47.6334679
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "97dbdd4823",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Magnolia Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/454/resource/1361",
           "tags": [
             "walk-in",
@@ -1245,17 +1100,14 @@
         },
         {
           "name": "Magnolia Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/454/resource/1362",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#97dbdd4823",
     "tags": [
       "outdoor"
     ],
@@ -1269,14 +1121,12 @@
       "lat": 47.641191
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "4188fa48f4",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Magnolia Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/455/resource/1363",
           "tags": [
             "reservable",
@@ -1285,7 +1135,6 @@
         },
         {
           "name": "Magnolia Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/455/resource/1364",
           "tags": [
             "walk-in",
@@ -1294,7 +1143,6 @@
         },
         {
           "name": "Magnolia Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/455/resource/1365",
           "tags": [
             "reservable",
@@ -1303,17 +1151,14 @@
         },
         {
           "name": "Magnolia Playfield Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/455/resource/1366",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#4188fa48f4",
     "tags": [
       "outdoor"
     ],
@@ -1327,14 +1172,12 @@
       "lat": 47.70652
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "86531be0c6",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Meadowbrook Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/295/resource/1367",
           "tags": [
             "lighted",
@@ -1344,7 +1187,6 @@
         },
         {
           "name": "Meadowbrook Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/295/resource/1368",
           "tags": [
             "lighted",
@@ -1354,7 +1196,6 @@
         },
         {
           "name": "Meadowbrook Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/295/resource/1369",
           "tags": [
             "lighted",
@@ -1364,7 +1205,6 @@
         },
         {
           "name": "Meadowbrook Playfield Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/295/resource/1370",
           "tags": [
             "walk-in",
@@ -1374,7 +1214,6 @@
         },
         {
           "name": "Meadowbrook Playfield Tennis Court 05",
-          "slots": [],
           "mrn": "activenet:seattle:center/295/resource/1371",
           "tags": [
             "walk-in",
@@ -1384,7 +1223,6 @@
         },
         {
           "name": "Meadowbrook Playfield Tennis Court 06",
-          "slots": [],
           "mrn": "activenet:seattle:center/295/resource/1372",
           "tags": [
             "walk-in",
@@ -1392,10 +1230,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#86531be0c6",
     "tags": [
       "outdoor",
       "lighted"
@@ -1410,14 +1246,12 @@
       "lat": 47.6214842
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "78f9c09a0a",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Miller Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/304/resource/1373",
           "tags": [
             "walk-in",
@@ -1427,7 +1261,6 @@
         },
         {
           "name": "Miller Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/304/resource/1374",
           "tags": [
             "lighted",
@@ -1435,10 +1268,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#78f9c09a0a",
     "tags": [
       "outdoor",
       "lighted"
@@ -1453,14 +1284,12 @@
       "lat": 47.6411332
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "bc18c70946",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Montlake Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/307/resource/1375",
           "tags": [
             "walk-in",
@@ -1469,17 +1298,14 @@
         },
         {
           "name": "Montlake Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/307/resource/1376",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#bc18c70946",
     "tags": [
       "outdoor"
     ],
@@ -1493,14 +1319,12 @@
       "lat": 47.5796543
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "1765dc712f",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Mount Baker Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/310/resource/1377",
           "tags": [
             "walk-in",
@@ -1510,7 +1334,6 @@
         },
         {
           "name": "Mount Baker Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/310/resource/1378",
           "tags": [
             "lighted",
@@ -1518,10 +1341,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#1765dc712f",
     "tags": [
       "outdoor",
       "lighted"
@@ -1536,14 +1357,12 @@
       "lat": 47.6313132
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "d4ff02d905",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Observatory Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/349/resource/1119",
           "tags": [
             "walk-in",
@@ -1552,17 +1371,14 @@
         },
         {
           "name": "Observatory Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/349/resource/1120",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#d4ff02d905",
     "tags": [
       "outdoor"
     ],
@@ -1576,14 +1392,12 @@
       "lat": 47.5249428
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "ddc1023a70",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Rainier Beach Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/407/resource/1379",
           "tags": [
             "lighted",
@@ -1593,7 +1407,6 @@
         },
         {
           "name": "Rainier Beach Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/407/resource/1380",
           "tags": [
             "lighted",
@@ -1603,7 +1416,6 @@
         },
         {
           "name": "Rainier Beach Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/407/resource/1381",
           "tags": [
             "lighted",
@@ -1613,7 +1425,6 @@
         },
         {
           "name": "Rainier Beach Playfield Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/407/resource/1382",
           "tags": [
             "walk-in",
@@ -1621,10 +1432,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#ddc1023a70",
     "tags": [
       "outdoor",
       "lighted"
@@ -1639,14 +1448,12 @@
       "lat": 47.5617828
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "94c4614e4f",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Rainier Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/410/resource/1383",
           "tags": [
             "lighted",
@@ -1656,7 +1463,6 @@
         },
         {
           "name": "Rainier Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/410/resource/1384",
           "tags": [
             "lighted",
@@ -1666,7 +1472,6 @@
         },
         {
           "name": "Rainier Playfield Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/410/resource/1385",
           "tags": [
             "lighted",
@@ -1676,7 +1481,6 @@
         },
         {
           "name": "Rainier Playfield Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/410/resource/1386",
           "tags": [
             "walk-in",
@@ -1684,10 +1488,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#94c4614e4f",
     "tags": [
       "outdoor",
       "lighted"
@@ -1702,14 +1504,12 @@
       "lat": 47.5373147
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "5cbde66af9",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Riverview Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/423/resource/1387",
           "tags": [
             "walk-in",
@@ -1718,17 +1518,14 @@
         },
         {
           "name": "Riverview Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/423/resource/1388",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#5cbde66af9",
     "tags": [
       "outdoor"
     ],
@@ -1742,14 +1539,12 @@
       "lat": 47.6425877
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "b7d5576a29",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Rogers Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/425/resource/1389",
           "tags": [
             "reservable",
@@ -1758,17 +1553,14 @@
         },
         {
           "name": "Rogers Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/425/resource/1390",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#b7d5576a29",
     "tags": [
       "outdoor"
     ],
@@ -1782,14 +1574,12 @@
       "lat": 47.5898121
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "246561f25f",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Sam Smith (I90 Lid) Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/429/resource/1391",
           "tags": [
             "reservable",
@@ -1798,17 +1588,14 @@
         },
         {
           "name": "Sam Smith (I90 Lid) Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/429/resource/1392",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#246561f25f",
     "tags": [
       "outdoor"
     ],
@@ -1822,14 +1609,12 @@
       "lat": 47.5273779
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "49cf74b172",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Sealth HS Complex Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/439/resource/2281",
           "tags": [
             "reservable",
@@ -1838,7 +1623,6 @@
         },
         {
           "name": "Sealth HS Complex Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/439/resource/2282",
           "tags": [
             "reservable",
@@ -1847,7 +1631,6 @@
         },
         {
           "name": "Sealth HS Complex Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/439/resource/2283",
           "tags": [
             "reservable",
@@ -1856,7 +1639,6 @@
         },
         {
           "name": "Sealth HS Complex Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/439/resource/2284",
           "tags": [
             "reservable",
@@ -1865,7 +1647,6 @@
         },
         {
           "name": "Sealth HS Complex Tennis Court 05",
-          "slots": [],
           "mrn": "activenet:seattle:center/439/resource/2285",
           "tags": [
             "reservable",
@@ -1874,17 +1655,14 @@
         },
         {
           "name": "Sealth HS Complex Tennis Court 06",
-          "slots": [],
           "mrn": "activenet:seattle:center/439/resource/2286",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#49cf74b172",
     "tags": [
       "outdoor"
     ],
@@ -1898,14 +1676,12 @@
       "lat": 47.554055
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "da89a343f2",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Seward Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/20/resource/373",
           "tags": [
             "walk-in",
@@ -1914,17 +1690,14 @@
         },
         {
           "name": "Seward Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/20/resource/2437",
           "tags": [
             "reservable",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#da89a343f2",
     "tags": [
       "outdoor"
     ],
@@ -1938,14 +1711,12 @@
       "lat": 47.536398
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "897bd43a36",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Solstice Park Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/219/resource/1393",
           "tags": [
             "lighted",
@@ -1955,7 +1726,6 @@
         },
         {
           "name": "Solstice Park Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/219/resource/1394",
           "tags": [
             "lighted",
@@ -1965,7 +1735,6 @@
         },
         {
           "name": "Solstice Park Tennis Court 03",
-          "slots": [],
           "mrn": "activenet:seattle:center/219/resource/1395",
           "tags": [
             "lighted",
@@ -1975,7 +1744,6 @@
         },
         {
           "name": "Solstice Park Tennis Court 04",
-          "slots": [],
           "mrn": "activenet:seattle:center/219/resource/1396",
           "tags": [
             "walk-in",
@@ -1985,7 +1753,6 @@
         },
         {
           "name": "Solstice Park Tennis Court 05",
-          "slots": [],
           "mrn": "activenet:seattle:center/219/resource/1397",
           "tags": [
             "walk-in",
@@ -1995,7 +1762,6 @@
         },
         {
           "name": "Solstice Park Tennis Court 06",
-          "slots": [],
           "mrn": "activenet:seattle:center/219/resource/1398",
           "tags": [
             "walk-in",
@@ -2003,10 +1769,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#897bd43a36",
     "tags": [
       "outdoor",
       "lighted"
@@ -2021,14 +1785,12 @@
       "lat": 47.6953815
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "0b2f6ba399",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Soundview Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/230/resource/1399",
           "tags": [
             "reservable",
@@ -2037,17 +1799,14 @@
         },
         {
           "name": "Soundview Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/230/resource/1400",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#0b2f6ba399",
     "tags": [
       "outdoor"
     ],
@@ -2061,14 +1820,12 @@
       "lat": 47.6303711
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "f8c7f61318",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Volunteer Park Court 01 - Upper",
-          "slots": [],
           "mrn": "activenet:seattle:center/21/resource/365",
           "tags": [
             "reservable",
@@ -2077,7 +1834,6 @@
         },
         {
           "name": "Volunteer Park Court 02 - Upper",
-          "slots": [],
           "mrn": "activenet:seattle:center/21/resource/366",
           "tags": [
             "walk-in",
@@ -2086,7 +1842,6 @@
         },
         {
           "name": "Volunteer Park Court 03 - Lower",
-          "slots": [],
           "mrn": "activenet:seattle:center/21/resource/363",
           "tags": [
             "lighted",
@@ -2096,7 +1851,6 @@
         },
         {
           "name": "Volunteer Park Court 04 - Lower",
-          "slots": [],
           "mrn": "activenet:seattle:center/21/resource/364",
           "tags": [
             "lighted",
@@ -2104,10 +1858,8 @@
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#f8c7f61318",
     "tags": [
       "outdoor",
       "lighted"
@@ -2122,14 +1874,12 @@
       "lat": 47.6589419
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "176a9f5cba",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Wallingford Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/260/resource/1408",
           "tags": [
             "reservable",
@@ -2138,17 +1888,14 @@
         },
         {
           "name": "Wallingford Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/260/resource/1409",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#176a9f5cba",
     "tags": [
       "outdoor"
     ],
@@ -2162,14 +1909,12 @@
       "lat": 47.5402813
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "6ba179a203",
     "provider": {
       "name": "Seattle Parks & Recreation",
       "resources": [
         {
           "name": "Walt Hundley Playfield Tennis Court 01",
-          "slots": [],
           "mrn": "activenet:seattle:center/253/resource/1410",
           "tags": [
             "reservable",
@@ -2178,17 +1923,14 @@
         },
         {
           "name": "Walt Hundley Playfield Tennis Court 02",
-          "slots": [],
           "mrn": "activenet:seattle:center/253/resource/1411",
           "tags": [
             "walk-in",
             "outdoor"
           ]
         }
-      ],
-      "platform": "activenet"
+      ]
     },
-    "PK": "PLACE#6ba179a203",
     "tags": [
       "outdoor"
     ],

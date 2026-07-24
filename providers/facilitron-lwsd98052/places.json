@@ -1,7 +1,5 @@
 [
   {
-    "PK": "PLACE#76653b8b2b",
-    "SK": "PROFILE",
     "placeId": "76653b8b2b",
     "applePlaceId": "IA3838E76241BF4D1",
     "displayName": "Lake Washington High School",
@@ -16,12 +14,10 @@
     ],
     "mrn": "facilitron:lwsd98052:school/lake-washington-high-school",
     "provider": {
-      "platform": "facilitron",
       "name": "Lake Washington School District",
       "resources": [
         {
           "name": "Lake Washington High School Court 1",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/1",
           "tags": [
             "outdoor",
@@ -30,7 +26,6 @@
         },
         {
           "name": "Lake Washington High School Court 2",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/2",
           "tags": [
             "outdoor",
@@ -39,7 +34,6 @@
         },
         {
           "name": "Lake Washington High School Court 3",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/3",
           "tags": [
             "outdoor",
@@ -48,7 +42,6 @@
         },
         {
           "name": "Lake Washington High School Court 4",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/4",
           "tags": [
             "outdoor",
@@ -57,7 +50,6 @@
         },
         {
           "name": "Lake Washington High School Court 5",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/5",
           "tags": [
             "outdoor",
@@ -66,7 +58,6 @@
         },
         {
           "name": "Lake Washington High School Court 6",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/lake-washington-high-school/court/6",
           "tags": [
             "outdoor",
@@ -77,8 +68,6 @@
     }
   },
   {
-    "PK": "PLACE#966429e976",
-    "SK": "PROFILE",
     "placeId": "966429e976",
     "applePlaceId": "I9FFD3CB9C473E16D",
     "displayName": "Kirkland Middle School",
@@ -93,12 +82,10 @@
     ],
     "mrn": "facilitron:lwsd98052:school/kirkland-middle-school",
     "provider": {
-      "platform": "facilitron",
       "name": "Lake Washington School District",
       "resources": [
         {
           "name": "Kirkland Middle School Court 1",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/1",
           "tags": [
             "outdoor",
@@ -107,7 +94,6 @@
         },
         {
           "name": "Kirkland Middle School Court 2",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/2",
           "tags": [
             "outdoor",
@@ -116,7 +102,6 @@
         },
         {
           "name": "Kirkland Middle School Court 3",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/3",
           "tags": [
             "outdoor",
@@ -125,7 +110,6 @@
         },
         {
           "name": "Kirkland Middle School Court 4",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/kirkland-middle-school/court/4",
           "tags": [
             "outdoor",
@@ -136,8 +120,6 @@
     }
   },
   {
-    "PK": "PLACE#b3c9bd49b6",
-    "SK": "PROFILE",
     "placeId": "b3c9bd49b6",
     "applePlaceId": "I8CD10A309AB72825",
     "displayName": "Rose Hill Middle School",
@@ -152,12 +134,10 @@
     ],
     "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school",
     "provider": {
-      "platform": "facilitron",
       "name": "Lake Washington School District",
       "resources": [
         {
           "name": "Rose Hill Middle School Court 1",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/1",
           "tags": [
             "outdoor",
@@ -166,7 +146,6 @@
         },
         {
           "name": "Rose Hill Middle School Court 2",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/2",
           "tags": [
             "outdoor",
@@ -175,7 +154,6 @@
         },
         {
           "name": "Rose Hill Middle School Court 3",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/3",
           "tags": [
             "outdoor",
@@ -184,7 +162,6 @@
         },
         {
           "name": "Rose Hill Middle School Court 4",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/rose-hill-middle-school/court/4",
           "tags": [
             "outdoor",
@@ -195,8 +172,6 @@
     }
   },
   {
-    "PK": "PLACE#3a56625155",
-    "SK": "PROFILE",
     "placeId": "3a56625155",
     "applePlaceId": "I3519313598F83A2C",
     "displayName": "Redmond Middle School",
@@ -211,12 +186,10 @@
     ],
     "mrn": "facilitron:lwsd98052:school/redmond-middle-school",
     "provider": {
-      "platform": "facilitron",
       "name": "Lake Washington School District",
       "resources": [
         {
           "name": "Redmond Middle School Court 1",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/1",
           "tags": [
             "outdoor",
@@ -225,7 +198,6 @@
         },
         {
           "name": "Redmond Middle School Court 2",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/2",
           "tags": [
             "outdoor",
@@ -234,7 +206,6 @@
         },
         {
           "name": "Redmond Middle School Court 3",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/3",
           "tags": [
             "outdoor",
@@ -243,7 +214,6 @@
         },
         {
           "name": "Redmond Middle School Court 4",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/4",
           "tags": [
             "outdoor",
@@ -252,7 +222,6 @@
         },
         {
           "name": "Redmond Middle School Court 5",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/5",
           "tags": [
             "outdoor",
@@ -261,7 +230,6 @@
         },
         {
           "name": "Redmond Middle School Court 6",
-          "slots": [],
           "mrn": "facilitron:lwsd98052:school/redmond-middle-school/court/6",
           "tags": [
             "outdoor",

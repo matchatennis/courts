@@ -7,23 +7,19 @@
       "lng": -122.4596201
     },
     "timezone": "America/Los_Angeles",
-    "SK": "PROFILE",
     "placeId": "400b8637ed",
     "provider": {
       "name": "Lisa & Douglas Goldman Tennis Center",
       "resources": [
         {
           "name": "Assigned Hard Court",
-          "slots": [],
           "mrn": "courtreserve:12465:scheduler/16819/courttype/Hard",
           "tags": [
             "outdoor"
           ]
         }
-      ],
-      "platform": "courtreserve"
+      ]
     },
-    "PK": "PLACE#400b8637ed",
     "tags": [
       "outdoor"
     ],

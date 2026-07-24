@@ -36,3 +36,7 @@ permanently-closed courts (`IsCourtClosed: true`) and `WAITLIST<id>` court types
 |---|---|
 | Place `mrn` | `courtreserve:<org>:scheduler/<schedulerId>` |
 | Resource `mrn` | `…/courtlabel/<Court Label>` |
+
+A scheduler may span multiple physical facilities. In that case each facility
+is a separate place with the same place `mrn` and its own subset of uniquely
+addressed resources.

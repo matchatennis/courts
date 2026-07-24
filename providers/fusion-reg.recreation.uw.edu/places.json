@@ -1,7 +1,5 @@
 [
   {
-    "PK": "PLACE#daf9163478",
-    "SK": "PROFILE",
     "placeId": "daf9163478",
     "applePlaceId": "I85231F0C7D2047FB",
     "displayName": "UW Tennis North Courts",
@@ -15,45 +13,47 @@
     ],
     "mrn": "fusion:reg.recreation.uw.edu:facility/9036bd85-85a7-4195-bef3-56c92b54e575",
     "provider": {
-      "platform": "fusion",
       "name": "UW Recreation",
       "resources": [
         {
           "name": "TN North Court #08",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/9036bd85-85a7-4195-bef3-56c92b54e575/court/d47b2a56-b8b2-4f00-a81f-aaf2e207279f",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN North Court #09",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/9036bd85-85a7-4195-bef3-56c92b54e575/court/d1065252-1e6d-4d32-88db-6376d591a346",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN North Court #10",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/9036bd85-85a7-4195-bef3-56c92b54e575/court/8c09acfb-7865-4831-a9ac-a0eb47cfc296",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN North Court #11",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/9036bd85-85a7-4195-bef3-56c92b54e575/court/eb560943-ede2-4cca-8ae9-f77fe4ae6001",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN North Court #12",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/9036bd85-85a7-4195-bef3-56c92b54e575/court/4e53eeeb-71da-4cf7-9dc1-da9ee9741623",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         }
       ]
     }
   },
   {
-    "PK": "PLACE#ac720fd6d2",
-    "SK": "PROFILE",
     "placeId": "ac720fd6d2",
     "applePlaceId": "IAEBFE2015EFD23C1",
     "displayName": "Quillian Tennis Stadium",
@@ -67,50 +67,56 @@
     ],
     "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071",
     "provider": {
-      "platform": "fusion",
       "name": "UW Recreation",
       "resources": [
         {
           "name": "TN South Court #1",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/0a3bf591-e516-40b3-8353-4306e9276c8d",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN South Court #2",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/653ad471-c71b-4dd3-8ffb-0f6fc0820c84",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN South Court #3",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/ccd32b9d-bd34-424d-b15b-0c881ad483c6",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN South Court #4",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/a0083245-a046-43ed-8ed8-2564f6ef8a00",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN South Court #5",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/b2d3d6b4-2347-4ab7-8dcf-097351dcb79b",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN South Court #6",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/937dd1a1-70e9-4d6d-a974-b2463f65a9f8",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         },
         {
           "name": "TN South Court #7",
-          "slots": [],
           "mrn": "fusion:reg.recreation.uw.edu:facility/63612105-68a0-4fc4-81de-66520e2a2071/court/e3b77018-d9b3-4462-bf66-e32666ff51d5",
-          "tags": ["outdoor"]
+          "tags": [
+            "outdoor"
+          ]
         }
       ]
     }

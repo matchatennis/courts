@@ -1,7 +1,5 @@
 [
   {
-    "PK": "PLACE#2bbe941ae2",
-    "SK": "PROFILE",
     "placeId": "2bbe941ae2",
     "applePlaceId": "IF7272553F5FC5539",
     "displayName": "Bellevue Tennis - Chinook Middle School",
@@ -15,12 +13,10 @@
     ],
     "mrn": "courtreserve:17764:scheduler/32903",
     "provider": {
-      "platform": "courtreserve",
       "name": "Bellevue Tennis - Chinook Middle School",
       "resources": [
         {
           "name": "Chinook Middle School Court #1",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #1",
           "tags": [
             "outdoor"
@@ -28,7 +24,6 @@
         },
         {
           "name": "Chinook Middle School Court #2",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #2",
           "tags": [
             "outdoor"
@@ -36,7 +31,6 @@
         },
         {
           "name": "Chinook Middle School Court #3",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #3",
           "tags": [
             "outdoor"
@@ -44,7 +38,6 @@
         },
         {
           "name": "Chinook Middle School Court #4",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Chinook Middle School Court #4",
           "tags": [
             "outdoor"
@@ -54,8 +47,6 @@
     }
   },
   {
-    "PK": "PLACE#c66d600fdf",
-    "SK": "PROFILE",
     "placeId": "c66d600fdf",
     "applePlaceId": "I9817BD6FE64E9B0B",
     "displayName": "Bellevue Tennis - Bellevue High School",
@@ -69,12 +60,10 @@
     ],
     "mrn": "courtreserve:17764:scheduler/32903",
     "provider": {
-      "platform": "courtreserve",
       "name": "Bellevue Tennis - Bellevue High School",
       "resources": [
         {
           "name": "Bellevue High School Court #1",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #1",
           "tags": [
             "outdoor"
@@ -82,7 +71,6 @@
         },
         {
           "name": "Bellevue High School Court #2",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #2",
           "tags": [
             "outdoor"
@@ -90,7 +78,6 @@
         },
         {
           "name": "Bellevue High School Court #3",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #3",
           "tags": [
             "outdoor"
@@ -98,7 +85,6 @@
         },
         {
           "name": "Bellevue High School Court #4",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Bellevue High School Court #4",
           "tags": [
             "outdoor"
@@ -108,8 +94,6 @@
     }
   },
   {
-    "PK": "PLACE#363ab9931f",
-    "SK": "PROFILE",
     "placeId": "363ab9931f",
     "applePlaceId": "IFF38B79181F4C64B",
     "displayName": "Bellevue Tennis - Odle Middle School",
@@ -123,12 +107,10 @@
     ],
     "mrn": "courtreserve:17764:scheduler/32903",
     "provider": {
-      "platform": "courtreserve",
       "name": "Bellevue Tennis - Odle Middle School",
       "resources": [
         {
           "name": "Odle Middle School Court #1",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Odle Middle School Court #1",
           "tags": [
             "outdoor"
@@ -136,7 +118,6 @@
         },
         {
           "name": "Odle Middle School Court #2",
-          "slots": [],
           "mrn": "courtreserve:17764:scheduler/32903/courtlabel/Odle Middle School Court #2",
           "tags": [
             "outdoor"

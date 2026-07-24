@@ -1,17 +1,13 @@
 [
   {
-    "PK": "PLACE#ffed032e48",
-    "SK": "PROFILE",
     "placeId": "ffed032e48",
     "applePlaceId": "I2138DC7A7B459AB9",
     "displayName": "Alice Marble Tennis Courts",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/81cd2b08-8ea6-40ee-8c89-aeba92506576/court/f16d5170-6698-4275-90c1-f0e5e499eb52",
           "tags": [
             "outdoor"
@@ -19,7 +15,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/81cd2b08-8ea6-40ee-8c89-aeba92506576/court/c95ae7df-6b71-4ac6-93fc-d72e6e73be37",
           "tags": [
             "outdoor"
@@ -27,7 +22,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/81cd2b08-8ea6-40ee-8c89-aeba92506576/court/c520577d-2c22-4e4e-8a92-c7709b0df07b",
           "tags": [
             "outdoor"
@@ -35,7 +29,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/81cd2b08-8ea6-40ee-8c89-aeba92506576/court/438ee54a-072c-43b4-a990-f78f9eba47b2",
           "tags": [
             "outdoor"
@@ -54,18 +47,14 @@
     "mrn": "rec:san-francisco-rec-park:location/81cd2b08-8ea6-40ee-8c89-aeba92506576"
   },
   {
-    "PK": "PLACE#b9fd1c8c7b",
-    "SK": "PROFILE",
     "placeId": "b9fd1c8c7b",
     "applePlaceId": "I5A39F1F5F69D79CB",
     "displayName": "Balboa Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c41c7b8f-cb09-415a-b8ea-ad4b82d792b9/court/8074d1eb-db88-418c-86a7-293eefa162c7",
           "tags": [
             "outdoor"
@@ -73,7 +62,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c41c7b8f-cb09-415a-b8ea-ad4b82d792b9/court/fa04a28d-ef95-4784-b49f-55799d8c00c5",
           "tags": [
             "outdoor"
@@ -81,7 +69,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c41c7b8f-cb09-415a-b8ea-ad4b82d792b9/court/855000eb-3398-4e4c-974c-2b800a0c6e72",
           "tags": [
             "outdoor"
@@ -89,7 +76,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c41c7b8f-cb09-415a-b8ea-ad4b82d792b9/court/ebcdba8e-8d3a-4788-b34e-0973a7c5b3cf",
           "tags": [
             "outdoor"
@@ -108,18 +94,14 @@
     "mrn": "rec:san-francisco-rec-park:location/c41c7b8f-cb09-415a-b8ea-ad4b82d792b9"
   },
   {
-    "PK": "PLACE#d782b1d625",
-    "SK": "PROFILE",
     "placeId": "d782b1d625",
     "applePlaceId": "I43784F3F07121765",
     "displayName": "Buena Vista Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e/court/8146ab30-09dc-44dd-b754-56113b8bdcec",
           "tags": [
             "outdoor"
@@ -127,7 +109,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e/court/5b4cdae4-d15a-4c56-a339-09bcee67bd5e",
           "tags": [
             "outdoor"
@@ -135,7 +116,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e/court/27b40a83-1446-4fc5-9656-6ebb94181ba3",
           "tags": [
             "outdoor"
@@ -143,7 +123,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e/court/d1e2e418-c02c-43b1-b897-7905ecfb797a",
           "tags": [
             "outdoor"
@@ -151,7 +130,6 @@
         },
         {
           "name": "Court C",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e/court/fd21db36-241d-452d-ae06-21eee1f509b5",
           "tags": [
             "outdoor"
@@ -159,7 +137,6 @@
         },
         {
           "name": "Court D",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e/court/ae9fd028-53d5-471c-a56e-03eacf7ec69c",
           "tags": [
             "outdoor"
@@ -178,18 +155,14 @@
     "mrn": "rec:san-francisco-rec-park:location/3f842b1e-13f9-447d-ab12-62b62d954d3e"
   },
   {
-    "PK": "PLACE#27221d3839",
-    "SK": "PROFILE",
     "placeId": "27221d3839",
     "applePlaceId": "I14A0EDF301F3DDCB",
     "displayName": "Crocker Amazon Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/4a12e91c-ead9-4774-9b79-8706ab0a003b",
           "tags": [
             "outdoor"
@@ -197,7 +170,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/ffff6829-ba7c-4189-a059-4eecdbfe6139",
           "tags": [
             "outdoor"
@@ -205,7 +177,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/8c808c70-4d67-4fd9-a6da-d7563852239a",
           "tags": [
             "outdoor"
@@ -213,7 +184,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/bc666f0a-3328-4f12-b1bf-e8714aedd3a9",
           "tags": [
             "outdoor"
@@ -221,7 +191,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/99041e22-eff0-425d-8254-a3a874dbea71",
           "tags": [
             "outdoor"
@@ -229,7 +198,6 @@
         },
         {
           "name": "Court C",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/1ff98a3a-a6c2-4773-8838-18d52a301450",
           "tags": [
             "outdoor"
@@ -237,7 +205,6 @@
         },
         {
           "name": "Court D",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1/court/98feb37e-9bfc-4b15-883a-3231471d4bdc",
           "tags": [
             "outdoor"
@@ -256,18 +223,14 @@
     "mrn": "rec:san-francisco-rec-park:location/779905bd-4c2b-45b3-abd0-48140998bca1"
   },
   {
-    "PK": "PLACE#eda87a2852",
-    "SK": "PROFILE",
     "placeId": "eda87a2852",
     "applePlaceId": "IFDD0649635B47F5C",
     "displayName": "DuPont Tennis Courts",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/d3fc78ce-0617-40dc-b7f7-d41ba95f09ef/court/e93911b3-36c9-42b6-8156-aa227afc38bb",
           "tags": [
             "outdoor"
@@ -275,7 +238,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/d3fc78ce-0617-40dc-b7f7-d41ba95f09ef/court/04e02f6c-885c-4409-9860-446f7a971a2d",
           "tags": [
             "outdoor"
@@ -283,7 +245,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/d3fc78ce-0617-40dc-b7f7-d41ba95f09ef/court/4a199b62-2a06-42a1-b2a3-3c9a1b3d1ee8",
           "tags": [
             "outdoor"
@@ -291,7 +252,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/d3fc78ce-0617-40dc-b7f7-d41ba95f09ef/court/a415ca80-32c2-4645-ac12-73c419f2e6b5",
           "tags": [
             "outdoor"
@@ -310,18 +270,14 @@
     "mrn": "rec:san-francisco-rec-park:location/d3fc78ce-0617-40dc-b7f7-d41ba95f09ef"
   },
   {
-    "PK": "PLACE#4b19ed0744",
-    "SK": "PROFILE",
     "placeId": "4b19ed0744",
     "applePlaceId": "IF3ACA1CB4C03EBC5",
     "displayName": "Fulton Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/070037ab-f407-486a-9f88-989905be1039/court/4400b356-fa9b-4a83-baff-e20e0e13e540",
           "tags": [
             "outdoor"
@@ -340,18 +296,14 @@
     "mrn": "rec:san-francisco-rec-park:location/070037ab-f407-486a-9f88-989905be1039"
   },
   {
-    "PK": "PLACE#b39587cee3",
-    "SK": "PROFILE",
     "placeId": "b39587cee3",
     "applePlaceId": "I2B72B8CC4703D206",
     "displayName": "Glen Canyon Rec Center",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/16fdf80f-4e50-452a-843f-63d159c798e2/court/f056375d-660d-430c-9202-28a14efa5085",
           "tags": [
             "outdoor"
@@ -359,7 +311,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/16fdf80f-4e50-452a-843f-63d159c798e2/court/8bd9f57d-b9b2-4ff9-b157-150ce2916347",
           "tags": [
             "outdoor"
@@ -378,18 +329,14 @@
     "mrn": "rec:san-francisco-rec-park:location/16fdf80f-4e50-452a-843f-63d159c798e2"
   },
   {
-    "PK": "PLACE#469c5eb584",
-    "SK": "PROFILE",
     "placeId": "469c5eb584",
     "applePlaceId": "IAA395C2B16949764",
     "displayName": "Hamilton Rec Center",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/8c3b9b04-a149-4080-b648-e3ff8365bbee/court/08d5819d-fc31-4808-8ca5-cdcc9d6850d7",
           "tags": [
             "outdoor"
@@ -397,7 +344,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/8c3b9b04-a149-4080-b648-e3ff8365bbee/court/11dfccd3-8ab1-45b0-927f-57f9e7f8a19b",
           "tags": [
             "outdoor"
@@ -416,18 +362,14 @@
     "mrn": "rec:san-francisco-rec-park:location/8c3b9b04-a149-4080-b648-e3ff8365bbee"
   },
   {
-    "PK": "PLACE#8ac377d550",
-    "SK": "PROFILE",
     "placeId": "8ac377d550",
     "applePlaceId": "ID72DCC87EA5737D4",
     "displayName": "Helen Wills Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/3552b6f7-e7bd-4334-9e4a-731b015447e0/court/afa1a6a4-057d-44e5-9daf-15937547b726",
           "tags": [
             "outdoor"
@@ -446,18 +388,14 @@
     "mrn": "rec:san-francisco-rec-park:location/3552b6f7-e7bd-4334-9e4a-731b015447e0"
   },
   {
-    "PK": "PLACE#9d9075b266",
-    "SK": "PROFILE",
     "placeId": "9d9075b266",
     "applePlaceId": "I58DA3AD38BEC5E55",
     "displayName": "J.P. Murphy Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/7a8ef25a-dc20-4046-8aab-7212a9a41d20/court/acc13b21-f596-473c-91fb-ebd59e855b4b",
           "tags": [
             "outdoor"
@@ -465,7 +403,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/7a8ef25a-dc20-4046-8aab-7212a9a41d20/court/0ba55139-52b0-49ba-b1c3-00490f296e95",
           "tags": [
             "outdoor"
@@ -473,7 +410,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/7a8ef25a-dc20-4046-8aab-7212a9a41d20/court/040a5a1a-443a-4641-b079-ed7e650bd5ac",
           "tags": [
             "outdoor"
@@ -492,18 +428,14 @@
     "mrn": "rec:san-francisco-rec-park:location/7a8ef25a-dc20-4046-8aab-7212a9a41d20"
   },
   {
-    "PK": "PLACE#114b5a8d3e",
-    "SK": "PROFILE",
     "placeId": "114b5a8d3e",
     "applePlaceId": "I6EBF2DADE61BB5DF",
     "displayName": "Jackson Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/360736ab-a655-478d-aab5-4e54fea0c140/court/2776eeab-f211-4c29-b52d-5728e10c4e57",
           "tags": [
             "outdoor"
@@ -511,7 +443,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/360736ab-a655-478d-aab5-4e54fea0c140/court/0bf0df2a-df9f-4639-98b4-e0ea248c95d9",
           "tags": [
             "outdoor"
@@ -519,7 +450,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/360736ab-a655-478d-aab5-4e54fea0c140/court/23a8800a-89e0-4bf4-8133-2534ff041534",
           "tags": [
             "outdoor"
@@ -538,18 +468,14 @@
     "mrn": "rec:san-francisco-rec-park:location/360736ab-a655-478d-aab5-4e54fea0c140"
   },
   {
-    "PK": "PLACE#4faa94c4cf",
-    "SK": "PROFILE",
     "placeId": "4faa94c4cf",
     "applePlaceId": "I8E0626A59F12E592",
     "displayName": "Joe DiMaggio Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/8f8e510f-e0d8-4364-8531-a9a0d0d6b2b8/court/03062010-aba4-4445-b5a7-a416db070ba9",
           "tags": [
             "outdoor"
@@ -557,7 +483,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/8f8e510f-e0d8-4364-8531-a9a0d0d6b2b8/court/982ce8d7-17a7-4835-8d2e-1a3bd97d6e63",
           "tags": [
             "outdoor"
@@ -565,7 +490,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/8f8e510f-e0d8-4364-8531-a9a0d0d6b2b8/court/c3138897-d5a1-4403-9079-415df0554987",
           "tags": [
             "outdoor"
@@ -584,18 +508,14 @@
     "mrn": "rec:san-francisco-rec-park:location/8f8e510f-e0d8-4364-8531-a9a0d0d6b2b8"
   },
   {
-    "PK": "PLACE#b6ec1ea63f",
-    "SK": "PROFILE",
     "placeId": "b6ec1ea63f",
     "applePlaceId": "I1DE665E32BFE7A22",
     "displayName": "John McLaren Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936/court/1ad2554d-9114-4570-bca1-3bb23769790d",
           "tags": [
             "outdoor"
@@ -603,7 +523,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936/court/4e3f15ea-ad12-4dfc-8976-e2bf5677b0f9",
           "tags": [
             "outdoor"
@@ -611,7 +530,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936/court/796fcef6-4537-45ee-9e8a-0ed31567360c",
           "tags": [
             "outdoor"
@@ -619,7 +537,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936/court/05a6519b-7f71-4707-a281-9f0dadfbf932",
           "tags": [
             "outdoor"
@@ -627,7 +544,6 @@
         },
         {
           "name": "Court 5",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936/court/61ff1e90-71ae-4acc-8cd6-a440b858e325",
           "tags": [
             "outdoor"
@@ -635,7 +551,6 @@
         },
         {
           "name": "Court 6",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936/court/26629b30-ebf9-46e2-9516-c9c0a3dbb183",
           "tags": [
             "outdoor"
@@ -654,18 +569,14 @@
     "mrn": "rec:san-francisco-rec-park:location/9d05fa5b-38fc-49b7-88c5-74825703d936"
   },
   {
-    "PK": "PLACE#61859442ec",
-    "SK": "PROFILE",
     "placeId": "61859442ec",
     "applePlaceId": "I418E7AAF208EC203",
     "displayName": "Lafayette Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c4fc2b3e-d1bc-47d9-b920-76d00d32b20b/court/4f126a55-b2f1-48e9-82b6-c2b1b3f1433c",
           "tags": [
             "outdoor"
@@ -673,7 +584,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c4fc2b3e-d1bc-47d9-b920-76d00d32b20b/court/6d90e038-5df5-490a-bc5e-313b6d21c24a",
           "tags": [
             "outdoor"
@@ -692,18 +602,14 @@
     "mrn": "rec:san-francisco-rec-park:location/c4fc2b3e-d1bc-47d9-b920-76d00d32b20b"
   },
   {
-    "PK": "PLACE#44eadc3c48",
-    "SK": "PROFILE",
     "placeId": "44eadc3c48",
     "applePlaceId": "I3F95D1635D4FF238",
     "displayName": "Minnie & Lovie Ward Recreation Center",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/bb6254d3-0ef0-475d-8de9-ac7d6b0323f4/court/0b3104dc-1caa-49da-aa20-78b34c82ce01",
           "tags": [
             "outdoor"
@@ -711,7 +617,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/bb6254d3-0ef0-475d-8de9-ac7d6b0323f4/court/49257054-9f87-44ca-8b4f-d38314e6f3d0",
           "tags": [
             "outdoor"
@@ -730,18 +635,14 @@
     "mrn": "rec:san-francisco-rec-park:location/bb6254d3-0ef0-475d-8de9-ac7d6b0323f4"
   },
   {
-    "PK": "PLACE#e5b4a47944",
-    "SK": "PROFILE",
     "placeId": "e5b4a47944",
     "applePlaceId": "I8C4AC6A8ECFB4F37",
     "displayName": "Miraloma Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a52a5e8-2e9f-4976-8a5c-0bc53d51afe9/court/a38e655a-1881-49bc-a0a4-bdcbf2a176e8",
           "tags": [
             "outdoor"
@@ -760,18 +661,14 @@
     "mrn": "rec:san-francisco-rec-park:location/5a52a5e8-2e9f-4976-8a5c-0bc53d51afe9"
   },
   {
-    "PK": "PLACE#fdf5c57e88",
-    "SK": "PROFILE",
     "placeId": "fdf5c57e88",
     "applePlaceId": "IE05A2A3AF560F11A",
     "displayName": "Mission Dolores Park",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587/court/8ad0975e-9498-4bca-8832-26368ca54de7",
           "tags": [
             "outdoor"
@@ -779,7 +676,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587/court/e92bf8a3-4160-4da0-b600-8bb02964b2f3",
           "tags": [
             "outdoor"
@@ -787,7 +683,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587/court/8558e246-8493-4e0d-9c3d-5b7f67dab894",
           "tags": [
             "outdoor"
@@ -795,7 +690,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587/court/fe8a8934-5910-4ec8-923a-9fe69282936c",
           "tags": [
             "outdoor"
@@ -803,7 +697,6 @@
         },
         {
           "name": "Court 5",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587/court/1dedfc5d-e6d2-428b-bd4d-91847f58598b",
           "tags": [
             "outdoor"
@@ -811,7 +704,6 @@
         },
         {
           "name": "Court 6",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587/court/6027b251-a3c5-47f6-8eb0-c329e490ac09",
           "tags": [
             "outdoor"
@@ -830,18 +722,14 @@
     "mrn": "rec:san-francisco-rec-park:location/95745483-6b38-4e99-8ba2-a3e23cda8587"
   },
   {
-    "PK": "PLACE#e80f404601",
-    "SK": "PROFILE",
     "placeId": "e80f404601",
     "applePlaceId": "IF808001EB52B9521",
     "displayName": "Moscone Tennis Courts",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/a3a8b441-97a6-4645-aace-0bbafafaba89",
           "tags": [
             "outdoor"
@@ -849,7 +737,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/c5c3ac14-109a-40ec-990c-12938416334f",
           "tags": [
             "outdoor"
@@ -857,7 +744,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/15dbca49-6ae6-47be-972f-fa2aec769ef9",
           "tags": [
             "outdoor"
@@ -865,7 +751,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/0c10030e-918a-490e-ac7b-6f150a497ded",
           "tags": [
             "outdoor"
@@ -873,7 +758,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/6c7e0fb6-8534-4c6a-ad10-aa09854d533d",
           "tags": [
             "outdoor"
@@ -881,7 +765,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/18a630d6-f710-40d0-9731-9c4c20acc1f3",
           "tags": [
             "outdoor"
@@ -889,7 +772,6 @@
         },
         {
           "name": "Court E",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/c7f88df4-70dc-4334-8632-5899c6f68504",
           "tags": [
             "outdoor"
@@ -897,7 +779,6 @@
         },
         {
           "name": "Court F",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47/court/919a2b8a-e5d6-44dc-8245-3d6976926977",
           "tags": [
             "outdoor"
@@ -916,18 +797,14 @@
     "mrn": "rec:san-francisco-rec-park:location/fb0d16b1-5f9f-465f-8ebf-fccf5d400c47"
   },
   {
-    "PK": "PLACE#ce69460d8e",
-    "SK": "PROFILE",
     "placeId": "ce69460d8e",
     "applePlaceId": "I48352652CC00FF30",
     "displayName": "Mountain Lake Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/af2cd971-0c10-479d-a12e-ca63d55f71be/court/bdadfcdf-1008-4703-8dba-62b38c784068",
           "tags": [
             "outdoor"
@@ -935,7 +812,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/af2cd971-0c10-479d-a12e-ca63d55f71be/court/d30b8beb-22c1-423c-8011-d491f339f36d",
           "tags": [
             "outdoor"
@@ -943,7 +819,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/af2cd971-0c10-479d-a12e-ca63d55f71be/court/562abc68-26e4-4421-846b-76404a81bd98",
           "tags": [
             "outdoor"
@@ -951,7 +826,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/af2cd971-0c10-479d-a12e-ca63d55f71be/court/cfa0bfc3-cc85-4ce5-87f3-47cc069b717c",
           "tags": [
             "outdoor"
@@ -970,18 +844,14 @@
     "mrn": "rec:san-francisco-rec-park:location/af2cd971-0c10-479d-a12e-ca63d55f71be"
   },
   {
-    "PK": "PLACE#d28d1a1def",
-    "SK": "PROFILE",
     "placeId": "d28d1a1def",
     "applePlaceId": "I4A142A1805ECCE9B",
     "displayName": "Parkside Square Tennis Courts",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/1a89928c-5bb9-4131-bb0a-9b2da743b89a",
           "tags": [
             "outdoor"
@@ -989,7 +859,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/a1a44336-8822-4c3b-8663-aa7c64206856",
           "tags": [
             "outdoor"
@@ -997,7 +866,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/bc08ca03-87e1-4abe-8784-497151486c47",
           "tags": [
             "outdoor"
@@ -1005,7 +873,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/100516d6-15d2-4456-bd4d-d9ff7e287dbe",
           "tags": [
             "outdoor"
@@ -1013,7 +880,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/0583a1dc-c946-4cb4-9e0c-0a4def91e0f6",
           "tags": [
             "outdoor"
@@ -1021,7 +887,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/6dd8adb4-7f90-4a80-9f6a-e952ef2c5b9b",
           "tags": [
             "outdoor"
@@ -1029,7 +894,6 @@
         },
         {
           "name": "Court C",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/2334eec2-b054-4b18-ac14-8642bd763584",
           "tags": [
             "outdoor"
@@ -1037,7 +901,6 @@
         },
         {
           "name": "Court D",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/e13844d8-794b-43d0-bfc4-25973be5b335",
           "tags": [
             "outdoor"
@@ -1045,7 +908,6 @@
         },
         {
           "name": "Court E",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/120dc26a-613d-4bfb-bffa-d57668fd9651",
           "tags": [
             "outdoor"
@@ -1053,7 +915,6 @@
         },
         {
           "name": "Court F",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/6b5c750f-d64a-4992-9e43-e88360210344",
           "tags": [
             "outdoor"
@@ -1061,7 +922,6 @@
         },
         {
           "name": "Court G",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/1a41be7d-edfa-40ec-afae-c2c3fe773209",
           "tags": [
             "outdoor"
@@ -1069,7 +929,6 @@
         },
         {
           "name": "Court H",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622/court/a92e780c-5751-4b05-8641-c5caf67d7045",
           "tags": [
             "outdoor"
@@ -1088,18 +947,14 @@
     "mrn": "rec:san-francisco-rec-park:location/5a0b8fa6-11db-433e-9314-bafb956d8622"
   },
   {
-    "PK": "PLACE#e89ea3e8b2",
-    "SK": "PROFILE",
     "placeId": "e89ea3e8b2",
     "applePlaceId": "IBF039D82BCF8A318",
     "displayName": "Potrero Hill Tennis Courts",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/032e605f-6065-4794-9675-b1bbebe18159/court/0b43b8c9-2f9a-4e61-9160-f24711f66b1c",
           "tags": [
             "outdoor"
@@ -1107,7 +962,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/032e605f-6065-4794-9675-b1bbebe18159/court/ad0af5ad-ba5f-4dd8-9e36-b145e66d692d",
           "tags": [
             "outdoor"
@@ -1126,18 +980,14 @@
     "mrn": "rec:san-francisco-rec-park:location/032e605f-6065-4794-9675-b1bbebe18159"
   },
   {
-    "PK": "PLACE#ee3d32deb4",
-    "SK": "PROFILE",
     "placeId": "ee3d32deb4",
     "applePlaceId": "I2D5BC07D7607B0FC",
     "displayName": "Presidio Wall Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/29ff4ef3-72fb-447b-89af-5f8d705bb47d",
           "tags": [
             "outdoor"
@@ -1145,7 +995,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/0a171741-fb84-445d-b9f8-311a14013777",
           "tags": [
             "outdoor"
@@ -1153,7 +1002,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/96b9aa1b-7b63-403d-8c38-baad5d475afa",
           "tags": [
             "outdoor"
@@ -1161,7 +1009,6 @@
         },
         {
           "name": "Court 4",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/c74fc5a4-0243-491f-8d25-ae7b3ddcb44e",
           "tags": [
             "outdoor"
@@ -1169,7 +1016,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/e045177c-c5ec-4b72-a79f-d7187583b5da",
           "tags": [
             "outdoor"
@@ -1177,7 +1023,6 @@
         },
         {
           "name": "Court C",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/6faceb45-17c4-4c51-88f8-625a7f06b288",
           "tags": [
             "outdoor"
@@ -1185,7 +1030,6 @@
         },
         {
           "name": "Court E",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60/court/8bb555a9-0561-4c0a-b466-c81280238a18",
           "tags": [
             "outdoor"
@@ -1204,18 +1048,14 @@
     "mrn": "rec:san-francisco-rec-park:location/c2f20478-83d8-48c9-af3d-065d7ba22d60"
   },
   {
-    "PK": "PLACE#80389f1f03",
-    "SK": "PROFILE",
     "placeId": "80389f1f03",
     "applePlaceId": "I26131A491FB21CEB",
     "displayName": "Richmond Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95f7e887-5096-463b-834a-09d67889557e/court/21cfc9b5-6615-4e73-9bf7-e3d995ec49db",
           "tags": [
             "outdoor"
@@ -1223,7 +1063,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95f7e887-5096-463b-834a-09d67889557e/court/d0644414-569e-468f-ab2c-995262a0f311",
           "tags": [
             "outdoor"
@@ -1231,7 +1070,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/95f7e887-5096-463b-834a-09d67889557e/court/11c25ab4-e7f3-46d7-8793-0a2bdfdaebc1",
           "tags": [
             "outdoor"
@@ -1250,18 +1088,14 @@
     "mrn": "rec:san-francisco-rec-park:location/95f7e887-5096-463b-834a-09d67889557e"
   },
   {
-    "PK": "PLACE#98bda12ff9",
-    "SK": "PROFILE",
     "placeId": "98bda12ff9",
     "applePlaceId": "I8A3F7F3096118437",
     "displayName": "Rossi Tennis Courts",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/bcbebce5-cacd-4f8e-9088-815448154e93",
           "tags": [
             "outdoor"
@@ -1269,7 +1103,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/b804c64d-6e1e-4165-8a35-68720cc496a5",
           "tags": [
             "outdoor"
@@ -1277,7 +1110,6 @@
         },
         {
           "name": "Court 3",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/37043c64-0ba7-4f71-9b21-d5f5c00a91ba",
           "tags": [
             "outdoor"
@@ -1285,7 +1117,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/4fa3eb1e-7a01-4f56-9859-5ced5ed6103b",
           "tags": [
             "outdoor"
@@ -1293,7 +1124,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/90eb146c-7217-46ea-9a64-c4570bd4f028",
           "tags": [
             "outdoor"
@@ -1301,7 +1131,6 @@
         },
         {
           "name": "Court C",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/e4ddfd7b-56bd-415c-af72-f31c6707e6d8",
           "tags": [
             "outdoor"
@@ -1309,7 +1138,6 @@
         },
         {
           "name": "Court D",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/281e4a0e-9b94-4ac0-9f4c-963128c96b90",
           "tags": [
             "outdoor"
@@ -1317,7 +1145,6 @@
         },
         {
           "name": "Court E",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814/court/b372f13b-59b2-409f-831b-4ebff27d077e",
           "tags": [
             "outdoor"
@@ -1336,18 +1163,14 @@
     "mrn": "rec:san-francisco-rec-park:location/ad9e28e1-2d02-4fb5-b31d-b75f63841814"
   },
   {
-    "PK": "PLACE#f17475ebe2",
-    "SK": "PROFILE",
     "placeId": "f17475ebe2",
     "applePlaceId": "IA7D691020E8A516F",
     "displayName": "St. Mary's Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/25eafd72-ca31-4df7-8850-79c05edf3796/court/b4900656-eaba-45ef-ac44-58e60de27a44",
           "tags": [
             "outdoor"
@@ -1355,7 +1178,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/25eafd72-ca31-4df7-8850-79c05edf3796/court/10628afc-752f-4c62-a5d8-235b12f44f0c",
           "tags": [
             "outdoor"
@@ -1374,18 +1196,14 @@
     "mrn": "rec:san-francisco-rec-park:location/25eafd72-ca31-4df7-8850-79c05edf3796"
   },
   {
-    "PK": "PLACE#121d836125",
-    "SK": "PROFILE",
     "placeId": "121d836125",
     "applePlaceId": "IB5B8419A38ACA2F1",
     "displayName": "Stern Grove Playground",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d/court/38f6b67d-79d8-4e02-9b70-69163506610c",
           "tags": [
             "outdoor"
@@ -1393,7 +1211,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d/court/e7eb9048-cd81-4461-b495-a128a70d240a",
           "tags": [
             "outdoor"
@@ -1401,7 +1218,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d/court/c2e6c846-58ee-4ccf-985b-fbdda179b1d8",
           "tags": [
             "outdoor"
@@ -1409,7 +1225,6 @@
         },
         {
           "name": "Court C",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d/court/c3c11d93-79d7-4109-99df-cf61f47ffc26",
           "tags": [
             "outdoor"
@@ -1417,7 +1232,6 @@
         },
         {
           "name": "Court D",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d/court/b35d9c7e-ebbe-4fc6-9ad0-e01e5ae945ef",
           "tags": [
             "outdoor"
@@ -1425,7 +1239,6 @@
         },
         {
           "name": "Court F",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d/court/6df3ea91-5559-4553-98e3-0678d215b7b5",
           "tags": [
             "outdoor"
@@ -1444,18 +1257,14 @@
     "mrn": "rec:san-francisco-rec-park:location/1a5a0d4b-ef5d-44ab-a8ab-a13f39dcdc7d"
   },
   {
-    "PK": "PLACE#04a4275af1",
-    "SK": "PROFILE",
     "placeId": "04a4275af1",
     "applePlaceId": "I740DF2DA32B3091D",
     "displayName": "Sunset Rec Center",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fe61cfdb-abf7-4f52-8ce4-45feb58f10b7/court/7de8ef38-5bf7-4a67-a713-0fbb2cbd7f4e",
           "tags": [
             "outdoor"
@@ -1463,7 +1272,6 @@
         },
         {
           "name": "Court 2",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/fe61cfdb-abf7-4f52-8ce4-45feb58f10b7/court/2b8aa54a-eae3-463e-ad9b-0f7fd2458a91",
           "tags": [
             "outdoor"
@@ -1482,18 +1290,14 @@
     "mrn": "rec:san-francisco-rec-park:location/fe61cfdb-abf7-4f52-8ce4-45feb58f10b7"
   },
   {
-    "PK": "PLACE#1a45e8940f",
-    "SK": "PROFILE",
     "placeId": "1a45e8940f",
     "applePlaceId": "I7E8CC67419B1C853",
     "displayName": "Upper Noe Recreation Center",
     "provider": {
-      "platform": "rec",
       "name": "San Francisco Rec & Park",
       "resources": [
         {
           "name": "Court 1",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/2a18ef67-333c-4d9c-a86c-e0709f07f5c3/court/36327b9e-5cd4-4f0f-a70d-854d1ce455fd",
           "tags": [
             "outdoor"
@@ -1501,7 +1305,6 @@
         },
         {
           "name": "Court A",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/2a18ef67-333c-4d9c-a86c-e0709f07f5c3/court/147744c6-2ba5-4877-b6af-113bafc3b7d6",
           "tags": [
             "outdoor"
@@ -1509,7 +1312,6 @@
         },
         {
           "name": "Court B",
-          "slots": [],
           "mrn": "rec:san-francisco-rec-park:location/2a18ef67-333c-4d9c-a86c-e0709f07f5c3/court/8bee1349-78ca-41d4-b831-d5f4a9ea7555",
           "tags": [
             "outdoor"

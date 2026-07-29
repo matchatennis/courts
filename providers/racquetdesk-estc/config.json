@@ -25,7 +25,7 @@
     {
       "id": "estc-full-size",
       "minAdvance": "00:00",
-      "description": "Full-size court reservations are 75 minutes. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
+      "description": "Reservation length is determined by the available block. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
       "phone": "425-658-4046",
       "type": "provider",
       "reserveBy": "block",
@@ -40,7 +40,7 @@
         "racquetdesk:estc:location/default/court/1524"
       ],
       "minAdvance": "00:00",
-      "description": "Youth tennis reservations are 30 minutes; pickleball reservations are 90 minutes. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
+      "description": "Reservation type and length are determined by the available block. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
       "phone": "425-658-4046",
       "type": "provider",
       "reserveBy": "block",
@@ -53,7 +53,7 @@
         "racquetdesk:estc:location/default/court/810"
       ],
       "minAdvance": "00:00",
-      "description": "Youth court reservations are 30 minutes. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
+      "description": "Reservation length is determined by the available block. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
       "phone": "425-658-4046",
       "type": "provider",
       "reserveBy": "block",

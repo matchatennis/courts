@@ -1,0 +1,28 @@
+{
+  "id": "courtreserve:9459",
+  "platform": "courtreserve",
+  "name": "Nordstrom Tennis Center",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://app.courtreserve.com/Online/Account/LogIn/9459",
+    "signup": "https://app.courtreserve.com/Online/Account/Register/9459",
+    "cancellation": "https://app.courtreserve.com/Online/Bookings/List/9459"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "nordstrom-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://app.courtreserve.com/Online/Reservations/Index/9459",
+      "description": "Indoor courts are reserved in 75-minute blocks. Reservation privileges are limited to eligible UW students, faculty, staff, affiliates, retirees, lifetime alumni, and qualifying tennis program donors.",
+      "phone": "206-543-8185"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "manual:seattleparks",
+  "platform": "manual",
+  "name": "Seattle Parks & Recreation",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://www.seattle.gov/parks/parks/university-playground",
+    "signup": "https://www.seattle.gov/parks/parks/university-playground",
+    "cancellation": "https://www.seattle.gov/parks/parks/university-playground"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "seattle-parks-drop-in",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "These courts are active, unlighted, and drop-in according to Seattle Parks & Recreation's official outdoor sport-courts inventory."
+    }
+  ]
+}

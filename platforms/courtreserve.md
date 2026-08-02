@@ -30,12 +30,21 @@ From the responses get: court labels (`CourtLabel`), operating hours (earliest/
 latest slot, converted to local time), slot interval (usually 1800s). Skip
 permanently-closed courts (`IsCourtClosed: true`) and `WAITLIST<id>` court types.
 
+Some organizations require authentication before exposing their scheduler. Do
+not create or use an account. Configure an `unsupported` calendar, use
+`scheduler/default`, and number synthetic court labels from the operator's
+published court count. Keep the provider booking URL so eligible members can
+continue in CourtReserve.
+
 ## MRN
 
 | | Format |
 |---|---|
 | Place `mrn` | `courtreserve:<org>:scheduler/<schedulerId>` |
 | Resource `mrn` | `…/courtlabel/<Court Label>` |
+
+For an authentication-gated scheduler, use `scheduler/default` and synthetic
+labels `Court 1`, `Court 2`, and so on.
 
 A scheduler may span multiple physical facilities. In that case each facility
 is a separate place with the same place `mrn` and its own subset of uniquely

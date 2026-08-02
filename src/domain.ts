@@ -10,6 +10,7 @@ export enum Platform {
   Facilitron = 'facilitron',
   Fusion = 'fusion',
   GameTime = 'gametime',
+  Manual = 'manual',
   RacquetDesk = 'racquetdesk',
   Rec = 'rec',
 }

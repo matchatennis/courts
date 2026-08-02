@@ -1,0 +1,69 @@
+[
+  {
+    "placeId": "c2f0984d6c",
+    "applePlaceId": "IF7210A95921EAA88",
+    "displayName": "Nordstrom Tennis Center",
+    "coordinate": {
+      "lat": 47.651856,
+      "lng": -122.3000515
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "indoor"
+    ],
+    "mrn": "courtreserve:9459:scheduler/default",
+    "provider": {
+      "name": "Nordstrom Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:9459:scheduler/default/courtlabel/Court 1",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:9459:scheduler/default/courtlabel/Court 2",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "courtreserve:9459:scheduler/default/courtlabel/Court 3",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "courtreserve:9459:scheduler/default/courtlabel/Court 4",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "courtreserve:9459:scheduler/default/courtlabel/Court 5",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "courtreserve:9459:scheduler/default/courtlabel/Court 6",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  }
+]

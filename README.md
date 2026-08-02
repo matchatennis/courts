@@ -74,6 +74,10 @@ documented under [`platforms/`](platforms/).
 | `providers/courtreserve-6689`         | CourtReserve   | Woodinville, WA    |
 | `providers/courtreserve-7306`         | CourtReserve   | Bellevue, WA       |
 | `providers/courtreserve-17764`        | CourtReserve   | Bellevue, WA       |
+| `providers/courtreserve-9459`         | CourtReserve   | Seattle, WA        |
+| `providers/gametime-stc`              | GameTime       | Seattle, WA        |
+| `providers/manual-seattleparks`       | Manual         | Seattle, WA        |
+| `providers/manual-seattleu`           | Manual         | Seattle, WA        |
 | `providers/rec-sf-rec-park`           | Rec            | San Francisco, CA  |
 
 ## API

@@ -10,10 +10,14 @@ import courtReserve12465 from '../providers/courtreserve-12465/config.json';
 import courtReserve17764 from '../providers/courtreserve-17764/config.json';
 import courtReserve6689 from '../providers/courtreserve-6689/config.json';
 import courtReserve7306 from '../providers/courtreserve-7306/config.json';
+import courtReserve9459 from '../providers/courtreserve-9459/config.json';
 import dudeSolutionsBsd405 from '../providers/dudesolutions-bsd405/config.json';
 import facilitronLwsd from '../providers/facilitron-lwsd98052/config.json';
 import fusionUw from '../providers/fusion-reg.recreation.uw.edu/config.json';
 import gameTimeCptc from '../providers/gametime-cptc/config.json';
+import gameTimeStc from '../providers/gametime-stc/config.json';
+import manualSeattleParks from '../providers/manual-seattleparks/config.json';
+import manualSeattleU from '../providers/manual-seattleu/config.json';
 import racquetDeskEstc from '../providers/racquetdesk-estc/config.json';
 import recSanFrancisco from '../providers/rec-sf-rec-park/config.json';
 import { Platform, type MRN } from './domain';
@@ -128,10 +132,14 @@ const providerConfigs: unknown = [
   courtReserve17764,
   courtReserve6689,
   courtReserve7306,
+  courtReserve9459,
   dudeSolutionsBsd405,
   facilitronLwsd,
   fusionUw,
   gameTimeCptc,
+  gameTimeStc,
+  manualSeattleParks,
+  manualSeattleU,
   racquetDeskEstc,
   recSanFrancisco,
 ];

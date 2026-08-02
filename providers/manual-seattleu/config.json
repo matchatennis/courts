@@ -1,0 +1,26 @@
+{
+  "id": "manual:seattleu",
+  "platform": "manual",
+  "name": "Seattle University Recreation",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://www.seattleu.edu/life-at-seattle-u/university-recreation/recreation-facilities/",
+    "signup": "https://www.seattleu.edu/life-at-seattle-u/university-recreation/recreation-facilities/",
+    "cancellation": "https://www.seattleu.edu/life-at-seattle-u/university-recreation/recreation-facilities/"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "seattleu-default",
+      "minAdvance": "01:00",
+      "type": "phone",
+      "number": "206-296-6441",
+      "description": "Access is restricted to Seattle University recreation members and their accompanied guests. Reservations are optional, open up to seven days ahead, and must be made at least one hour before play by phone or at the Member Services desk."
+    }
+  ]
+}

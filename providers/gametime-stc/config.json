@@ -1,0 +1,28 @@
+{
+  "id": "gametime:stc",
+  "platform": "gametime",
+  "name": "Seattle Tennis Club",
+  "location": {
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://stc.gametime.net/auth",
+    "signup": "https://stc.gametime.net/auth",
+    "cancellation": "https://stc.gametime.net/auth"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "stc-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://stc.gametime.net/auth",
+      "description": "Court reservations are available to Seattle Tennis Club members, accompanied member guests, and confirmed reciprocal club members.",
+      "phone": "206-324-5454"
+    }
+  ]
+}

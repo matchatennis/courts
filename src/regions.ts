@@ -31,6 +31,10 @@ export const REGIONS: Region[] = [
       'facilitron:lwsd98052',
       'gametime:cptc',
       'racquetdesk:estc',
+      'courtreserve:9459',
+      'gametime:stc',
+      'manual:seattleparks',
+      'manual:seattleu',
     ],
   },
   {

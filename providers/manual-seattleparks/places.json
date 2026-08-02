@@ -1,0 +1,38 @@
+[
+  {
+    "placeId": "9a372856a4",
+    "applePlaceId": "IFCF8A3BFD5EA41F0",
+    "displayName": "University Playground",
+    "coordinate": {
+      "lat": 47.6644668,
+      "lng": -122.3192541
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "manual:seattleparks:location/435",
+    "provider": {
+      "name": "Seattle Parks & Recreation",
+      "resources": [
+        {
+          "name": "University Playground Tennis Court 1",
+          "mrn": "manual:seattleparks:location/435/court/171",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "University Playground Tennis Court 2",
+          "mrn": "manual:seattleparks:location/435/court/133",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

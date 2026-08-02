@@ -7,6 +7,9 @@ description: Scout for tennis facilities or add a known facility and its provide
 
 `Platform`: a short string derived from the booking domain
 
+`manual` is the fallback platform for operator-managed drop-in or phone booking
+when no digital reservation platform exposes native facility data
+
 `Organization`: the tenant identifier the platform uses (subdomain or path segment), e.g. the org slug for activenet/rec/clubautomation, the numeric `orgId` for courtreserve
 
 `Provider`: a booking-platform tenant associated with at least one `Place`, represented by a `platform:organization` pair
@@ -180,6 +183,7 @@ reference:
 | rec | `rec:<org>:location/<locationId>` | `…/court/<courtId>` |
 | clubautomation | `clubautomation:<org>:location/default` | `…/court/default` |
 | dudesolutions | `dudesolutions:<org>:location/<schoolGuid>` | `…/court/<courtGuid>` |
+| manual | `manual:<org>:location/<nativeId-or-slug>` | `…/court/<nativeId-or-number>` |
 
 Place object shape:
 

@@ -1,0 +1,174 @@
+[
+  {
+    "placeId": "a2e7835a06",
+    "applePlaceId": "IAD1452D8A7BD6063",
+    "displayName": "Seattle Tennis Club",
+    "coordinate": {
+      "lat": 47.6275021,
+      "lng": -122.2803386
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "indoor",
+      "outdoor"
+    ],
+    "mrn": "gametime:stc:location/default",
+    "provider": {
+      "name": "Seattle Tennis Club",
+      "resources": [
+        {
+          "name": "Indoor Court 1",
+          "mrn": "gametime:stc:location/default/court/1",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 2",
+          "mrn": "gametime:stc:location/default/court/2",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 3",
+          "mrn": "gametime:stc:location/default/court/3",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 4",
+          "mrn": "gametime:stc:location/default/court/4",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 5",
+          "mrn": "gametime:stc:location/default/court/5",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Indoor Court 6",
+          "mrn": "gametime:stc:location/default/court/6",
+          "tags": [
+            "indoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 1",
+          "mrn": "gametime:stc:location/default/court/7",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 2",
+          "mrn": "gametime:stc:location/default/court/8",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 3",
+          "mrn": "gametime:stc:location/default/court/9",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 4",
+          "mrn": "gametime:stc:location/default/court/10",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 5",
+          "mrn": "gametime:stc:location/default/court/11",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 6",
+          "mrn": "gametime:stc:location/default/court/12",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 7",
+          "mrn": "gametime:stc:location/default/court/13",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 8",
+          "mrn": "gametime:stc:location/default/court/14",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 9",
+          "mrn": "gametime:stc:location/default/court/15",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 10",
+          "mrn": "gametime:stc:location/default/court/16",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 11",
+          "mrn": "gametime:stc:location/default/court/17",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 12",
+          "mrn": "gametime:stc:location/default/court/18",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Outdoor Court 13",
+          "mrn": "gametime:stc:location/default/court/19",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  }
+]

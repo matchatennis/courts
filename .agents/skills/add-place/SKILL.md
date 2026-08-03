@@ -3,6 +3,15 @@ name: add-place
 description: Scout for tennis facilities or add a known facility and its provider configuration to the courts index. Use when searching an area with Google Maps, researching public facility and booking websites, onboarding an organization or platform, or adding one or more places under an existing provider. Discover provider parameters, write provider and place JSON, and rebuild items.json and INDEX.md.
 ---
 
+# Boundary
+
+Own every Courts catalog change for facilities, provider tenants, and new
+platforms: platform documentation and types, provider configuration, places,
+resources, MRNs, regions, and generated artifacts. Do not implement application
+behavior in `daemon/`, `api/`, `shared/`, or `ios/`. When a new platform needs
+availability polling or booking support outside Courts, hand that work to the
+root `.agents/skills/add-platform/SKILL.md` workflow.
+
 # Data Model
 
 `Platform`: a short string derived from the booking domain
@@ -89,7 +98,7 @@ Mint the `placeId`: `hashid(applePlaceId)` = first 10 hex of SHA-256.
 node -e 'console.log(require("crypto").createHash("sha256").update("I7944210006A10082").digest("hex").slice(0,10))'
 ```
 
-## Step 2 - `platforms/<platform>.md`
+## Step 2 - onboard the platform in Courts
 
 Each platform's reservation websites, public endpoints (curl), and MRN formats
 are documented in its `platforms/<platform>.md`. List what's available:
@@ -98,7 +107,9 @@ are documented in its `platforms/<platform>.md`. List what's available:
 ls platforms/
 ```
 
-If `platforms/<platform>.md` **already exists**, skip to Step 3.
+Ensure the platform exists in `Platform` in `src/domain.ts`. Add it when it is
+new. If `platforms/<platform>.md` **already exists**, skip the remaining platform
+onboarding work and continue to Step 3.
 
 If it does **not** exist, onboard the platform now (a platform usually has many
 tenants; the tenant/organization id is embedded in the URL as a subdomain or
@@ -106,7 +117,9 @@ path segment):
 
 1. Probe the portal with `curl` or an interactive browser. Some providers require auth for
    court availability, some don't - find out which.
-2. Write `platforms/<platform>.md` following the template below.
+2. Extend the provider types in `src/providers.ts` only when the platform needs
+   configuration fields that the standard provider shape cannot represent.
+3. Write `platforms/<platform>.md` following the template below.
 
 When filling in `## MRN`, use the platform's **native terms** for its place and
 resource segment labels. Document when one place segment spans multiple physical
@@ -223,6 +236,9 @@ and booking behavior. Create it when the provider is new. Otherwise reconcile
 new scheduler parameters, resource/place policy targets, URLs, and corrected
 facts discovered in Step 3. Shared fields:
 
+For a new provider, import its `config.json` in `src/providers.ts` and add it to
+the `providerConfigs` array. Existing providers need no registration change.
+
 | Field | Description |
 |---|---|
 | `id` | provider id `<platform>:<organization>` |
@@ -314,8 +330,10 @@ Review the diff (`items.json`, `INDEX.md`, the provider's `places.json` /
 - [ ] `applePlaceId` / coordinate / timezone from `find-apple-places.ts`
 - [ ] `placeId` = `hashid(applePlaceId)`
 - [ ] `platforms/<platform>.md` exists (onboarded the platform if it was new)
+- [ ] new platform added to `src/domain.ts` and any necessary specialized provider type added to `src/providers.ts`
 - [ ] `providers/<platform>-<organization>/places.json` exists (created for a new org)
 - [ ] `providers/<platform>-<organization>/config.json` fully defines and reconciles calendar and booking behavior
+- [ ] new provider config imported and registered in `src/providers.ts`
 - [ ] provider id belongs to the correct region in `src/regions.ts`
 - [ ] place object appended to the `places.json` array with correct place + resource mrns
 - [ ] `bun run build` green; `items.json` + `INDEX.md` regenerated

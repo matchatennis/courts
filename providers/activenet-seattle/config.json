@@ -14,16 +14,13 @@
   "calendar": {
     "type": "matcha-server",
     "notifications": true,
-    "availabilityWindow": {
-      "minHours": 0,
-      "maxHours": 504
-    },
     "requestsPerMinute": 300
   },
   "bookingPolicies": [
     {
       "id": "seattle-default",
       "minAdvance": "next-day",
+      "maxAdvance": "504:00",
       "type": "matcha-device",
       "reserveBy": "range",
       "minDuration": "01:00",
@@ -36,6 +33,7 @@
     {
       "id": "amy-yee-indoor",
       "minAdvance": "next-day",
+      "maxAdvance": "504:00",
       "resources": [
         "activenet:seattle:center/2/resource/10",
         "activenet:seattle:center/2/resource/11",

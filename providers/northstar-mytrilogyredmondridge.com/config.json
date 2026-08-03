@@ -1,0 +1,27 @@
+{
+  "id": "northstar:mytrilogyredmondridge.com",
+  "platform": "northstar",
+  "name": "Trilogy at Redmond Ridge",
+  "location": {
+    "city": "Redmond",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://www.mytrilogyredmondridge.com/web/pages/login",
+    "signup": "https://www.mytrilogyredmondridge.com/web/pages/login",
+    "cancellation": "https://www.mytrilogyredmondridge.com/web/pages/login"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "trilogy-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://www.mytrilogyredmondridge.com/web/pages/login",
+      "description": "Court reservations are available to Cascade Club members through the login-gated Northstar member portal or the Center for Well Being."
+    }
+  ]
+}

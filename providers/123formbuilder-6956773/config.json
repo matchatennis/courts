@@ -1,0 +1,36 @@
+{
+  "id": "123formbuilder:6956773",
+  "platform": "123formbuilder",
+  "name": "Mercerwood Shore Club",
+  "location": {
+    "city": "Mercer Island",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://www.mercerwood.com/tennis-reservations",
+    "signup": "https://www.mercerwood.com/join",
+    "cancellation": "https://www.mercerwood.com/contact"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "mercerwood-default",
+      "minAdvance": "next-day",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://form.123formbuilder.com/6956773/tennis-court-reservations-2026",
+      "description": "Members may reserve one of Courts 1 through 3 from the next day through seven days ahead. Summer use is limited to three reservations per month."
+    },
+    {
+      "id": "mercerwood-court-4",
+      "resources": [
+        "123formbuilder:6956773:location/mercerwood-shore-club/court/4"
+      ],
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "The current reservation form explicitly excludes Court 4 from reservations."
+    }
+  ]
+}

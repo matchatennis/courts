@@ -35,6 +35,13 @@ export const REGIONS: Region[] = [
       'gametime:stc',
       'manual:seattleparks',
       'manual:seattleu',
+      'perfectmind:23494',
+      'manual:mercer-island-school-district',
+      'clubessential:mibeachclub.com',
+      'cactennis:tennis.mercerislandcc.com',
+      '123formbuilder:6956773',
+      'manual:overlake-school',
+      'northstar:mytrilogyredmondridge.com',
     ],
   },
   {

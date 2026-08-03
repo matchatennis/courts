@@ -238,5 +238,95 @@
         }
       ]
     }
+  },
+  {
+    "placeId": "d80ea1b8ea",
+    "applePlaceId": "IB63C19B0F04DB906",
+    "displayName": "Redmond High School",
+    "coordinate": {
+      "lat": 47.6953,
+      "lng": -122.107
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "facilitron:lwsd98052:school/redmond-high-school",
+    "provider": {
+      "name": "Lake Washington School District",
+      "resources": [
+        {
+          "name": "Redmond High School Court 1",
+          "mrn": "facilitron:lwsd98052:school/redmond-high-school/court/1",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Redmond High School Court 2",
+          "mrn": "facilitron:lwsd98052:school/redmond-high-school/court/2",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Redmond High School Court 3",
+          "mrn": "facilitron:lwsd98052:school/redmond-high-school/court/3",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Redmond High School Court 4",
+          "mrn": "facilitron:lwsd98052:school/redmond-high-school/court/4",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Redmond High School Court 5",
+          "mrn": "facilitron:lwsd98052:school/redmond-high-school/court/5",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Redmond High School Court 6",
+          "mrn": "facilitron:lwsd98052:school/redmond-high-school/court/6",
+          "tags": ["outdoor", "walk-in"]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "190415e960",
+    "applePlaceId": "IC57765B5391A05E7",
+    "displayName": "Evergreen Middle School",
+    "coordinate": {
+      "lat": 47.6675527,
+      "lng": -122.0609117
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "facilitron:lwsd98052:school/evergreen-middle-school",
+    "provider": {
+      "name": "Lake Washington School District",
+      "resources": [
+        {
+          "name": "Evergreen Middle School Court 1",
+          "mrn": "facilitron:lwsd98052:school/evergreen-middle-school/court/1",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Evergreen Middle School Court 2",
+          "mrn": "facilitron:lwsd98052:school/evergreen-middle-school/court/2",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Evergreen Middle School Court 3",
+          "mrn": "facilitron:lwsd98052:school/evergreen-middle-school/court/3",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Evergreen Middle School Court 4",
+          "mrn": "facilitron:lwsd98052:school/evergreen-middle-school/court/4",
+          "tags": ["outdoor", "walk-in"]
+        }
+      ]
+    }
   }
 ]

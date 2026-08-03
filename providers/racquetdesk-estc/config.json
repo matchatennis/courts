@@ -14,17 +14,14 @@
   "calendar": {
     "type": "matcha-server",
     "notifications": true,
-    "availabilityWindow": {
-      "minHours": 0,
-      "maxHours": 168
-    },
-    "requestsPerMinute": 30,
-    "courtSheetId": "19252A826CAA74F8"
+    "requestsPerMinute": 30
   },
+  "courtSheetId": "19252A826CAA74F8",
   "bookingPolicies": [
     {
       "id": "estc-full-size",
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "description": "Reservation length is determined by the available block. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
       "phone": "425-658-4046",
       "type": "provider",
@@ -40,6 +37,7 @@
         "racquetdesk:estc:location/default/court/1524"
       ],
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "description": "Reservation type and length are determined by the available block. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
       "phone": "425-658-4046",
       "type": "provider",
@@ -53,6 +51,7 @@
         "racquetdesk:estc:location/default/court/810"
       ],
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "description": "Reservation length is determined by the available block. Online booking requires an ETC Annual Access Pass. Without a pass, call 425-658-4046 to reserve up to 2 days ahead.",
       "phone": "425-658-4046",
       "type": "provider",

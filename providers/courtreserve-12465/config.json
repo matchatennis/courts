@@ -14,12 +14,9 @@
   "calendar": {
     "type": "matcha-server",
     "notifications": false,
-    "availabilityWindow": {
-      "minHours": 0,
-      "maxHours": 168
-    },
-    "requestsPerMinute": 30,
-    "scheduler": {
+    "requestsPerMinute": 30
+  },
+  "scheduler": {
       "type": "consolidated",
       "configs": {
         "16819": {
@@ -27,12 +24,12 @@
           "reservationMinInterval": "60"
         }
       }
-    }
   },
   "bookingPolicies": [
     {
       "id": "goldman-default",
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "type": "matcha-device",
       "reserveBy": "range",
       "minDuration": "00:30",

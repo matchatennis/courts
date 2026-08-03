@@ -14,16 +14,13 @@
   "calendar": {
     "type": "matcha-server",
     "notifications": false,
-    "availabilityWindow": {
-      "minHours": 0,
-      "maxHours": 168
-    },
     "requestsPerMinute": 30
   },
   "bookingPolicies": [
     {
       "id": "sf-rec-default",
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "type": "matcha-device",
       "reserveBy": "block",
       "confirmationNotice": "You should receive an email from Rec.us with reservation confirmation.",

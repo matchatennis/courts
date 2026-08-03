@@ -30,10 +30,10 @@ const durationMinutes = (value: unknown): number | null => {
   return hours * 60 + minutes;
 };
 
-const minimumAdvanceMinutes = (value: unknown): number | null => {
+const advanceMinutes = (value: unknown): number | null => {
   if (value === 'next-day') return 0;
   if (typeof value !== 'string') return null;
-  const match = /^(\d{2}):(\d{2})$/.exec(value);
+  const match = /^(\d+):(\d{2})$/.exec(value);
   if (!match) return null;
   const hours = Number(match[1]);
   const minutes = Number(match[2]);
@@ -73,21 +73,6 @@ const validateDurationRange = (
   const minimum = durationMinutes(minimumValue);
   const maximum = durationMinutes(maximumValue);
   if (minimum === null || maximum === null || minimum > maximum) throw new Error(message);
-};
-
-const validateAvailabilityWindow = (value: unknown, id: string): void => {
-  const window = requireRecord(value, `${id}: calendar availability window is required`);
-  const { minHours, maxHours } = window;
-  if (
-    typeof minHours !== 'number'
-    || typeof maxHours !== 'number'
-    || !Number.isFinite(minHours)
-    || !Number.isFinite(maxHours)
-    || minHours < 0
-    || maxHours <= minHours
-  ) {
-    throw new Error(`${id}: invalid calendar availability window`);
-  }
 };
 
 const validateConsolidatedScheduler = (value: unknown, id: string): void => {
@@ -139,17 +124,16 @@ const validateSchedulerConfig = (value: unknown, id: string): SchedulerType => {
   return scheduler.type;
 };
 
-const validateCalendar = (value: unknown, id: string): SchedulerType | undefined => {
+const validateCalendar = (value: unknown, id: string): void => {
   const calendar = requireRecord(value, `${id}: calendar configuration is required`);
   if (!['unsupported', 'matcha-device', 'matcha-server'].includes(String(calendar.type))) {
     throw new Error(`${id}: invalid calendar type ${String(calendar.type)}`);
   }
   if (calendar.type === 'unsupported') {
-    return calendar.scheduler === undefined ? undefined : validateSchedulerConfig(calendar.scheduler, id);
+    return;
   }
 
-  validateAvailabilityWindow(calendar.availabilityWindow, id);
-  if (!isPositiveNumber(calendar.requestsPerMinute)) {
+  if (calendar.type === 'matcha-server' && !isPositiveNumber(calendar.requestsPerMinute)) {
     throw new Error(`${id}: invalid calendar rate limit`);
   }
   if (calendar.type === 'matcha-device' && !isBoolean(calendar.requiresAuthentication)) {
@@ -158,7 +142,6 @@ const validateCalendar = (value: unknown, id: string): SchedulerType | undefined
   if (calendar.type === 'matcha-server' && !isBoolean(calendar.notifications)) {
     throw new Error(`${id}: server calendar requires explicit notification configuration`);
   }
-  return calendar.scheduler === undefined ? undefined : validateSchedulerConfig(calendar.scheduler, id);
 };
 
 const validateTargets = (
@@ -181,9 +164,10 @@ const validateTargets = (
   }
 };
 
-const validateBookingPolicies = (value: unknown, providerId: string): void => {
+const validateBookingPolicies = (value: unknown, providerId: string): ConfigRecord[] => {
   if (!Array.isArray(value)) throw new Error(`${providerId}: booking policies are required`);
 
+  const policies: ConfigRecord[] = [];
   const ids = new Set<string>();
   const places = new Set<MRN>();
   const resources = new Set<MRN>();
@@ -191,6 +175,7 @@ const validateBookingPolicies = (value: unknown, providerId: string): void => {
 
   for (const valuePolicy of value) {
     const policy = requireRecord(valuePolicy, `${providerId}: invalid booking policy`);
+    policies.push(policy);
     const policyId = isNonEmptyString(policy.id) ? policy.id : '';
     if (!policyId) throw new Error(`${providerId}: booking policy id is required`);
     if (ids.has(policyId)) throw new Error(`${providerId}: duplicate booking policy id ${policyId}`);
@@ -206,8 +191,21 @@ const validateBookingPolicies = (value: unknown, providerId: string): void => {
     validateOptionalString(policy, 'description', `${providerId}/${policyId}: invalid description`);
     validateOptionalString(policy, 'phone', `${providerId}/${policyId}: invalid phone`);
     validateOptionalString(policy, 'confirmationNotice', `${providerId}/${policyId}: invalid confirmation notice`);
-    if (minimumAdvanceMinutes(policy.minAdvance) === null) {
+    const minimumAdvance = advanceMinutes(policy.minAdvance);
+    if (minimumAdvance === null) {
       throw new Error(`${providerId}/${policyId}: invalid minimum advance`);
+    }
+    const maximumAdvance = policy.maxAdvance === undefined ? null : advanceMinutes(policy.maxAdvance);
+    if (policy.maxAdvance !== undefined && maximumAdvance === null) {
+      throw new Error(`${providerId}/${policyId}: invalid maximum advance`);
+    }
+    if (
+      policy.minAdvance !== 'next-day'
+      && policy.maxAdvance !== 'next-day'
+      && maximumAdvance !== null
+      && minimumAdvance > maximumAdvance
+    ) {
+      throw new Error(`${providerId}/${policyId}: invalid advance range`);
     }
     if (policy.cancellationUrl !== undefined && !isUrl(policy.cancellationUrl)) {
       throw new Error(`${providerId}/${policyId}: invalid cancellation URL`);
@@ -243,6 +241,7 @@ const validateBookingPolicies = (value: unknown, providerId: string): void => {
   if (defaultCount !== 1) {
     throw new Error(`${providerId}: expected exactly one provider-wide booking policy`);
   }
+  return policies;
 };
 
 export function validateProviderConfig(value: unknown): asserts value is ProviderConfig {
@@ -265,19 +264,26 @@ export function validateProviderConfig(value: unknown): asserts value is Provide
     throw new Error(`${id}: provider URLs are incomplete`);
   }
   const calendar = requireRecord(provider.calendar, `${id}: calendar configuration is required`);
-  const calendarSchedulerType = validateCalendar(calendar, id);
-  validateBookingPolicies(provider.bookingPolicies, id);
+  validateCalendar(calendar, id);
+  const bookingPolicies = validateBookingPolicies(provider.bookingPolicies, id);
   if (provider.platform === Platform.CourtReserve) {
-    if (calendarSchedulerType === undefined && calendar.type !== 'unsupported') {
+    if (provider.scheduler === undefined && calendar.type !== 'unsupported') {
       throw new Error(`${id}: CourtReserve scheduler is required`);
     }
+    if (provider.scheduler !== undefined) validateSchedulerConfig(provider.scheduler, id);
   }
   if (
     provider.platform === Platform.RacquetDesk
     && calendar.type === 'matcha-server'
-    && !isNonEmptyString(calendar.courtSheetId)
+    && !isNonEmptyString(provider.courtSheetId)
   ) {
     throw new Error(`${id}: RacquetDesk court sheet id is required`);
+  }
+  if (
+    calendar.type !== 'unsupported'
+    && bookingPolicies.some((policy) => policy.maxAdvance === undefined)
+  ) {
+    throw new Error(`${id}: maximum advance is required for calendar availability`);
   }
 }
 

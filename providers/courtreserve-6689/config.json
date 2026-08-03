@@ -12,29 +12,29 @@
     "cancellation": "https://app.courtreserve.com/Online/Bookings/List/6689"
   },
   "calendar": {
-    "type": "unsupported",
-    "scheduler": {
-      "type": "expanded",
-      "configs": {
-        "14414": {
-          "costTypeId": "91408",
-          "reservationMinInterval": "60",
-          "selectedCourtIds": "14414,13721,13725,13726,13819,13820,13821,13822,13727,23014",
-          "courtLabels": [
-            "Court #1",
-            "Court #2",
-            "Court #3",
-            "Court #4",
-            "Court #5",
-            "Court #6",
-            "Court #7",
-            "Court #8"
-          ],
-          "slotInterval": 1800,
-          "schedule": {
-            "start": "06:00",
-            "end": "23:00"
-          }
+    "type": "unsupported"
+  },
+  "scheduler": {
+    "type": "expanded",
+    "configs": {
+      "14414": {
+        "costTypeId": "91408",
+        "reservationMinInterval": "60",
+        "selectedCourtIds": "14414,13721,13725,13726,13819,13820,13821,13822,13727,23014",
+        "courtLabels": [
+          "Court #1",
+          "Court #2",
+          "Court #3",
+          "Court #4",
+          "Court #5",
+          "Court #6",
+          "Court #7",
+          "Court #8"
+        ],
+        "slotInterval": 1800,
+        "schedule": {
+          "start": "06:00",
+          "end": "23:00"
         }
       }
     }

@@ -1,0 +1,121 @@
+[
+  {
+    "placeId": "30a07a4f03",
+    "applePlaceId": "I8F416D1839F4BC9F",
+    "displayName": "Aubrey Davis Park",
+    "coordinate": {
+      "lat": 47.5918674,
+      "lng": -122.241869
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d",
+    "provider": {
+      "name": "Mercer Island Parks & Recreation",
+      "resources": [
+        {
+          "name": "Aubrey Davis Tennis Court #1",
+          "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/3d873f88-44df-4e2e-a4fa-6ca8afeb9569",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Aubrey Davis Tennis Court #2",
+          "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/46b338fa-a72e-4dad-b1e8-4f63bc093aaf",
+          "tags": ["outdoor", "reservable"]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "e10cf142f9",
+    "applePlaceId": "ID90A9BFA5A4020D",
+    "displayName": "Homestead Park",
+    "coordinate": {
+      "lat": 47.5735509,
+      "lng": -122.2310972
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d",
+    "provider": {
+      "name": "Mercer Island Parks & Recreation",
+      "resources": [
+        {
+          "name": "Homestead Tennis Court #1",
+          "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/7a832055-c8d7-4867-a5b5-72736dfde6a1",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Homestead Tennis Court #2",
+          "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/bb777024-3d7e-4d2d-8ec8-f30bf3d6a590",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Homestead Tennis Court #3",
+          "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/homestead-drop-in-3",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Homestead Tennis Court #4",
+          "mrn": "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/homestead-drop-in-4",
+          "tags": ["outdoor", "walk-in"]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "95d3d52a2e",
+    "applePlaceId": "IB3014C9C6FAAC67D",
+    "displayName": "Island Crest Park",
+    "coordinate": {
+      "lat": 47.5511007,
+      "lng": -122.2247458
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": ["outdoor", "walk-in"],
+    "mrn": "perfectmind:23494:location/island-crest-park",
+    "provider": {
+      "name": "Mercer Island Parks & Recreation",
+      "resources": [
+        {
+          "name": "Island Crest Park Tennis Court 1",
+          "mrn": "perfectmind:23494:location/island-crest-park/facility/island-crest-park-court-1",
+          "tags": ["outdoor", "walk-in"]
+        },
+        {
+          "name": "Island Crest Park Tennis Court 2",
+          "mrn": "perfectmind:23494:location/island-crest-park/facility/island-crest-park-court-2",
+          "tags": ["outdoor", "walk-in"]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "a3816350a8",
+    "applePlaceId": "I976D533BB6E9CC58",
+    "displayName": "Roanoke Park",
+    "coordinate": {
+      "lat": 47.5937053,
+      "lng": -122.2454524
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": ["outdoor", "walk-in"],
+    "mrn": "perfectmind:23494:location/roanoke-park",
+    "provider": {
+      "name": "Mercer Island Parks & Recreation",
+      "resources": [
+        {
+          "name": "Roanoke Park Tennis Court 1",
+          "mrn": "perfectmind:23494:location/roanoke-park/facility/roanoke-park-court-1",
+          "tags": ["outdoor", "walk-in"]
+        }
+      ]
+    }
+  }
+]

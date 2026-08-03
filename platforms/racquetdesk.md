@@ -14,7 +14,7 @@ support a server-backed calendar without an account.
 
 Look for an embedded court sheet on the club's public website. The embed URL has
 the form `https://www.racquetdesk.net/embeddedContent/courtsheets/index.html?eID=<id>`.
-Store `<id>` as `calendar.courtSheetId`. The page exposes its hours, resource ids,
+Store `<id>` as `courtSheetId`. The page exposes its hours, resource ids,
 and public event proxy. Events with titles beginning with `Open Time:` are
 available; ignore blank court-sheet cells and treat every other event as blocked.
 Fetch with `hideApptTitle=1` and do not store titles or descriptions.

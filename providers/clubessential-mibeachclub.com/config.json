@@ -1,0 +1,27 @@
+{
+  "id": "clubessential:mibeachclub.com",
+  "platform": "clubessential",
+  "name": "Mercer Island Beach Club",
+  "location": {
+    "city": "Mercer Island",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://www.mibeachclub.com/login",
+    "signup": "https://www.mibeachclub.com/membership",
+    "cancellation": "https://www.mibeachclub.com/Programs?ns=true&p=dynamicmodule&pageID=104&ssid=100154"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "mibc-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://www.mibeachclub.com/login",
+      "description": "Court reservations are available through the member portal to club members and eligible seasonal adult tennis passholders."
+    }
+  ]
+}

@@ -13,17 +13,13 @@
   },
   "calendar": {
     "type": "matcha-device",
-    "requiresAuthentication": true,
-    "availabilityWindow": {
-      "minHours": 0,
-      "maxHours": 168
-    },
-    "requestsPerMinute": 6
+    "requiresAuthentication": true
   },
   "bookingPolicies": [
     {
       "id": "tcsp-default",
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "type": "matcha-device",
       "reserveBy": "block",
       "description": "Membership required. Court time is priced per 75-minute block, separately for singles and doubles, with lower early-morning, late-evening, and summer rates, plus $15 per guest. [See current rates](https://tenniscentersandpoint.com/tennis-court-rentals/).",

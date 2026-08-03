@@ -1,11 +1,14 @@
+import formBuilderMercerwood from '../providers/123formbuilder-6956773/config.json';
 import activeNetKingCounty from '../providers/activenet-kingcountyparks/config.json';
 import activeNetSeattle from '../providers/activenet-seattle/config.json';
 import activeNetShoreline from '../providers/activenet-shorelinewa/config.json';
 import amiliaRedmond from '../providers/amilia-city-of-redmond/config.json';
+import cacTennisMercerIslandCountryClub from '../providers/cactennis-tennis.mercerislandcc.com/config.json';
 import civicRecKirkland from '../providers/civicrec-city-of-kirkland/config.json';
 import civicRecBellevue from '../providers/civicrec-wa-bellevue/config.json';
 import clubAutomationEdgebrook from '../providers/clubautomation-edgebrook/config.json';
 import clubAutomationTcsp from '../providers/clubautomation-tcsp/config.json';
+import clubessentialMercerIslandBeachClub from '../providers/clubessential-mibeachclub.com/config.json';
 import courtReserve12465 from '../providers/courtreserve-12465/config.json';
 import courtReserve17764 from '../providers/courtreserve-17764/config.json';
 import courtReserve6689 from '../providers/courtreserve-6689/config.json';
@@ -18,14 +21,16 @@ import gameTimeCptc from '../providers/gametime-cptc/config.json';
 import gameTimeStc from '../providers/gametime-stc/config.json';
 import manualSeattleParks from '../providers/manual-seattleparks/config.json';
 import manualSeattleU from '../providers/manual-seattleu/config.json';
+import manualMercerIslandSchoolDistrict from '../providers/manual-mercer-island-school-district/config.json';
+import manualOverlakeSchool from '../providers/manual-overlake-school/config.json';
+import northstarTrilogyRedmondRidge from '../providers/northstar-mytrilogyredmondridge.com/config.json';
+import perfectMindMercerIsland from '../providers/perfectmind-23494/config.json';
 import racquetDeskEstc from '../providers/racquetdesk-estc/config.json';
 import recSanFrancisco from '../providers/rec-sf-rec-park/config.json';
 import { Platform, type MRN } from './domain';
 import { validateProviderConfigs } from './provider-validation';
 
 export { validateProviderConfig, validateProviderConfigs } from './provider-validation';
-
-export interface AvailabilityWindow { minHours: number; maxHours: number; }
 
 interface Urls {
   signin: string;
@@ -44,55 +49,48 @@ export type SchedulerConfig =
   | { type: 'expanded'; configs: Record<string, ExpandedScheduler> };
 
 export type CalendarConfig =
-  | { type: 'unsupported'; scheduler?: SchedulerConfig }
+  | { type: 'unsupported' }
   | {
       type: 'matcha-device';
       requiresAuthentication: boolean;
-      availabilityWindow: AvailabilityWindow;
-      requestsPerMinute: number;
-      scheduler?: SchedulerConfig;
     }
   | {
       type: 'matcha-server';
       notifications: boolean;
-      availabilityWindow: AvailabilityWindow;
       requestsPerMinute: number;
-      scheduler?: SchedulerConfig;
     };
 
 type MatchaServerCalendar = Extract<CalendarConfig, { type: 'matcha-server' }>;
 
-interface BookingPolicyTarget {
+export type Advance = 'next-day' | `${number}:${number}`;
+
+export type BookingPolicy = {
   id: string;
   places?: MRN[];
   resources?: MRN[];
-  minAdvance: 'next-day' | `${number}:${number}`;
+  minAdvance: Advance;
+  maxAdvance?: Advance;
   description?: string;
   phone?: string;
-}
-
-interface MatchaBookingPolicyFields {
-  confirmationNotice?: string;
-  cancellationUrl?: string;
-  savedCardCvv?: boolean;
-}
-
-type ProviderBookingPolicyFields =
-  | { type: 'provider'; url: string; reserveBy: 'range'; minDuration: string; maxDuration: string }
-  | { type: 'provider'; url: string; reserveBy: 'block' };
-
-export type BookingPolicy = BookingPolicyTarget & (
-  | (MatchaBookingPolicyFields & {
+} & (
+  | {
       type: 'matcha-device';
       reserveBy: 'range';
       minDuration: string;
       maxDuration: string;
-    })
-  | (MatchaBookingPolicyFields & {
+      confirmationNotice?: string;
+      cancellationUrl?: string;
+      savedCardCvv?: boolean;
+    }
+  | {
       type: 'matcha-device';
       reserveBy: 'block';
-    })
-  | ProviderBookingPolicyFields
+      confirmationNotice?: string;
+      cancellationUrl?: string;
+      savedCardCvv?: boolean;
+    }
+  | { type: 'provider'; url: string; reserveBy: 'range'; minDuration: string; maxDuration: string }
+  | { type: 'provider'; url: string; reserveBy: 'block' }
   | { type: 'phone'; number: string }
   | { type: 'unsupported' }
 );
@@ -109,25 +107,52 @@ interface BaseProvider {
 }
 
 type StandardProvider = BaseProvider & {
-  platform: Exclude<Platform, Platform.RacquetDesk>;
+  platform: Exclude<Platform, Platform.CourtReserve | Platform.RacquetDesk>;
 };
 
-interface RacquetDeskProvider extends Omit<BaseProvider, 'calendar'> {
-  platform: Platform.RacquetDesk;
-  calendar: MatchaServerCalendar & { courtSheetId: string } | { type: 'unsupported' };
+interface CourtReserveProvider extends BaseProvider {
+  platform: Platform.CourtReserve;
+  scheduler?: SchedulerConfig;
 }
 
-export type ProviderConfig = StandardProvider | RacquetDeskProvider;
+interface RacquetDeskProvider extends BaseProvider {
+  platform: Platform.RacquetDesk;
+  calendar: MatchaServerCalendar | { type: 'unsupported' };
+  courtSheetId?: string;
+}
+
+export type ProviderConfig = StandardProvider | CourtReserveProvider | RacquetDeskProvider;
+
+const advanceHours = (advance: Advance): number | null => {
+  if (advance === 'next-day') return null;
+  const match = /^(\d+):(\d{2})$/.exec(advance);
+  if (!match || Number(match[2]) >= 60) return null;
+  return Number(match[1]) + Number(match[2]) / 60;
+};
+
+export const providerMaxAdvanceHours = (provider: ProviderConfig): number => {
+  const hours = provider.bookingPolicies.flatMap((policy) => {
+    if (policy.maxAdvance === undefined) return [];
+    if (policy.maxAdvance === 'next-day') return [48];
+    const parsed = advanceHours(policy.maxAdvance);
+    return parsed === null ? [] : [parsed];
+  });
+  if (hours.length === 0) throw new Error(`${provider.id}: maximum advance is required for calendar availability`);
+  return Math.max(...hours);
+};
 
 const providerConfigs: unknown = [
+  formBuilderMercerwood,
   activeNetKingCounty,
   activeNetSeattle,
   activeNetShoreline,
   amiliaRedmond,
+  cacTennisMercerIslandCountryClub,
   civicRecKirkland,
   civicRecBellevue,
   clubAutomationEdgebrook,
   clubAutomationTcsp,
+  clubessentialMercerIslandBeachClub,
   courtReserve12465,
   courtReserve17764,
   courtReserve6689,
@@ -140,6 +165,10 @@ const providerConfigs: unknown = [
   gameTimeStc,
   manualSeattleParks,
   manualSeattleU,
+  manualMercerIslandSchoolDistrict,
+  manualOverlakeSchool,
+  northstarTrilogyRedmondRidge,
+  perfectMindMercerIsland,
   racquetDeskEstc,
   recSanFrancisco,
 ];

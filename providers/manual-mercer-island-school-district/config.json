@@ -1,0 +1,25 @@
+{
+  "id": "manual:mercer-island-school-district",
+  "platform": "manual",
+  "name": "Mercer Island School District",
+  "location": {
+    "city": "Mercer Island",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://mihs.mercerislandschools.org/student-life/athletics/fall-sports/tennis-boys",
+    "signup": "https://mihs.mercerislandschools.org/student-life/athletics/fall-sports/tennis-boys",
+    "cancellation": "https://mihs.mercerislandschools.org/student-life/athletics/fall-sports/tennis-boys"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "misd-default",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "Access is subject to school and team scheduling and district rules. No public per-court booking handoff is available."
+    }
+  ]
+}

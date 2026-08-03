@@ -1,0 +1,39 @@
+[
+  {
+    "placeId": "db8b6d6385",
+    "applePlaceId": "I891D5D982D5468A7",
+    "displayName": "Mercerwood Shore Club",
+    "coordinate": {
+      "lat": 47.5713337,
+      "lng": -122.206193
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": ["outdoor"],
+    "mrn": "123formbuilder:6956773:location/mercerwood-shore-club",
+    "provider": {
+      "name": "Mercerwood Shore Club",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "123formbuilder:6956773:location/mercerwood-shore-club/court/1",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "123formbuilder:6956773:location/mercerwood-shore-club/court/2",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "123formbuilder:6956773:location/mercerwood-shore-club/court/3",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "123formbuilder:6956773:location/mercerwood-shore-club/court/4",
+          "tags": ["outdoor"]
+        }
+      ]
+    }
+  }
+]

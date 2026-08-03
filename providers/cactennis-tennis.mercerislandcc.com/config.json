@@ -1,0 +1,27 @@
+{
+  "id": "cactennis:tennis.mercerislandcc.com",
+  "platform": "cactennis",
+  "name": "Mercer Island Country Club",
+  "location": {
+    "city": "Mercer Island",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://tennis.mercerislandcc.com/",
+    "signup": "https://www.mercerislandcc.com/Contact_Us",
+    "cancellation": "https://tennis.mercerislandcc.com/pages/rules"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "micc-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://tennis.mercerislandcc.com/",
+      "description": "Court reservations are available to Mercer Island Country Club members through the login-gated Court Ace portal."
+    }
+  ]
+}

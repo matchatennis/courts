@@ -231,8 +231,8 @@ for (const provider of Object.values(PROVIDERS)) {
     }
   }
 
-  if (provider.platform !== "courtreserve" || !provider.calendar.scheduler) continue;
-  for (const [schedulerId, scheduler] of Object.entries(provider.calendar.scheduler.configs)) {
+  if (provider.platform !== "courtreserve" || !provider.scheduler) continue;
+  for (const [schedulerId, scheduler] of Object.entries(provider.scheduler.configs)) {
     const schedulerMrn = `${provider.id}:scheduler/${schedulerId}`;
     check(seenPlaceMrns.has(schedulerMrn), `${provider.id}/scheduler/${schedulerId}`, "scheduler has no place");
     if (!("courtLabels" in scheduler)) continue;

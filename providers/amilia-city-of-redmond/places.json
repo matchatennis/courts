@@ -121,5 +121,41 @@
         }
       ]
     }
+  },
+  {
+    "placeId": "2b19bad25c",
+    "applePlaceId": "I5132A20ACCB6570C",
+    "displayName": "Hartman Park",
+    "coordinate": {
+      "lat": 47.691118,
+      "lng": -122.1079302
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "amilia:city-of-redmond:facility/hartman-park",
+    "provider": {
+      "name": "City of Redmond Parks & Recreation",
+      "resources": [
+        {
+          "name": "Hartman Park Court 1",
+          "mrn": "amilia:city-of-redmond:facility/hartman-park/court/1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Hartman Park Court 2",
+          "mrn": "amilia:city-of-redmond:facility/hartman-park/court/2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
   }
 ]

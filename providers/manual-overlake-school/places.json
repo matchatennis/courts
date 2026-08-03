@@ -1,0 +1,41 @@
+[
+  {
+    "placeId": "4bab34902b",
+    "applePlaceId": "I845B356A67C3D31F",
+    "displayName": "The Overlake School",
+    "coordinate": {
+      "lat": 47.6938984,
+      "lng": -122.0701861
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "manual:overlake-school:location/the-overlake-school",
+    "provider": {
+      "name": "The Overlake School",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:overlake-school:location/the-overlake-school/court/1",
+          "tags": ["outdoor"]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:overlake-school:location/the-overlake-school/court/2",
+          "tags": ["outdoor"]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:overlake-school:location/the-overlake-school/court/3",
+          "tags": ["outdoor"]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "manual:overlake-school:location/the-overlake-school/court/4",
+          "tags": ["outdoor"]
+        }
+      ]
+    }
+  }
+]

@@ -1,16 +1,21 @@
 export type TimestampMs = number;
 
 export enum Platform {
+  FormBuilder123 = '123formbuilder',
   ActiveNet = 'activenet',
   Amilia = 'amilia',
+  CacTennis = 'cactennis',
   CivicRec = 'civicrec',
   ClubAutomation = 'clubautomation',
+  Clubessential = 'clubessential',
   CourtReserve = 'courtreserve',
   DudeSolutions = 'dudesolutions',
   Facilitron = 'facilitron',
   Fusion = 'fusion',
   GameTime = 'gametime',
   Manual = 'manual',
+  Northstar = 'northstar',
+  PerfectMind = 'perfectmind',
   RacquetDesk = 'racquetdesk',
   Rec = 'rec',
 }

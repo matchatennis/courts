@@ -1,0 +1,44 @@
+[
+  {
+    "placeId": "c439ae8a21",
+    "applePlaceId": "I9EC8608FD517F7FB",
+    "displayName": "Mercer Island Beach Club",
+    "coordinate": {
+      "lat": 47.5269297,
+      "lng": -122.223036
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": ["outdoor"],
+    "mrn": "clubessential:mibeachclub.com:location/mercer-island-beach-club",
+    "provider": {
+      "name": "Mercer Island Beach Club",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "clubessential:mibeachclub.com:location/mercer-island-beach-club/court/1",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "clubessential:mibeachclub.com:location/mercer-island-beach-club/court/2",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "clubessential:mibeachclub.com:location/mercer-island-beach-club/court/3",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "clubessential:mibeachclub.com:location/mercer-island-beach-club/court/4",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "clubessential:mibeachclub.com:location/mercer-island-beach-club/court/5",
+          "tags": ["outdoor", "reservable"]
+        }
+      ]
+    }
+  }
+]

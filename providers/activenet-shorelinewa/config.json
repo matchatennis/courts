@@ -13,17 +13,13 @@
   },
   "calendar": {
     "type": "matcha-device",
-    "requiresAuthentication": true,
-    "availabilityWindow": {
-      "minHours": 0,
-      "maxHours": 168
-    },
-    "requestsPerMinute": 100
+    "requiresAuthentication": true
   },
   "bookingPolicies": [
     {
       "id": "shoreline-default",
       "minAdvance": "00:00",
+      "maxAdvance": "168:00",
       "type": "provider",
       "reserveBy": "range",
       "minDuration": "01:00",

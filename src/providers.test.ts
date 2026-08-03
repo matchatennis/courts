@@ -8,8 +8,8 @@ import {
 
 describe('provider catalog', () => {
   test('loads the complete catalog and configured providers', () => {
-    expect(Object.keys(PROVIDER_CATALOG)).toHaveLength(22);
-    expect(Object.keys(PROVIDERS)).toHaveLength(22);
+    expect(Object.keys(PROVIDER_CATALOG)).toHaveLength(29);
+    expect(Object.keys(PROVIDERS)).toHaveLength(29);
   });
 
   test('resolves resource policies before provider defaults', () => {
@@ -58,10 +58,7 @@ describe('provider catalog', () => {
     const provider = PROVIDERS['racquetdesk:estc']!;
     expect(() => validateProviderConfig({
       ...provider,
-      calendar: {
-        ...provider.calendar,
-        courtSheetId: '',
-      },
+      courtSheetId: '',
     })).toThrow('RacquetDesk court sheet id is required');
   });
 });

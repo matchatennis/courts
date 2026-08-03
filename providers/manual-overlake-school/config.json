@@ -1,0 +1,25 @@
+{
+  "id": "manual:overlake-school",
+  "platform": "manual",
+  "name": "The Overlake School",
+  "location": {
+    "city": "Redmond",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://www.overlake.org",
+    "signup": "https://www.overlake.org",
+    "cancellation": "https://www.overlake.org"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "overlake-default",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "Access is subject to school scheduling and campus rules. No public per-court booking handoff is available."
+    }
+  ]
+}

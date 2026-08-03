@@ -1,0 +1,94 @@
+[
+  {
+    "placeId": "d65bd17003",
+    "applePlaceId": "IA2E8DD7F200FE7E0",
+    "displayName": "Mercer Island Country Club",
+    "coordinate": {
+      "lat": 47.539861,
+      "lng": -122.223596
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": ["indoor", "outdoor"],
+    "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club",
+    "provider": {
+      "name": "Mercer Island Country Club",
+      "resources": [
+        {
+          "name": "Indoor Court 1",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-1",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Indoor Court 2",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-2",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Indoor Court 3",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-3",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Indoor Court 4",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-4",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Indoor Court 5",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-5",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Indoor Court 6",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-6",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Indoor Court 7",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/indoor-7",
+          "tags": ["indoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 1",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-1",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 2",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-2",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 3",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-3",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 4",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-4",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 5",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-5",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 6",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-6",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 7",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-7",
+          "tags": ["outdoor", "reservable"]
+        },
+        {
+          "name": "Outdoor Court 8",
+          "mrn": "cactennis:tennis.mercerislandcc.com:location/mercer-island-country-club/court/outdoor-8",
+          "tags": ["outdoor", "reservable"]
+        }
+      ]
+    }
+  }
+]

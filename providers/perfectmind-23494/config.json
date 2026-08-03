@@ -1,0 +1,40 @@
+{
+  "id": "perfectmind:23494",
+  "platform": "perfectmind",
+  "name": "Mercer Island Parks & Recreation",
+  "location": {
+    "city": "Mercer Island",
+    "state": "WA"
+  },
+  "urls": {
+    "signin": "https://cityofmercerisland.perfectmind.com/23494/MemberRegistration/MemberSignIn",
+    "signup": "https://cityofmercerisland.perfectmind.com/23494/Clients/BookMe4FacilityList/List?calendarId=17223e3e-eff3-4634-9a7b-47c3d69c63bc&widgetId=c9829210-47fa-4ccf-b261-23700dee9045",
+    "cancellation": "https://www.mercerisland.gov/parksrec/page/sport-court-rentals"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "mercer-island-reservable",
+      "minAdvance": "next-day",
+      "type": "provider",
+      "reserveBy": "block",
+      "url": "https://cityofmercerisland.perfectmind.com/23494/Clients/BookMe4FacilityList/List?calendarId=17223e3e-eff3-4634-9a7b-47c3d69c63bc&widgetId=c9829210-47fa-4ccf-b261-23700dee9045",
+      "description": "Private reservations open one day ahead and are limited to two hours per group or instructor per day. Unreserved time remains available for drop-in play."
+    },
+    {
+      "id": "mercer-island-walk-in",
+      "resources": [
+        "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/homestead-drop-in-3",
+        "perfectmind:23494:location/53a41c6b-914a-47e8-b720-a643e2065a7d/facility/homestead-drop-in-4",
+        "perfectmind:23494:location/island-crest-park/facility/island-crest-park-court-1",
+        "perfectmind:23494:location/island-crest-park/facility/island-crest-park-court-2",
+        "perfectmind:23494:location/roanoke-park/facility/roanoke-park-court-1"
+      ],
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "These courts are drop-in-only under the City's court allocation policy and have no private reservation handoff."
+    }
+  ]
+}

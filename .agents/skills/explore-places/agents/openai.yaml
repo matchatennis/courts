@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explore Tennis Places"
+  short_description: "Find missing tennis courts for Matcha"
+  default_prompt: "Use $explore-places to find tennis courts missing from the Matcha Courts catalog."

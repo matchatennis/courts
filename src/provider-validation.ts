@@ -196,7 +196,10 @@ const validateBookingPolicies = (value: unknown, providerId: string): ConfigReco
       throw new Error(`${providerId}/${policyId}: invalid minimum advance`);
     }
     const maximumAdvance = policy.maxAdvance === undefined ? null : advanceMinutes(policy.maxAdvance);
-    if (policy.maxAdvance !== undefined && maximumAdvance === null) {
+    if (
+      policy.maxAdvance !== undefined
+      && (maximumAdvance === null || (policy.maxAdvance !== 'next-day' && maximumAdvance <= 0))
+    ) {
       throw new Error(`${providerId}/${policyId}: invalid maximum advance`);
     }
     if (

@@ -123,22 +123,22 @@ interface RacquetDeskProvider extends BaseProvider {
 
 export type ProviderConfig = StandardProvider | CourtReserveProvider | RacquetDeskProvider;
 
-const advanceHours = (advance: Advance): number | null => {
-  if (advance === 'next-day') return null;
+const advanceFetchDays = (advance: Advance): number | null => {
+  if (advance === 'next-day') return 2;
   const match = /^(\d+):(\d{2})$/.exec(advance);
   if (!match || Number(match[2]) >= 60) return null;
-  return Number(match[1]) + Number(match[2]) / 60;
+  const minutes = Number(match[1]) * 60 + Number(match[2]);
+  return Math.ceil(minutes / (24 * 60));
 };
 
-export const providerMaxAdvanceHours = (provider: ProviderConfig): number => {
-  const hours = provider.bookingPolicies.flatMap((policy) => {
+export const providerFetchDays = (provider: ProviderConfig): number => {
+  const days = provider.bookingPolicies.flatMap((policy) => {
     if (policy.maxAdvance === undefined) return [];
-    if (policy.maxAdvance === 'next-day') return [48];
-    const parsed = advanceHours(policy.maxAdvance);
+    const parsed = advanceFetchDays(policy.maxAdvance);
     return parsed === null ? [] : [parsed];
   });
-  if (hours.length === 0) throw new Error(`${provider.id}: maximum advance is required for calendar availability`);
-  return Math.max(...hours);
+  if (days.length === 0) throw new Error(`${provider.id}: maximum advance is required for calendar availability`);
+  return Math.max(...days);
 };
 
 const providerConfigs: unknown = [

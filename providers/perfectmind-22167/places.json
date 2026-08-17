@@ -1,0 +1,198 @@
+[
+  {
+    "placeId": "89efe16aca",
+    "applePlaceId": "I4E9AEEA9213D16DA",
+    "displayName": "Blossom Hill Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.2331644,
+      "lng": -121.9553232
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced",
+    "provider": {
+      "name": "Blossom Hill Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/00450c06-e30e-4430-b74a-75b43cd9ce0b",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/40f8c420-1531-4560-b9ef-53aeac2519cd",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/b1f19366-2124-4871-a3fc-9d35c61703b1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/76508d3a-02bc-4e8c-bb36-e5c45d0df405",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/ef749b29-4e32-40de-b9ff-0a1fae3b47e2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/0302dce7-9bd8-4d97-aba3-c93fe21b3d7c",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "ea950609ea",
+    "applePlaceId": "I494012E753916FFD",
+    "displayName": "La Rinconada Park Tennis Court",
+    "coordinate": {
+      "lat": 37.2599967,
+      "lng": -121.9806406
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced",
+    "provider": {
+      "name": "La Rinconada Park Tennis Court",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/9c4ce1eb-79f2-468a-a9a0-0ee9fa68a5fe",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "4bced241a4",
+    "applePlaceId": "I7DB92758B77F767D",
+    "displayName": "Azule Park Tennis Court",
+    "coordinate": {
+      "lat": 37.288806,
+      "lng": -122.0225646
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced",
+    "provider": {
+      "name": "Azule Park Tennis Court",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/49f5e25a-c4b9-4b9f-9eb0-f0ac788d48ac",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "963efb77d8",
+    "applePlaceId": "I54D5173152B3264A",
+    "displayName": "Beauchamps Park Tennis Court",
+    "coordinate": {
+      "lat": 37.2905014,
+      "lng": -122.0395755
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced",
+    "provider": {
+      "name": "Beauchamps Park Tennis Court",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/bbc96304-8d8a-44f1-8650-8c3660baf4e4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "33cbb105ea",
+    "applePlaceId": "I163CCAA97E710CA1",
+    "displayName": "Kevin Moran Park Tennis Court",
+    "coordinate": {
+      "lat": 37.2869945,
+      "lng": -122.0193636
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced",
+    "provider": {
+      "name": "Kevin Moran Park Tennis Court",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/a7edab8e-4dbf-41f3-9107-eb55bd8dbfb6",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

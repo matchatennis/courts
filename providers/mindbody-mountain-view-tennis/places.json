@@ -1,0 +1,120 @@
+[
+  {
+    "placeId": "757663fd85",
+    "applePlaceId": "I6936368A748F67A4",
+    "displayName": "Cuesta Tennis Center",
+    "coordinate": {
+      "lat": 37.3714478,
+      "lng": -122.0823699
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "mindbody:mountain-view-tennis:location/1",
+    "provider": {
+      "name": "Mountain View Tennis",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-5",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-6",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 7",
+          "mrn": "mindbody:mountain-view-tennis:location/1/appointment/1071",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 8",
+          "mrn": "mindbody:mountain-view-tennis:location/1/appointment/3195",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 9",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-9",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 10",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-10",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 11",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-11",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 12",
+          "mrn": "mindbody:mountain-view-tennis:location/1/court/court-12",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

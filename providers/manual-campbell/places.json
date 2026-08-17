@@ -1,0 +1,115 @@
+[
+  {
+    "placeId": "7063fe67bf",
+    "applePlaceId": "I711F172C70B90E98",
+    "displayName": "Campbell Community Center Tennis Courts",
+    "coordinate": {
+      "lat": 37.2886748,
+      "lng": -121.9512526
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "manual:campbell:location/campbell-community-center-tennis-courts",
+    "provider": {
+      "name": "Campbell Community Center Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:campbell:location/campbell-community-center-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:campbell:location/campbell-community-center-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:campbell:location/campbell-community-center-tennis-courts/court/court-3",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "manual:campbell:location/campbell-community-center-tennis-courts/court/court-4",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "6ff2bc3098",
+    "applePlaceId": "IE4E6CB9864B88D0",
+    "displayName": "John D. Morgan Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.282518,
+      "lng": -121.9584774
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "manual:campbell:location/john-d-morgan-park-tennis-courts",
+    "provider": {
+      "name": "John D. Morgan Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:campbell:location/john-d-morgan-park-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:campbell:location/john-d-morgan-park-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:campbell:location/john-d-morgan-park-tennis-courts/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "manual:campbell:location/john-d-morgan-park-tennis-courts/court/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

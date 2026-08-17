@@ -1,0 +1,36 @@
+{
+  "id": "activenet:cupertino",
+  "platform": "activenet",
+  "name": "City of Cupertino",
+  "location": {
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://anc.apm.activecommunities.com/cupertino/signin",
+    "signup": "https://anc.apm.activecommunities.com/cupertino/createaccount",
+    "cancellation": "https://anc.apm.activecommunities.com/cupertino/myaccount"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "cupertino-parks-default",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "Neighborhood park courts are available on site and do not expose a reliable online availability calendar."
+    },
+    {
+      "id": "cupertino-sports-center-booking",
+      "places": [
+        "activenet:cupertino:center/cupertino-sports-center"
+      ],
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://anc.apm.activecommunities.com/cupertino/reservation/landing/quick",
+      "reserveBy": "block",
+      "description": "Cupertino Sports Center reservations and pass access are handled through the City's recreation portal."
+    }
+  ]
+}

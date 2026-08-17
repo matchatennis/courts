@@ -1,0 +1,27 @@
+{
+  "id": "manual:de-anza-college",
+  "platform": "manual",
+  "name": "De Anza College",
+  "location": {
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.deanza.edu/communityed/",
+    "signup": "https://www.deanza.edu/facilities/rentals.html",
+    "cancellation": "https://www.deanza.edu/facilities/rentals.html"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "de-anza-rental",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://www.deanza.edu/facilities/rentals.html",
+      "reserveBy": "block",
+      "description": "College use has priority; eligible community rentals are arranged through De Anza College."
+    }
+  ]
+}

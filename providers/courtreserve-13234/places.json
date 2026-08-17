@@ -1,0 +1,431 @@
+[
+  {
+    "placeId": "743e8961ef",
+    "applePlaceId": "I5EA3EF75BB15A13E",
+    "displayName": "Santa Clara Tennis Center",
+    "coordinate": {
+      "lat": 37.3448462,
+      "lng": -121.973691
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "courtreserve:13234:scheduler/16995",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Assigned Hard Court",
+          "mrn": "courtreserve:13234:scheduler/16995/courttype/Hard",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "cb05df713b",
+    "applePlaceId": "I3C7F0221332E0880",
+    "displayName": "Buchser Tennis Courts",
+    "coordinate": {
+      "lat": 37.3439274,
+      "lng": -121.9447716
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-5",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-6",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 7",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/buchser-tennis-courts-court-7",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "761133b6f2",
+    "applePlaceId": "ID0B70D3CA0EC6E75",
+    "displayName": "Earl R. Carmichael Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.34583,
+      "lng": -121.9908425
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/earl-r-carmichael-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/earl-r-carmichael-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "0f5a4389bd",
+    "applePlaceId": "I6864539A0C3E2AD2",
+    "displayName": "Fairway Glen Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4049177,
+      "lng": -121.9615115
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/fairway-glen-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/fairway-glen-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "be199cc056",
+    "applePlaceId": "IFDBCF77D5560E01C",
+    "displayName": "Henry Schmidt Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3364186,
+      "lng": -121.9604677
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/henry-schmidt-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/henry-schmidt-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/henry-schmidt-park-tennis-courts-court-3",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/henry-schmidt-park-tennis-courts-court-4",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "ec56c0ece9",
+    "applePlaceId": "I3A36BA5D61D49A5D",
+    "displayName": "Jenny Strand Park Tennis Court",
+    "coordinate": {
+      "lat": 37.3271029,
+      "lng": -122.0036995
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/jenny-strand-park-tennis-court-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "3196d953dc",
+    "applePlaceId": "ICF227DF84CE7922A",
+    "displayName": "Lick Mill Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4037685,
+      "lng": -121.9566795
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/lick-mill-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/lick-mill-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "8454a961ba",
+    "applePlaceId": "I5DD1A907640D3057",
+    "displayName": "Mary Gomez Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3371654,
+      "lng": -121.9688635
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/mary-gomez-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/mary-gomez-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "662e17cb6f",
+    "applePlaceId": "I9B1DBEA308CB95FB",
+    "displayName": "Maywood Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3306314,
+      "lng": -121.9890491
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/maywood-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/maywood-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "c2c3546c4d",
+    "applePlaceId": "I81055ABB67DE4073",
+    "displayName": "Montague Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3878919,
+      "lng": -121.9455947
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/montague-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/montague-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "a89bf451b1",
+    "applePlaceId": "I214F39BCC033193A",
+    "displayName": "Thamien Park Tennis Court",
+    "coordinate": {
+      "lat": 37.4003212,
+      "lng": -121.9469383
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13234:scheduler/default",
+    "provider": {
+      "name": "Santa Clara Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13234:scheduler/default/courtlabel/thamien-park-tennis-court-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "placeId": "922d3cdefd",
+    "applePlaceId": "I2E97C2FA5CB3383A",
+    "displayName": "San Jose Swim & Racquet Club",
+    "coordinate": {
+      "lat": 37.3124231,
+      "lng": -121.9073653
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "manual:sjsrc:location/default",
+    "provider": {
+      "name": "San Jose Swim & Racquet Club",
+      "resources": [
+        {
+          "name": "Tennis Court 1",
+          "mrn": "manual:sjsrc:location/default/court/1",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Tennis Court 2",
+          "mrn": "manual:sjsrc:location/default/court/2",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Tennis Court 3",
+          "mrn": "manual:sjsrc:location/default/court/3",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Tennis Court 4",
+          "mrn": "manual:sjsrc:location/default/court/4",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Tennis Court 5",
+          "mrn": "manual:sjsrc:location/default/court/5",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Tennis Court 6",
+          "mrn": "manual:sjsrc:location/default/court/6",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  }
+]

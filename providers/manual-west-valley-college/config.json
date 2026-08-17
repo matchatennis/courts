@@ -1,0 +1,27 @@
+{
+  "id": "manual:west-valley-college",
+  "platform": "manual",
+  "name": "West Valley College",
+  "location": {
+    "city": "Saratoga",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.westvalley.edu/",
+    "signup": "https://www.westvalley.edu/facilities/",
+    "cancellation": "https://www.westvalley.edu/facilities/"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "west-valley-college-rental",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://www.westvalley.edu/facilities/",
+      "reserveBy": "block",
+      "description": "College programs have priority; public facility use is arranged through West Valley College."
+    }
+  ]
+}

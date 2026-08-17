@@ -14,6 +14,7 @@ export enum Platform {
   Fusion = 'fusion',
   GameTime = 'gametime',
   Manual = 'manual',
+  Mindbody = 'mindbody',
   Northstar = 'northstar',
   PerfectMind = 'perfectmind',
   RacquetDesk = 'racquetdesk',

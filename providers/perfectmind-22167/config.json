@@ -1,0 +1,41 @@
+{
+  "id": "perfectmind:22167",
+  "platform": "perfectmind",
+  "name": "Los Gatos-Saratoga Recreation",
+  "location": {
+    "city": "Los Gatos",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://losgatos.perfectmind.com/22167/MemberRegistration/MemberSignIn",
+    "signup": "https://losgatos.perfectmind.com/22167/Clients/BookMe4FacilityList/List",
+    "cancellation": "https://losgatos.perfectmind.com/22167/MemberRegistration/MemberSignIn"
+  },
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": false,
+    "requestsPerMinute": 30
+  },
+  "host": "https://losgatos.perfectmind.com/22167",
+  "bookingPolicies": [
+    {
+      "id": "los-gatos-saratoga-reservable",
+      "minAdvance": "00:00",
+      "maxAdvance": "2880:00",
+      "type": "provider",
+      "url": "https://losgatos.perfectmind.com/22167/Clients/BookMe4FacilityList/List",
+      "reserveBy": "block",
+      "description": "PerfectMind publishes one-hour reservation starts up to 120 days ahead."
+    },
+    {
+      "id": "la-rinconada-availability-only",
+      "resources": [
+        "perfectmind:22167:location/b562b760-d272-4686-b669-4b32a727dced/facility/9c4ce1eb-79f2-468a-a9a0-0ee9fa68a5fe"
+      ],
+      "minAdvance": "00:00",
+      "maxAdvance": "2880:00",
+      "type": "unsupported",
+      "description": "PerfectMind publishes availability for this court but does not allow online reservations."
+    }
+  ]
+}

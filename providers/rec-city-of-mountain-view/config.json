@@ -1,0 +1,27 @@
+{
+  "id": "rec:city-of-mountain-view",
+  "platform": "rec",
+  "name": "City of Mountain View",
+  "location": {
+    "city": "Mountain View",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.rec.us/organizations/city-of-mountain-view",
+    "signup": "https://www.rec.us/organizations/city-of-mountain-view",
+    "cancellation": "https://www.rec.us/app/profile"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "mountain-view-rec-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://www.rec.us/organizations/city-of-mountain-view",
+      "reserveBy": "block",
+      "description": "Court reservations are handled by Rec.us. Its public API rejected unauthenticated inventory requests during onboarding, so Matcha availability remains disabled."
+    }
+  ]
+}

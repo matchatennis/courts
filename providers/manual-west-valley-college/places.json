@@ -1,0 +1,133 @@
+[
+  {
+    "placeId": "0bf1dd86a9",
+    "applePlaceId": "I96E047277692F7BC",
+    "displayName": "West Valley College Tennis Courts",
+    "coordinate": {
+      "lat": 37.259589,
+      "lng": -122.0121431
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts",
+    "provider": {
+      "name": "West Valley College Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-4",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 7",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-7",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 8",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-8",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 9",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-9",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 10",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-10",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 11",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-11",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 12",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-12",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 13",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-13",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 14",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-14",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 15",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-15",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 16",
+          "mrn": "manual:west-valley-college:location/west-valley-college-tennis-courts/court/court-16",
+          "tags": [
+            "outdoor",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "manual:los-altos",
+  "platform": "manual",
+  "name": "City of Los Altos",
+  "location": {
+    "city": "Los Altos",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.losaltosca.gov/parksrec/page/tennis-pickleball-courts",
+    "signup": "https://www.losaltosca.gov/parksrec/page/tennis-pickleball-courts",
+    "cancellation": "https://www.losaltosca.gov/parksrec/page/tennis-pickleball-courts"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "los-altos-courts-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://www.losaltosca.gov/parksrec/page/tennis-pickleball-courts",
+      "reserveBy": "block",
+      "description": "Resident and nonprofit reservations use the City's application process; unreserved court time remains available for public use."
+    }
+  ]
+}

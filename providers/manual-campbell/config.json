@@ -1,0 +1,36 @@
+{
+  "id": "manual:campbell",
+  "platform": "manual",
+  "name": "City of Campbell",
+  "location": {
+    "city": "Campbell",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.campbellca.gov/380/Recreation-Community-Services",
+    "signup": "https://www.campbellca.gov/380/Recreation-Community-Services",
+    "cancellation": "https://www.campbellca.gov/380/Recreation-Community-Services"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "campbell-courts-default",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "Public courts are primarily available for walk-in use and do not expose a reliable online availability calendar."
+    },
+    {
+      "id": "john-morgan-reservation",
+      "places": [
+        "manual:campbell:location/john-d-morgan-park-tennis-courts"
+      ],
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://www.campbellca.gov/380/Recreation-Community-Services",
+      "reserveBy": "block",
+      "description": "Organized use is arranged with Campbell Recreation and Community Services."
+    }
+  ]
+}

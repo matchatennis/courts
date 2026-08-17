@@ -8,8 +8,8 @@ import {
 
 describe('provider catalog', () => {
   test('loads the complete catalog and configured providers', () => {
-    expect(Object.keys(PROVIDER_CATALOG)).toHaveLength(29);
-    expect(Object.keys(PROVIDERS)).toHaveLength(29);
+    expect(Object.keys(PROVIDER_CATALOG)).toHaveLength(44);
+    expect(Object.keys(PROVIDERS)).toHaveLength(44);
   });
 
   test('resolves resource policies before provider defaults', () => {

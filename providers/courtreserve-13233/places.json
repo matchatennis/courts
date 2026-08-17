@@ -1,0 +1,394 @@
+[
+  {
+    "placeId": "bc5fdcab95",
+    "applePlaceId": "IA552737B56704E12",
+    "displayName": "Sunnyvale Tennis Center",
+    "coordinate": {
+      "lat": 37.3658128,
+      "lng": -122.0377743
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "courtreserve:13233:scheduler/16983",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Assigned Hard Court",
+          "mrn": "courtreserve:13233:scheduler/16983/courttype/Hard",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "85eb1897cf",
+    "applePlaceId": "IB4F6478D82114EE1",
+    "displayName": "Braly Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3637271,
+      "lng": -122.0199791
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/braly-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/braly-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "cca4768878",
+    "applePlaceId": "I6FBD5C7F06AB89B5",
+    "displayName": "Encinal Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3915619,
+      "lng": -122.0429328
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/encinal-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/encinal-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "7acfef3f52",
+    "applePlaceId": "ID251DB529FDF1CBC",
+    "displayName": "Fairwood Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3967106,
+      "lng": -121.9892641
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/fairwood-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/fairwood-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "74e576216f",
+    "applePlaceId": "I52727E79D5BF42DD",
+    "displayName": "Lakewood Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3973837,
+      "lng": -122.0007638
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/lakewood-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/lakewood-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "4a7999e13a",
+    "applePlaceId": "I7844D90EB25F3773",
+    "displayName": "Orchard Gardens Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.399708,
+      "lng": -122.0243644
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/orchard-gardens-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/orchard-gardens-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "8a8afd06fa",
+    "applePlaceId": "I8962D87C3AE69E56",
+    "displayName": "Ortega Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3421621,
+      "lng": -122.025571
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/ortega-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/ortega-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "aff1cad993",
+    "applePlaceId": "IE8AFBAB9A77BB724",
+    "displayName": "Ponderosa Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3622953,
+      "lng": -122.0062959
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/ponderosa-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/ponderosa-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "12b7f0865a",
+    "applePlaceId": "I32812A744F5DD7BF",
+    "displayName": "Serra Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3432311,
+      "lng": -122.0423672
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/serra-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/serra-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/serra-park-tennis-courts-court-3",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/serra-park-tennis-courts-court-4",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "aeff0c7daf",
+    "applePlaceId": "ID065D9A52607B2B5",
+    "displayName": "Washington Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3774141,
+      "lng": -122.0405248
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "courtreserve:13233:scheduler/default",
+    "provider": {
+      "name": "Sunnyvale Tennis Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/washington-park-tennis-courts-court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "courtreserve:13233:scheduler/default/courtlabel/washington-park-tennis-courts-court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

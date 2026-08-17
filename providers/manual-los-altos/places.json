@@ -1,0 +1,182 @@
+[
+  {
+    "placeId": "f961e8271e",
+    "applePlaceId": "I8DA07676696921B4",
+    "displayName": "Marymeade Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3527392,
+      "lng": -122.0794197
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "manual:los-altos:location/marymeade-park-tennis-courts",
+    "provider": {
+      "name": "Marymeade Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:los-altos:location/marymeade-park-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:los-altos:location/marymeade-park-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:los-altos:location/marymeade-park-tennis-courts/court/court-3",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "033e1b37d1",
+    "applePlaceId": "I5E7116DCCCE172D9",
+    "displayName": "McKenzie Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.358712,
+      "lng": -122.0941088
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "manual:los-altos:location/mckenzie-park-tennis-courts",
+    "provider": {
+      "name": "McKenzie Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:los-altos:location/mckenzie-park-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:los-altos:location/mckenzie-park-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "7989b9c942",
+    "applePlaceId": "I3BC7C0922B9B863E",
+    "displayName": "Montclaire Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3413064,
+      "lng": -122.0815587
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "manual:los-altos:location/montclaire-park-tennis-courts",
+    "provider": {
+      "name": "Montclaire Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:los-altos:location/montclaire-park-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:los-altos:location/montclaire-park-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "963f38b02f",
+    "applePlaceId": "I2B5A5501C04D7DF9",
+    "displayName": "Rosita Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.371673,
+      "lng": -122.104428
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "manual:los-altos:location/rosita-park-tennis-courts",
+    "provider": {
+      "name": "Rosita Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:los-altos:location/rosita-park-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:los-altos:location/rosita-park-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:los-altos:location/rosita-park-tennis-courts/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

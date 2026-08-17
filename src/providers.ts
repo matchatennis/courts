@@ -1,6 +1,9 @@
 import formBuilderMercerwood from '../providers/123formbuilder-6956773/config.json';
 import activeNetKingCounty from '../providers/activenet-kingcountyparks/config.json';
+import activeNetCupertino from '../providers/activenet-cupertino/config.json';
+import activeNetMilpitas from '../providers/activenet-milpitasrec/config.json';
 import activeNetSeattle from '../providers/activenet-seattle/config.json';
+import activeNetSanJose from '../providers/activenet-sanjoseparksandrec/config.json';
 import activeNetShoreline from '../providers/activenet-shorelinewa/config.json';
 import amiliaRedmond from '../providers/amilia-city-of-redmond/config.json';
 import cacTennisMercerIslandCountryClub from '../providers/cactennis-tennis.mercerislandcc.com/config.json';
@@ -10,6 +13,8 @@ import clubAutomationEdgebrook from '../providers/clubautomation-edgebrook/confi
 import clubAutomationTcsp from '../providers/clubautomation-tcsp/config.json';
 import clubessentialMercerIslandBeachClub from '../providers/clubessential-mibeachclub.com/config.json';
 import courtReserve12465 from '../providers/courtreserve-12465/config.json';
+import courtReserve13233 from '../providers/courtreserve-13233/config.json';
+import courtReserve13234 from '../providers/courtreserve-13234/config.json';
 import courtReserve17764 from '../providers/courtreserve-17764/config.json';
 import courtReserve6689 from '../providers/courtreserve-6689/config.json';
 import courtReserve7306 from '../providers/courtreserve-7306/config.json';
@@ -21,12 +26,22 @@ import gameTimeCptc from '../providers/gametime-cptc/config.json';
 import gameTimeStc from '../providers/gametime-stc/config.json';
 import manualSeattleParks from '../providers/manual-seattleparks/config.json';
 import manualSeattleU from '../providers/manual-seattleu/config.json';
+import manualCampbell from '../providers/manual-campbell/config.json';
+import manualDeAnzaCollege from '../providers/manual-de-anza-college/config.json';
+import manualFoothillCollege from '../providers/manual-foothill-college/config.json';
+import manualLosAltos from '../providers/manual-los-altos/config.json';
+import manualSanJoseSwimRacquet from '../providers/manual-sjsrc/config.json';
+import manualSanJoseState from '../providers/manual-sjsu/config.json';
+import manualWestValleyCollege from '../providers/manual-west-valley-college/config.json';
 import manualMercerIslandSchoolDistrict from '../providers/manual-mercer-island-school-district/config.json';
 import manualOverlakeSchool from '../providers/manual-overlake-school/config.json';
 import northstarTrilogyRedmondRidge from '../providers/northstar-mytrilogyredmondridge.com/config.json';
+import mindbodyMountainViewTennis from '../providers/mindbody-mountain-view-tennis/config.json';
 import perfectMindMercerIsland from '../providers/perfectmind-23494/config.json';
+import perfectMindLosGatosSaratoga from '../providers/perfectmind-22167/config.json';
 import racquetDeskEstc from '../providers/racquetdesk-estc/config.json';
 import recSanFrancisco from '../providers/rec-sf-rec-park/config.json';
+import recMountainView from '../providers/rec-city-of-mountain-view/config.json';
 import { Platform, type MRN } from './domain';
 import { validateProviderConfigs } from './provider-validation';
 
@@ -47,6 +62,14 @@ export interface ExpandedScheduler {
 export type SchedulerConfig =
   | { type: 'consolidated'; configs: Record<string, ConsolidatedScheduler> }
   | { type: 'expanded'; configs: Record<string, ExpandedScheduler> };
+
+export interface MindbodyAppointmentConfig {
+  widgetId: string;
+  locationId: string;
+  serviceId: string;
+  staffId: string;
+  durationMinutes: number;
+}
 
 export type CalendarConfig =
   | { type: 'unsupported' }
@@ -107,12 +130,22 @@ interface BaseProvider {
 }
 
 type StandardProvider = BaseProvider & {
-  platform: Exclude<Platform, Platform.CourtReserve | Platform.RacquetDesk>;
+  platform: Exclude<Platform, Platform.CourtReserve | Platform.Mindbody | Platform.PerfectMind | Platform.RacquetDesk>;
 };
 
 interface CourtReserveProvider extends BaseProvider {
   platform: Platform.CourtReserve;
   scheduler?: SchedulerConfig;
+}
+
+interface MindbodyProvider extends BaseProvider {
+  platform: Platform.Mindbody;
+  appointments?: Record<string, MindbodyAppointmentConfig>;
+}
+
+interface PerfectMindProvider extends BaseProvider {
+  platform: Platform.PerfectMind;
+  host?: string;
 }
 
 interface RacquetDeskProvider extends BaseProvider {
@@ -121,7 +154,7 @@ interface RacquetDeskProvider extends BaseProvider {
   courtSheetId?: string;
 }
 
-export type ProviderConfig = StandardProvider | CourtReserveProvider | RacquetDeskProvider;
+export type ProviderConfig = StandardProvider | CourtReserveProvider | MindbodyProvider | PerfectMindProvider | RacquetDeskProvider;
 
 const advanceFetchDays = (advance: Advance): number | null => {
   if (advance === 'next-day') return 2;
@@ -143,8 +176,11 @@ export const providerFetchDays = (provider: ProviderConfig): number => {
 
 const providerConfigs: unknown = [
   formBuilderMercerwood,
+  activeNetCupertino,
   activeNetKingCounty,
+  activeNetMilpitas,
   activeNetSeattle,
+  activeNetSanJose,
   activeNetShoreline,
   amiliaRedmond,
   cacTennisMercerIslandCountryClub,
@@ -154,6 +190,8 @@ const providerConfigs: unknown = [
   clubAutomationTcsp,
   clubessentialMercerIslandBeachClub,
   courtReserve12465,
+  courtReserve13233,
+  courtReserve13234,
   courtReserve17764,
   courtReserve6689,
   courtReserve7306,
@@ -165,12 +203,22 @@ const providerConfigs: unknown = [
   gameTimeStc,
   manualSeattleParks,
   manualSeattleU,
+  manualCampbell,
+  manualDeAnzaCollege,
+  manualFoothillCollege,
+  manualLosAltos,
+  manualSanJoseSwimRacquet,
+  manualSanJoseState,
+  manualWestValleyCollege,
   manualMercerIslandSchoolDistrict,
   manualOverlakeSchool,
   northstarTrilogyRedmondRidge,
+  mindbodyMountainViewTennis,
+  perfectMindLosGatosSaratoga,
   perfectMindMercerIsland,
   racquetDeskEstc,
   recSanFrancisco,
+  recMountainView,
 ];
 validateProviderConfigs(providerConfigs);
 const ALL: ProviderConfig[] = providerConfigs;

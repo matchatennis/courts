@@ -1,0 +1,27 @@
+{
+  "id": "activenet:milpitasrec",
+  "platform": "activenet",
+  "name": "City of Milpitas Recreation",
+  "location": {
+    "city": "Milpitas",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://anc.apm.activecommunities.com/milpitasrec/signin",
+    "signup": "https://anc.apm.activecommunities.com/milpitasrec/createaccount",
+    "cancellation": "https://anc.apm.activecommunities.com/milpitasrec/myaccount"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "milpitas-tennis-default",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://anc.apm.activecommunities.com/milpitasrec/reservation/landing/quick",
+      "reserveBy": "block",
+      "description": "Courts support public use and permit requests through Milpitas Recreation; reliable internet availability is not exposed."
+    }
+  ]
+}

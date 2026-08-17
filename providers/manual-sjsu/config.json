@@ -1,0 +1,25 @@
+{
+  "id": "manual:sjsu",
+  "platform": "manual",
+  "name": "San José State University Athletics",
+  "location": {
+    "city": "San Jose",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://sjsuspartans.com/facilities/spartan-tennis-complex",
+    "signup": "https://sjsuspartans.com/facilities/spartan-tennis-complex",
+    "cancellation": "https://sjsuspartans.com/facilities/spartan-tennis-complex"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "sjsu-athletics",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "The competition courts serve San José State Athletics and scheduled events; no public reservation calendar is published."
+    }
+  ]
+}

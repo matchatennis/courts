@@ -1,8 +1,8 @@
 # PerfectMind
 
-PerfectMind hosts municipal recreation and facility reservation portals. The
-Mercer Island facility list and availability endpoint are public, but Matcha
-does not yet fetch live availability from them.
+PerfectMind hosts municipal recreation and facility reservation portals. Its
+public facility pages establish the session needed for Matcha to fetch live
+availability without member authentication.
 
 - Website: https://www.xplortechnologies.com/perfectmind
 - Portal: `https://cityofmercerisland.perfectmind.com/<org>/Clients/BookMe4FacilityList/List`
@@ -34,8 +34,8 @@ The JSON response contains dated booking groups and available spots. This path
 works without member authentication and is the preferred `matcha-server`
 integration. A browser can also render and drive the public facility calendar,
 but WebView automation is unnecessary while the server endpoint remains
-available. Matcha application code does not implement either path yet; use the
-root `add-platform` workflow before changing provider calendar configuration.
+available. Matcha's daemon implements this public session and availability
+flow for providers configured with a PerfectMind host.
 
 ```bash
 curl -sS -b <cookie-file> -X POST 'https://cityofmercerisland.perfectmind.com/<org>/Clients/BookMe4LandingPages/FacilityAvailability' --data-urlencode '__RequestVerificationToken=<token>' --data-urlencode 'facilityId=<facilityId>' --data-urlencode 'date=<ISO-date>' --data-urlencode 'daysCount=1' --data-urlencode 'duration=<minutes>' --data-urlencode 'serviceId=<serviceId>'

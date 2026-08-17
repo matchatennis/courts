@@ -1,0 +1,331 @@
+[
+  {
+    "placeId": "7cb82d291d",
+    "applePlaceId": "I29ADE664362E93D9",
+    "displayName": "Bob McGuire Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4143926,
+      "lng": -121.8900749
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/bob-mcguire-park-tennis-courts",
+    "provider": {
+      "name": "Bob McGuire Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/bob-mcguire-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:milpitasrec:center/bob-mcguire-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:milpitasrec:center/bob-mcguire-park-tennis-courts/resource/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "activenet:milpitasrec:center/bob-mcguire-park-tennis-courts/resource/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "19436e1c65",
+    "applePlaceId": "I19D416020F6023D8",
+    "displayName": "Cerano Park Tennis Court",
+    "coordinate": {
+      "lat": 37.4156114,
+      "lng": -121.9246606
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/cerano-park-tennis-court",
+    "provider": {
+      "name": "Cerano Park Tennis Court",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/cerano-park-tennis-court/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "1e0e747347",
+    "applePlaceId": "I2853CF00D4CEA2F7",
+    "displayName": "Dixon Landing Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.452572,
+      "lng": -121.9157875
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/dixon-landing-park-tennis-courts",
+    "provider": {
+      "name": "Dixon Landing Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/dixon-landing-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:milpitasrec:center/dixon-landing-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:milpitasrec:center/dixon-landing-park-tennis-courts/resource/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "1f21cc8834",
+    "applePlaceId": "I1E148CE645E9116D",
+    "displayName": "Gill Memorial Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4382426,
+      "lng": -121.8952632
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/gill-memorial-park-tennis-courts",
+    "provider": {
+      "name": "Gill Memorial Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/gill-memorial-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:milpitasrec:center/gill-memorial-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:milpitasrec:center/gill-memorial-park-tennis-courts/resource/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "878e226fe1",
+    "applePlaceId": "I2DDBB40B60B0C817",
+    "displayName": "Hall Memorial Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4419674,
+      "lng": -121.912601
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/hall-memorial-park-tennis-courts",
+    "provider": {
+      "name": "Hall Memorial Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/hall-memorial-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:milpitasrec:center/hall-memorial-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:milpitasrec:center/hall-memorial-park-tennis-courts/resource/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "activenet:milpitasrec:center/hall-memorial-park-tennis-courts/resource/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "0b0f76196a",
+    "applePlaceId": "IBC72B17C632674E8",
+    "displayName": "Pinewood Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4090664,
+      "lng": -121.9082089
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/pinewood-park-tennis-courts",
+    "provider": {
+      "name": "Pinewood Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/pinewood-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:milpitasrec:center/pinewood-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:milpitasrec:center/pinewood-park-tennis-courts/resource/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "activenet:milpitasrec:center/pinewood-park-tennis-courts/resource/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "d0bf2f0c0f",
+    "applePlaceId": "IBA1359F196083FB6",
+    "displayName": "Tom Evatt Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4217932,
+      "lng": -121.9068503
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:milpitasrec:center/tom-evatt-park-tennis-courts",
+    "provider": {
+      "name": "Tom Evatt Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:milpitasrec:center/tom-evatt-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:milpitasrec:center/tom-evatt-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

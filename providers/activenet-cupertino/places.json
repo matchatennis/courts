@@ -1,0 +1,322 @@
+[
+  {
+    "placeId": "824e31eb00",
+    "applePlaceId": "IFDB31643FD08A86B",
+    "displayName": "Cupertino Sports Center",
+    "coordinate": {
+      "lat": 37.3233148,
+      "lng": -122.0430207
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "activenet:cupertino:center/cupertino-sports-center",
+    "provider": {
+      "name": "Cupertino Sports Center",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-3",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-4",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-5",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-6",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 7",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-7",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 8",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-8",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 9",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-9",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 10",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-10",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 11",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-11",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 12",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-12",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 13",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-13",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 14",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-14",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 15",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-15",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 16",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-16",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 17",
+          "mrn": "activenet:cupertino:center/cupertino-sports-center/resource/court-17",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "e31f703ef2",
+    "applePlaceId": "I356EE2BF0C3A52E8",
+    "displayName": "Memorial Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3263678,
+      "lng": -122.0449183
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted",
+      "walk-in"
+    ],
+    "mrn": "activenet:cupertino:center/memorial-park-tennis-courts",
+    "provider": {
+      "name": "Memorial Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:cupertino:center/memorial-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:cupertino:center/memorial-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "activenet:cupertino:center/memorial-park-tennis-courts/resource/court-3",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "activenet:cupertino:center/memorial-park-tennis-courts/resource/court-4",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "activenet:cupertino:center/memorial-park-tennis-courts/resource/court-5",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "activenet:cupertino:center/memorial-park-tennis-courts/resource/court-6",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "a243c81669",
+    "applePlaceId": "IFAB424E0A2CA8EE1",
+    "displayName": "Varian Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3263436,
+      "lng": -122.0627403
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:cupertino:center/varian-park-tennis-courts",
+    "provider": {
+      "name": "Varian Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:cupertino:center/varian-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:cupertino:center/varian-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "6ad10a52b7",
+    "applePlaceId": "I3F9B30FEF3B84E81",
+    "displayName": "Monta Vista Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3184712,
+      "lng": -122.0694485
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "activenet:cupertino:center/monta-vista-park-tennis-courts",
+    "provider": {
+      "name": "Monta Vista Park Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "activenet:cupertino:center/monta-vista-park-tennis-courts/resource/court-1",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "activenet:cupertino:center/monta-vista-park-tennis-courts/resource/court-2",
+          "tags": [
+            "outdoor",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

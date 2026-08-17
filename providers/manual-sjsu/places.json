@@ -1,0 +1,70 @@
+[
+  {
+    "placeId": "604b51baab",
+    "applePlaceId": "I341BC2F00E29E6D1",
+    "displayName": "Spartan Tennis Complex",
+    "coordinate": {
+      "lat": 37.3216596,
+      "lng": -121.8674862
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "manual:sjsu:location/spartan-tennis-complex",
+    "provider": {
+      "name": "San José State University Athletics",
+      "resources": [
+        {
+          "name": "Competition Court 1",
+          "mrn": "manual:sjsu:location/spartan-tennis-complex/court/1",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Competition Court 2",
+          "mrn": "manual:sjsu:location/spartan-tennis-complex/court/2",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Competition Court 3",
+          "mrn": "manual:sjsu:location/spartan-tennis-complex/court/3",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Competition Court 4",
+          "mrn": "manual:sjsu:location/spartan-tennis-complex/court/4",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Competition Court 5",
+          "mrn": "manual:sjsu:location/spartan-tennis-complex/court/5",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Competition Court 6",
+          "mrn": "manual:sjsu:location/spartan-tennis-complex/court/6",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  }
+]

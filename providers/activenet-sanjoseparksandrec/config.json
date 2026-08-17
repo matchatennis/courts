@@ -1,0 +1,60 @@
+{
+  "id": "activenet:sanjoseparksandrec",
+  "platform": "activenet",
+  "name": "San José Parks, Recreation and Neighborhood Services",
+  "location": {
+    "city": "San Jose",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://anc.apm.activecommunities.com/sanjoseparksandrec/signin",
+    "signup": "https://anc.apm.activecommunities.com/sanjoseparksandrec/createaccount",
+    "cancellation": "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/athletics-fitness/sport-fields-tennis-courts"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "san-jose-parks-default",
+      "minAdvance": "00:00",
+      "type": "unsupported",
+      "description": "Public courts without a City permit are used on site. ActiveNet does not expose reliable internet availability for these courts."
+    },
+    {
+      "id": "san-jose-parks-permits",
+      "minAdvance": "00:00",
+      "resources": [
+        "activenet:sanjoseparksandrec:center/73/resource/127",
+        "activenet:sanjoseparksandrec:center/73/resource/128",
+        "activenet:sanjoseparksandrec:center/73/resource/132",
+        "activenet:sanjoseparksandrec:center/73/resource/134",
+        "activenet:sanjoseparksandrec:center/11/resource/91",
+        "activenet:sanjoseparksandrec:center/11/resource/92",
+        "activenet:sanjoseparksandrec:center/11/resource/93",
+        "activenet:sanjoseparksandrec:center/23/resource/159",
+        "activenet:sanjoseparksandrec:center/45/resource/185",
+        "activenet:sanjoseparksandrec:center/45/resource/186",
+        "activenet:sanjoseparksandrec:center/45/resource/187",
+        "activenet:sanjoseparksandrec:center/84/resource/206",
+        "activenet:sanjoseparksandrec:center/84/resource/207",
+        "activenet:sanjoseparksandrec:center/86/resource/208",
+        "activenet:sanjoseparksandrec:center/88/resource/133",
+        "activenet:sanjoseparksandrec:center/16/resource/141",
+        "activenet:sanjoseparksandrec:center/106/resource/253",
+        "activenet:sanjoseparksandrec:center/106/resource/254",
+        "activenet:sanjoseparksandrec:center/107/resource/259",
+        "activenet:sanjoseparksandrec:center/107/resource/260",
+        "activenet:sanjoseparksandrec:center/27/resource/266",
+        "activenet:sanjoseparksandrec:center/27/resource/267",
+        "activenet:sanjoseparksandrec:center/93/resource/274",
+        "activenet:sanjoseparksandrec:center/93/resource/275",
+        "activenet:sanjoseparksandrec:center/113/resource/247",
+        "activenet:sanjoseparksandrec:center/113/resource/248"
+      ],
+      "type": "phone",
+      "number": "408-794-6527",
+      "description": "The City accepts tennis-court permit applications by phone or email. Same-day reservations are unavailable."
+    }
+  ]
+}

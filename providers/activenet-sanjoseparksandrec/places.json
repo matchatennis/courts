@@ -1,0 +1,1048 @@
+[
+  {
+    "placeId": "43a010b677",
+    "applePlaceId": "IF09F5A9ED62BE39C",
+    "displayName": "Backesto Park",
+    "coordinate": {
+      "lat": 37.3522313,
+      "lng": -121.8844364
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/73",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Backesto Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/127",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/128",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/132",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/134",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 5",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/135",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 6",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/136",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 7",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/137",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Backesto Park Tennis Court 8",
+          "mrn": "activenet:sanjoseparksandrec:center/73/resource/138",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "157df0f1eb",
+    "applePlaceId": "I87D5DB132BD98D63",
+    "displayName": "Willow Street Frank Bramhall Park",
+    "coordinate": {
+      "lat": 37.3032972,
+      "lng": -121.9097825
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/11",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Willow Street Frank Bramhall Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/11/resource/91",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Willow Street Frank Bramhall Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/11/resource/92",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Willow Street Frank Bramhall Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/11/resource/93",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Willow Street Frank Bramhall Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/11/resource/95",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Willow Street Frank Bramhall Park Tennis Court 5",
+          "mrn": "activenet:sanjoseparksandrec:center/11/resource/96",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Willow Street Frank Bramhall Park Tennis Court 6",
+          "mrn": "activenet:sanjoseparksandrec:center/11/resource/97",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "e478b9b4fc",
+    "applePlaceId": "I53F33086F545CC88",
+    "displayName": "Cahalan Park",
+    "coordinate": {
+      "lat": 37.2461063,
+      "lng": -121.8501555
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/79",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Cahalan Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/79/resource/153",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cahalan Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/79/resource/154",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "af7729ae53",
+    "applePlaceId": "IC260BD26C4EAD314",
+    "displayName": "Calabazas Park",
+    "coordinate": {
+      "lat": 37.3024149,
+      "lng": -122.0246147
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/23",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Calabazas Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/23/resource/159",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Calabazas Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/23/resource/160",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Calabazas Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/23/resource/161",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "62c02fabcb",
+    "applePlaceId": "I85DB743B0A95C47E",
+    "displayName": "Canoas Park",
+    "coordinate": {
+      "lat": 37.2850738,
+      "lng": -121.8778503
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/canoas-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Canoas Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/canoas-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Canoas Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/canoas-park/resource/2",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "2a19b4245b",
+    "applePlaceId": "I768ED83A58147988",
+    "displayName": "Cataldi Park",
+    "coordinate": {
+      "lat": 37.402271,
+      "lng": -121.869995
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/45",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Cataldi Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/185",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cataldi Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/186",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cataldi Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/187",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cataldi Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/188",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cataldi Park Tennis Court 5",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/190",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cataldi Park Tennis Court 6",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/191",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Cataldi Park Tennis Court 7",
+          "mrn": "activenet:sanjoseparksandrec:center/45/resource/192",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "e2a35ad8ab",
+    "applePlaceId": "IDF416D0B27E4331",
+    "displayName": "Doerr Park",
+    "coordinate": {
+      "lat": 37.2735804,
+      "lng": -121.9156776
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/84",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Doerr Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/84/resource/204",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Doerr Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/84/resource/205",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Doerr Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/84/resource/206",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Doerr Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/84/resource/207",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "9837cb5d4c",
+    "applePlaceId": "I8AB54CD2D3A926C7",
+    "displayName": "Edenvale Gardens Regional Park",
+    "coordinate": {
+      "lat": 37.2646188,
+      "lng": -121.8208713
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/edenvale-gardens-regional-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Edenvale Gardens Regional Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/edenvale-gardens-regional-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Edenvale Gardens Regional Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/edenvale-gardens-regional-park/resource/2",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "535e1edb82",
+    "applePlaceId": "ID2400DCB8D946A42",
+    "displayName": "Fowler Creek Park",
+    "coordinate": {
+      "lat": 37.3138292,
+      "lng": -121.7640282
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/86",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Fowler Creek Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/86/resource/208",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Fowler Creek Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/86/resource/209",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Fowler Creek Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/86/resource/210",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "eb0dee2cb5",
+    "applePlaceId": "I994991D35DB9D1E5",
+    "displayName": "George W. Page Park",
+    "coordinate": {
+      "lat": 37.2378911,
+      "lng": -121.7945073
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/george-page-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "George W. Page Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/george-page-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "0b8ee098f5",
+    "applePlaceId": "I2D76BDE01C3CBA35",
+    "displayName": "Groesbeck Hill Park",
+    "coordinate": {
+      "lat": 37.3364843,
+      "lng": -121.7785379
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/88",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Groesbeck Hill Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/88/resource/131",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Groesbeck Hill Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/88/resource/133",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Groesbeck Hill Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/88/resource/current-3",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "773e3a070e",
+    "applePlaceId": "I267BA42EA8EF9EF1",
+    "displayName": "Marijane Hamann Park",
+    "coordinate": {
+      "lat": 37.3042604,
+      "lng": -121.9419907
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/16",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Marijane Hamann Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/16/resource/141",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Marijane Hamann Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/16/resource/142",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Marijane Hamann Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/16/resource/143",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "38b6da69e5",
+    "applePlaceId": "ID338BFCB72BECA04",
+    "displayName": "Houge Park",
+    "coordinate": {
+      "lat": 37.2562587,
+      "lng": -121.942277
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/26",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Houge Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/26/resource/443",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Houge Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/26/resource/444",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "37c72df047",
+    "applePlaceId": "ICB199F264017D591",
+    "displayName": "Los Paseos Park",
+    "coordinate": {
+      "lat": 37.226607,
+      "lng": -121.7702962
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/106",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Los Paseos Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/106/resource/253",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Los Paseos Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/106/resource/254",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Los Paseos Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/106/resource/255",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Los Paseos Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/106/resource/256",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "3cce1ac366",
+    "applePlaceId": "I361277B2E221B998",
+    "displayName": "Meadowfair Park",
+    "coordinate": {
+      "lat": 37.3168663,
+      "lng": -121.8127843
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/meadowfair-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Meadowfair Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/meadowfair-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "937191bb38",
+    "applePlaceId": "I1682124FB7F52246",
+    "displayName": "Murdock Park",
+    "coordinate": {
+      "lat": 37.302781,
+      "lng": -121.99841
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/107",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Murdock Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/107/resource/259",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Murdock Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/107/resource/260",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Murdock Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/107/resource/261",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Murdock Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/107/resource/262",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "05854719d7",
+    "applePlaceId": "I951EE0BCB05C9BF0",
+    "displayName": "Palmia Park",
+    "coordinate": {
+      "lat": 37.2406725,
+      "lng": -121.808188
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/palmia-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Palmia Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/palmia-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "ea8ad945d0",
+    "applePlaceId": "IBC8E6B12A27DC8A1",
+    "displayName": "Paul Moore Park",
+    "coordinate": {
+      "lat": 37.2713027,
+      "lng": -121.8900695
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/27",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Paul Moore Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/27/resource/266",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Paul Moore Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/27/resource/267",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "0611aa345a",
+    "applePlaceId": "I9B53DF57DBE1CF1C",
+    "displayName": "Ramac Park",
+    "coordinate": {
+      "lat": 37.2509906,
+      "lng": -121.7999621
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/ramac-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Ramac Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/ramac-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "152308d5b4",
+    "applePlaceId": "IB5475B6CF06F3113",
+    "displayName": "River Glen Park",
+    "coordinate": {
+      "lat": 37.301948,
+      "lng": -121.8874311
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/20",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "River Glen Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/20/resource/234",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "River Glen Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/20/resource/235",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "ffa763157c",
+    "applePlaceId": "I5B8A03A1C2550234",
+    "displayName": "Selma Olinder Park",
+    "coordinate": {
+      "lat": 37.3357735,
+      "lng": -121.8659831
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/selma-olinder-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Selma Olinder Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/selma-olinder-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Selma Olinder Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/selma-olinder-park/resource/2",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "8d99515085",
+    "applePlaceId": "I3B3E6568FA8F3EBB",
+    "displayName": "Silver Creek Linear Park",
+    "coordinate": {
+      "lat": 37.29855,
+      "lng": -121.8003
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/silver-creek-linear-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Silver Creek Linear Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/silver-creek-linear-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Silver Creek Linear Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/silver-creek-linear-park/resource/2",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "e048b2e158",
+    "applePlaceId": "IDDF95D3E9FDA7C43",
+    "displayName": "Solari Park",
+    "coordinate": {
+      "lat": 37.2859221,
+      "lng": -121.8329834
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/93",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Solari Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/93/resource/274",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Solari Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/93/resource/275",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Solari Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/93/resource/276",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "5c57e2e8a5",
+    "applePlaceId": "IE1A07F478FD219D0",
+    "displayName": "Townsend Park",
+    "coordinate": {
+      "lat": 37.3806782,
+      "lng": -121.883719
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/townsend-park",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Townsend Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/townsend-park/resource/1",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Townsend Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/townsend-park/resource/2",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "5e9094134e",
+    "applePlaceId": "I9B48124CB9B0A4B3",
+    "displayName": "Wallenberg Park",
+    "coordinate": {
+      "lat": 37.2874435,
+      "lng": -121.8963474
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor"
+    ],
+    "mrn": "activenet:sanjoseparksandrec:center/113",
+    "provider": {
+      "name": "San José Parks, Recreation and Neighborhood Services",
+      "resources": [
+        {
+          "name": "Wallenberg Park Tennis Court 1",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/247",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 2",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/248",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 3",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/249",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 4",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/250",
+          "tags": [
+            "outdoor",
+            "lighted"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 5",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/current-5",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 6",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/current-6",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 7",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/current-7",
+          "tags": [
+            "outdoor"
+          ]
+        },
+        {
+          "name": "Wallenberg Park Tennis Court 8",
+          "mrn": "activenet:sanjoseparksandrec:center/113/resource/current-8",
+          "tags": [
+            "outdoor"
+          ]
+        }
+      ]
+    }
+  }
+]

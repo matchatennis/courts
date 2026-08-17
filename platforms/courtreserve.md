@@ -31,17 +31,19 @@ latest slot, converted to local time), slot interval (usually 1800s). Skip
 permanently-closed courts (`IsCourtClosed: true`) and `WAITLIST<id>` court types.
 
 Some organizations require authentication before exposing their scheduler. Do
-not create or use an account. Configure an `unsupported` calendar, use
-`scheduler/default`, and number synthetic court labels from the operator's
-published court count. Keep the provider booking URL so eligible members can
-continue in CourtReserve.
+not create or use an account. Test `ReadConsolidated` separately because some
+organizations keep the scheduler UI behind login while leaving consolidated
+availability public. Portal booking links can expose `sId`; an organization's
+default scheduler can be identified by comparing adjacent public scheduler ids
+and accepting only a response whose court type and inventory match the operator.
+Use `scheduler/default` only when neither public endpoint works.
 
 ## MRN
 
 | | Format |
 |---|---|
 | Place `mrn` | `courtreserve:<org>:scheduler/<schedulerId>` |
-| Resource `mrn` | `…/courtlabel/<Court Label>` |
+| Resource `mrn` | expanded: `…/courtlabel/<Court Label>`; consolidated: `…/courttype/<CourtType>` |
 
 For an authentication-gated scheduler, use `scheduler/default` and synthetic
 labels `Court 1`, `Court 2`, and so on.

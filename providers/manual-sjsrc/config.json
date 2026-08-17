@@ -1,0 +1,26 @@
+{
+  "id": "manual:sjsrc",
+  "platform": "manual",
+  "name": "San Jose Swim & Racquet Club",
+  "location": {
+    "city": "San Jose",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.sjsrc.com/",
+    "signup": "https://www.sjsrc.com/membership/",
+    "cancellation": "https://www.sjsrc.com/contact-us/"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "sjsrc-phone",
+      "minAdvance": "00:00",
+      "type": "phone",
+      "number": "408-297-0067",
+      "description": "Court reservations require club membership and are made through the front desk up to three days in advance. Non-members may register for lessons and clinics."
+    }
+  ]
+}

@@ -124,6 +124,25 @@ const validateSchedulerConfig = (value: unknown, id: string): SchedulerType => {
   return scheduler.type;
 };
 
+const validateMindbodyAppointments = (value: unknown, id: string): void => {
+  const appointments = requireRecord(value, `${id}: appointment configuration is required`);
+  const entries = Object.entries(appointments);
+  if (entries.length === 0) throw new Error(`${id}: appointment configuration is required`);
+  for (const [appointmentId, valueAppointment] of entries) {
+    const appointment = requireRecord(valueAppointment, `${id}: invalid appointment ${appointmentId}`);
+    if (
+      !isNonEmptyString(appointmentId)
+      || !isNonEmptyString(appointment.widgetId)
+      || !isNonEmptyString(appointment.locationId)
+      || !isNonEmptyString(appointment.serviceId)
+      || !isNonEmptyString(appointment.staffId)
+      || !isPositiveNumber(appointment.durationMinutes)
+    ) {
+      throw new Error(`${id}: invalid appointment ${appointmentId}`);
+    }
+  }
+};
+
 const validateCalendar = (value: unknown, id: string): void => {
   const calendar = requireRecord(value, `${id}: calendar configuration is required`);
   if (!['unsupported', 'matcha-device', 'matcha-server'].includes(String(calendar.type))) {
@@ -274,6 +293,19 @@ export function validateProviderConfig(value: unknown): asserts value is Provide
       throw new Error(`${id}: CourtReserve scheduler is required`);
     }
     if (provider.scheduler !== undefined) validateSchedulerConfig(provider.scheduler, id);
+  }
+  if (provider.platform === Platform.Mindbody) {
+    if (provider.appointments === undefined && calendar.type === 'matcha-server') {
+      throw new Error(`${id}: Mindbody appointments are required`);
+    }
+    if (provider.appointments !== undefined) validateMindbodyAppointments(provider.appointments, id);
+  }
+  if (
+    provider.platform === Platform.PerfectMind
+    && calendar.type === 'matcha-server'
+    && !isUrl(provider.host)
+  ) {
+    throw new Error(`${id}: PerfectMind host is required`);
   }
   if (
     provider.platform === Platform.RacquetDesk

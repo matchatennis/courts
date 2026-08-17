@@ -1,0 +1,309 @@
+[
+  {
+    "placeId": "113e1a048d",
+    "applePlaceId": "IDC848C8BD4069",
+    "displayName": "Cooper Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3675651,
+      "lng": -122.0732477
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "rec:city-of-mountain-view:location/748f4e0b-dda6-4c67-9e4f-776cb298fdfb",
+    "provider": {
+      "name": "City of Mountain View",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "rec:city-of-mountain-view:location/748f4e0b-dda6-4c67-9e4f-776cb298fdfb/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "rec:city-of-mountain-view:location/748f4e0b-dda6-4c67-9e4f-776cb298fdfb/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "rec:city-of-mountain-view:location/748f4e0b-dda6-4c67-9e4f-776cb298fdfb/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "rec:city-of-mountain-view:location/748f4e0b-dda6-4c67-9e4f-776cb298fdfb/court/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "0ccf6f0b99",
+    "applePlaceId": "I53BBB04A97C0C725",
+    "displayName": "Rengstorff Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3989287,
+      "lng": -122.0965201
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b",
+    "provider": {
+      "name": "City of Mountain View",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-5",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-6",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 7",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-7",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 8",
+          "mrn": "rec:city-of-mountain-view:location/da9a948c-bb55-47ea-94a9-e454a2b7b71b/court/court-8",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "d638224d8c",
+    "applePlaceId": "I17C9E987DF89950B",
+    "displayName": "Stevenson Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4043002,
+      "lng": -122.0845008
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "rec:city-of-mountain-view:location/44b795ad-50e3-4012-acdd-3e10939e812d",
+    "provider": {
+      "name": "City of Mountain View",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "rec:city-of-mountain-view:location/44b795ad-50e3-4012-acdd-3e10939e812d/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "rec:city-of-mountain-view:location/44b795ad-50e3-4012-acdd-3e10939e812d/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "rec:city-of-mountain-view:location/44b795ad-50e3-4012-acdd-3e10939e812d/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "c6c36afbda",
+    "applePlaceId": "IFBA5C38EA1B59868",
+    "displayName": "Sylvan Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.3816541,
+      "lng": -122.0632027
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "rec:city-of-mountain-view:location/e68dcacd-9f08-40ac-8a02-63b419610b76",
+    "provider": {
+      "name": "City of Mountain View",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "rec:city-of-mountain-view:location/e68dcacd-9f08-40ac-8a02-63b419610b76/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "rec:city-of-mountain-view:location/e68dcacd-9f08-40ac-8a02-63b419610b76/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "rec:city-of-mountain-view:location/e68dcacd-9f08-40ac-8a02-63b419610b76/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "rec:city-of-mountain-view:location/e68dcacd-9f08-40ac-8a02-63b419610b76/court/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "placeId": "f1c993cbbd",
+    "applePlaceId": "IA9C1D5669DCA824E",
+    "displayName": "Whisman Park Tennis Courts",
+    "coordinate": {
+      "lat": 37.4009793,
+      "lng": -122.0667355
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "walk-in"
+    ],
+    "mrn": "rec:city-of-mountain-view:location/c37c5109-4f96-499f-b5d5-28de8adf20de",
+    "provider": {
+      "name": "City of Mountain View",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "rec:city-of-mountain-view:location/c37c5109-4f96-499f-b5d5-28de8adf20de/court/court-1",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "rec:city-of-mountain-view:location/c37c5109-4f96-499f-b5d5-28de8adf20de/court/court-2",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "rec:city-of-mountain-view:location/c37c5109-4f96-499f-b5d5-28de8adf20de/court/court-3",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "rec:city-of-mountain-view:location/c37c5109-4f96-499f-b5d5-28de8adf20de/court/court-4",
+          "tags": [
+            "outdoor",
+            "reservable",
+            "walk-in"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "id": "courtreserve:13234",
+  "platform": "courtreserve",
+  "name": "Santa Clara Tennis Center",
+  "location": {
+    "city": "Santa Clara",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://app.courtreserve.com/Online/Account/LogIn/13234",
+    "signup": "https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/13234",
+    "cancellation": "https://app.courtreserve.com/Online/Bookings/List/13234"
+  },
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": false,
+    "requestsPerMinute": 30
+  },
+  "scheduler": {
+    "type": "consolidated",
+    "configs": {
+      "16995": {
+        "costTypeId": "0",
+        "reservationMinInterval": "60"
+      }
+    }
+  },
+  "bookingPolicies": [
+    {
+      "id": "santa-clara-walk-in",
+      "minAdvance": "00:00",
+      "maxAdvance": "168:00",
+      "type": "unsupported",
+      "description": "These courts are not exposed by Lifetime Activities' public CourtReserve availability feed."
+    },
+    {
+      "id": "santa-clara-tennis-center-courtreserve",
+      "places": [
+        "courtreserve:13234:scheduler/16995"
+      ],
+      "minAdvance": "00:00",
+      "maxAdvance": "168:00",
+      "type": "provider",
+      "url": "https://app.courtreserve.com/Online/Reservations/Bookings/13234?sId=16995",
+      "reserveBy": "block",
+      "description": "CourtReserve requires an eligible account to view and reserve courts for this provider."
+    }
+  ]
+}

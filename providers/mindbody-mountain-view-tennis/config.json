@@ -1,0 +1,57 @@
+{
+  "id": "mindbody:mountain-view-tennis",
+  "platform": "mindbody",
+  "name": "Mountain View Tennis",
+  "location": {
+    "city": "Mountain View",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://www.mountainviewtennis.net/court-reserve/resident.html",
+    "signup": "https://www.mountainviewtennis.net/court-reserve/resident.html",
+    "cancellation": "https://www.mountainviewtennis.net/contact"
+  },
+  "calendar": {
+    "type": "matcha-server",
+    "notifications": false,
+    "requestsPerMinute": 30
+  },
+  "appointments": {
+    "1071": {
+      "widgetId": "b464977a7de",
+      "locationId": "1",
+      "serviceId": "1071",
+      "staffId": "100000019",
+      "durationMinutes": 120
+    },
+    "3195": {
+      "widgetId": "b464977a7de",
+      "locationId": "1",
+      "serviceId": "3195",
+      "staffId": "100000032",
+      "durationMinutes": 60
+    }
+  },
+  "bookingPolicies": [
+    {
+      "id": "cuesta-walk-in",
+      "minAdvance": "00:00",
+      "maxAdvance": "192:00",
+      "type": "unsupported",
+      "description": "Courts without a Mindbody appointment service remain available for public walk-on play."
+    },
+    {
+      "id": "cuesta-mindbody",
+      "resources": [
+        "mindbody:mountain-view-tennis:location/1/appointment/1071",
+        "mindbody:mountain-view-tennis:location/1/appointment/3195"
+      ],
+      "minAdvance": "next-day",
+      "maxAdvance": "192:00",
+      "type": "provider",
+      "url": "https://www.mountainviewtennis.net/court-reserve/resident.html",
+      "reserveBy": "block",
+      "description": "Mountain View residents may reserve up to eight days ahead and must book online no later than the day before play."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "manual:foothill-college",
+  "platform": "manual",
+  "name": "Foothill College",
+  "location": {
+    "city": "Los Altos Hills",
+    "state": "CA"
+  },
+  "urls": {
+    "signin": "https://foothill.edu/",
+    "signup": "https://foothill.edu/facilities/",
+    "cancellation": "https://foothill.edu/facilities/"
+  },
+  "calendar": {
+    "type": "unsupported"
+  },
+  "bookingPolicies": [
+    {
+      "id": "foothill-college-rental",
+      "minAdvance": "00:00",
+      "type": "provider",
+      "url": "https://foothill.edu/facilities/",
+      "reserveBy": "block",
+      "description": "College programs have priority; eligible community facility rentals are arranged through Foothill College."
+    }
+  ]
+}

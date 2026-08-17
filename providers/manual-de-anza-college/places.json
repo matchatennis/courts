@@ -1,0 +1,85 @@
+[
+  {
+    "placeId": "2b948a2753",
+    "applePlaceId": "I766D07BA8CA41EE",
+    "displayName": "De Anza College Tennis Courts",
+    "coordinate": {
+      "lat": 37.3179798,
+      "lng": -122.0425278
+    },
+    "timezone": "America/Los_Angeles",
+    "tags": [
+      "outdoor",
+      "lighted"
+    ],
+    "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts",
+    "provider": {
+      "name": "De Anza College Tennis Courts",
+      "resources": [
+        {
+          "name": "Court 1",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-1",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 2",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-2",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 3",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-3",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 4",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-4",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 5",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-5",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 6",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-6",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        },
+        {
+          "name": "Court 7",
+          "mrn": "manual:de-anza-college:location/de-anza-college-tennis-courts/court/court-7",
+          "tags": [
+            "outdoor",
+            "lighted",
+            "reservable"
+          ]
+        }
+      ]
+    }
+  }
+]

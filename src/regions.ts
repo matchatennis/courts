@@ -14,7 +14,7 @@ export const REGIONS: Region[] = [
   {
     id: 'seattle',
     name: 'Seattle',
-    displayName: 'Seattle, WA, USA',
+    displayName: 'Seattle, WA',
     countryCode: 'US',
     subdivisionCode: 'US-WA',
     timezone: 'America/Los_Angeles',
@@ -53,7 +53,7 @@ export const REGIONS: Region[] = [
   {
     id: 'san-francisco',
     name: 'San Francisco',
-    displayName: 'San Francisco, CA, USA',
+    displayName: 'San Francisco, CA',
     countryCode: 'US',
     subdivisionCode: 'US-CA',
     timezone: 'America/Los_Angeles',
@@ -67,7 +67,7 @@ export const REGIONS: Region[] = [
   {
     id: 'south-bay',
     name: 'South Bay, CA',
-    displayName: 'South Bay, CA, USA',
+    displayName: 'South Bay, CA',
     countryCode: 'US',
     subdivisionCode: 'US-CA',
     timezone: 'America/Los_Angeles',

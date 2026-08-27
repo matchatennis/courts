@@ -1,6 +1,9 @@
 export interface Region {
   id: string;
   name: string;
+  displayName: string;
+  countryCode: string;
+  subdivisionCode?: string;
   timezone: string;
   coordinate: { lat: number; lng: number };
   coordinateDelta: { lat: number; lng: number };
@@ -11,6 +14,9 @@ export const REGIONS: Region[] = [
   {
     id: 'seattle',
     name: 'Seattle',
+    displayName: 'Seattle, WA, USA',
+    countryCode: 'US',
+    subdivisionCode: 'US-WA',
     timezone: 'America/Los_Angeles',
     coordinate: { lat: 47.62405, lng: -122.23607 },
     coordinateDelta: { lat: 0.50, lng: 0.50 },
@@ -47,6 +53,9 @@ export const REGIONS: Region[] = [
   {
     id: 'san-francisco',
     name: 'San Francisco',
+    displayName: 'San Francisco, CA, USA',
+    countryCode: 'US',
+    subdivisionCode: 'US-CA',
     timezone: 'America/Los_Angeles',
     coordinate: { lat: 37.754361, lng: -122.446944 },
     coordinateDelta: { lat: 0.15, lng: 0.15 },
@@ -58,6 +67,9 @@ export const REGIONS: Region[] = [
   {
     id: 'south-bay',
     name: 'South Bay, CA',
+    displayName: 'South Bay, CA, USA',
+    countryCode: 'US',
+    subdivisionCode: 'US-CA',
     timezone: 'America/Los_Angeles',
     coordinate: { lat: 37.33, lng: -121.98 },
     coordinateDelta: { lat: 0.42, lng: 0.55 },

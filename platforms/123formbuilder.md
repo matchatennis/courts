@@ -28,7 +28,7 @@ API requires an account token. A WebView can render the public form, observe
 available choices, and submit a reservation, so `matcha-device` without
 authentication is the preferred integration. Form URLs and date fields may be
 replaced seasonally and need rediscovery. Matcha does not implement this path;
-use the root `add-platform` workflow before changing provider calendar
+use Matcha's `expand` workflow before changing provider calendar
 configuration.
 
 ## MRN

@@ -25,7 +25,7 @@ curl -sSL 'https://www.<club-domain>/web/pages/login'
 Northstar offers an integration API, but the club exposes no auth-free
 availability endpoint or credentials. The member website supports online court
 booking after login and is the viable `matcha-device` path with authentication.
-Matcha does not implement Northstar yet; use the root `add-platform` workflow
+Matcha does not implement Northstar yet; use Matcha's `expand` workflow
 before changing provider calendar configuration.
 
 ## MRN

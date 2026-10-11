@@ -26,7 +26,7 @@ curl -sSL 'https://<club-host>/pages/rules'
 No auth-free JSON availability endpoint is exposed. The login-gated browser
 calendar is the viable integration path and should be evaluated as
 `matcha-device` with authentication. Matcha does not implement Court Ace yet;
-use the root `add-platform` workflow before changing provider calendar
+use Matcha's `expand` workflow before changing provider calendar
 configuration.
 
 ## MRN

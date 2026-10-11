@@ -27,7 +27,7 @@ No auth-free court availability API is exposed by the club website. The
 Clubessential reservation API and court sheet are session-bound. The member
 site is suitable for top-level navigation in an iOS WebView, so the preferred
 path is `matcha-device` with authentication. Matcha does not implement this
-platform yet; use the root `add-platform` workflow before changing the provider
+platform yet; use Matcha's `expand` workflow before changing the provider
 calendar from `unsupported`.
 
 ## MRN
